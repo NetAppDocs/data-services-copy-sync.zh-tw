@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concept-privacy.html 
 keywords: privacy, data privacy, credentials, access to credentials, hashicorp vault 
-summary: NetApp無法存取您在使用NetApp Copy and Sync 時提供的任何憑證。憑證直接儲存在位於您的網路中的資料代理機器上。 
+summary: NetApp無法存取您在使用NetApp Copy and Sync時提供的任何憑證。憑證直接儲存在位於您的網路中的資料代理機器上。 
 ---
-= NetApp複製與同步中的資料隱私
+= NetApp Copy and Sync中的資料隱私
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: NetApp無法存取您在使用NetApp Copy and Sync 時提供的任何�
 
 
 [role="lead"]
-NetApp無法存取您在使用NetApp Copy and Sync 時提供的任何憑證。憑證直接儲存在位於您的網路中的資料代理機器上。
+NetApp無法存取您在使用NetApp Copy and Sync時提供的任何憑證。憑證直接儲存在位於您的網路中的資料代理機器上。
 
 根據您選擇的配置，當您建立新的關係時，「複製和同步」可能會提示您輸入憑證。例如，在設定包含 SMB 伺服器的關係時，或在 AWS 中部署資料代理程式時。
 

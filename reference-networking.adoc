@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: reference-networking.html 
 keywords: networking, 443, port, ports, port 443, connections, connectivity, path, paths, vpn, copy and sync, netapp, bluexp, cloud sync,connectivity,data broker 
-summary: NetApp Copy and Sync 的網路包括資料代理群組與來源位置和目標位置之間的連接，以及透過連接埠 443 來自資料代理程式的出站網路連接。 
+summary: NetApp Copy and Sync的網路包括資料代理群組與來源位置和目標位置之間的連接，以及透過連接埠 443 來自資料代理程式的出站網路連接。 
 ---
-= NetApp複製和同步的網路概述
+= NetApp Copy and Sync的網路概述
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: NetApp Copy and Sync 的網路包括資料代理群組與來源位置�
 
 
 [role="lead"]
-NetApp Copy and Sync 的網路包括資料代理群組與來源位置和目標位置之間的連接，以及透過連接埠 443 來自資料代理程式的出站網路連接。
+NetApp Copy and Sync的網路包括資料代理群組與來源位置和目標位置之間的連接，以及透過連接埠 443 來自資料代理程式的出站網路連接。
 
 
 
@@ -100,13 +100,13 @@ NetApp資料代理程式需要透過連接埠 443 進行出站互聯網訪問，
 | \ https://support.netapp.com | 使用 BYOL 授權進行同步關係時聯絡NetApp支援。 
 
 
-| https://fedoraproject.org | 在安裝和更新期間在資料代理虛擬機器上安裝 7z。需要 7z 才能將AutoSupport訊息傳送給NetApp技術支援。 
+| https://fedoraproject.org | 在安裝和更新期間在資料代理虛擬機器上安裝 7z。需要 7z 來將AutoSupport訊息傳送給NetApp技術支援。 
 
 
 | \ https://sts.amazonaws.com \ https://sts.us-east-1.amazonaws.com | 當資料代理部署在 AWS 中或部署在您的場所並提供 AWS 憑證時，請驗證 AWS 憑證。資料代理程式在部署、更新和重新啟動時聯絡此端點。 
 
 
-| \ https://api.bluexp.netapp.com \ https://netapp-cloud-account.auth0.com | 當您使用分類來選擇新同步關係的來源檔案時，請聯絡NetApp資料分類。 
+| \ https://api.bluexp.netapp.com \ https://netapp-cloud-account.auth0.com | 當您使用分類來選擇新同步關係的來源檔案時，請聯絡NetApp Data Classification。 
 
 
 | \ https://pubsub.googleapis.com | 如果從 Google 儲存帳戶建立連續同步關係。 

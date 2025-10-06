@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-prepare-object-storage.html 
 keywords: prepare data broker, data broker, object storage, sync, scanner, configure scanner, bluexp, copy and sync 
-summary: 如果您打算使用NetApp Copy and Sync 將資料從物件儲存同步到物件儲存（例如，從 Amazon S3 同步到 Azure Blob），則需要在建立同步關係之前準備資料代理程式群組。 
+summary: 如果您打算使用NetApp Copy and Sync將資料從物件儲存同步到物件儲存（例如，從 Amazon S3 同步到 Azure Blob），則需要在建立同步關係之前準備資料代理程式群組。 
 ---
-= 準備資料代理程式以在NetApp Copy 和 Sync 中的物件儲存之間同步數據
+= 準備資料代理以在NetApp Copy and Sync中的物件儲存之間同步數據
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 如果您打算使用NetApp Copy and Sync 將資料從物件儲存同�
 
 
 [role="lead"]
-如果您打算在NetApp Copy and Sync 中將資料從物件儲存同步到物件儲存（例如，從 Amazon S3 同步到 Azure Blob），則需要在建立同步關係之前準備資料代理程式群組。
+如果您打算在NetApp Copy and Sync中將資料從物件儲存同步到物件儲存（例如，從 Amazon S3 同步到 Azure Blob），則需要在建立同步關係之前準備資料代理程式群組。
 
 .關於此任務
 為了準備資料代理組，您需要修改掃描器的配置。如果不修改配置，您可能會注意到此同步關係的效能問題。

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-copying-acls.html 
 keywords: permissions, access control list, acls, ntfs, cifs, smb, shares, robocopy, copy, transfer, activate, operating system, os, ram, cpu, networking, copy acls to the target 
-summary: 'NetApp Copy and Sync 可以在 SMB 共用之間以及 SMB 共用和物件儲存之間複製存取控制清單 (ACL)（ ONTAP S3 除外）。如果需要，您也可以選擇使用 robocopy 手動保留 SMB 共用之間的 ACL。' 
+summary: 'NetApp Copy and Sync可以在 SMB 共用之間以及 SMB 共用和物件儲存之間複製存取控制清單 (ACL)（ ONTAP S3 除外）。如果需要，您也可以選擇使用 robocopy 手動保留 SMB 共用之間的 ACL。' 
 ---
-= 在NetApp Copy and Sync 中從 SMB 共用複製 ACL
+= 在NetApp Copy and Sync中從 SMB 共用複製 ACL
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 'NetApp Copy and Sync 可以在 SMB 共用之間以及 SMB 共用和物
 
 
 [role="lead"]
-NetApp Copy and Sync 可以在 SMB 共用之間以及 SMB 共用和物件儲存之間複製存取控制清單 (ACL)（ ONTAP S3 除外）。如果需要，您也可以選擇使用 robocopy 手動保留 SMB 共用之間的 ACL。
+NetApp Copy and Sync可以在 SMB 共用之間以及 SMB 共用和物件儲存之間複製存取控制清單 (ACL)（ ONTAP S3 除外）。如果需要，您也可以選擇使用 robocopy 手動保留 SMB 共用之間的 ACL。
 
 .選擇
 * <<設定複製和同步以複製 ACL,設定複製和同步以自動複製 ACL>>
@@ -58,7 +58,7 @@ image:screenshot-sync-tags-metadata.png["複製到物件儲存時同步關係精
 
 .現有關係的步驟
 . 將滑鼠懸停在同步關係上並選擇操作選單。
-. 選擇“設定”。
+. 選擇“*設定*”。
 . 選擇*僅複製檔案*、*僅複製 ACL*或*複製檔案和 ACL*，然後選擇*繼續*。
 . 選擇“儲存設定”。
 

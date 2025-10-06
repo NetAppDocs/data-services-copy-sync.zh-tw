@@ -11,7 +11,7 @@ settings:
   langs: zh-tw,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn
 sidebar:
   entries:
-  - title: NetApp複製和同步文檔
+  - title: NetApp Copy and Sync文檔
     url: "/index.html"
   - title: 發行說明
     entries:
@@ -21,7 +21,7 @@ sidebar:
       url: "/reference-limitations.html"
   - title: 開始
     entries:
-    - title: 了解NetApp複製與同步
+    - title: 了解NetApp Copy and Sync
       url: "/concept-cloud-sync.html"
     - title: 快速啟動
       url: "/task-quick-start.html"
@@ -31,7 +31,7 @@ sidebar:
       url: "/reference-requirements.html"
     - title: 準備網路
       url: "/reference-networking.html"
-    - title: 登入NetApp複製和同步
+    - title: 登入NetApp Copy and Sync
       url: "/task-login-copyandsync.html"
     - title: 安裝數據代理
       entries:
@@ -43,7 +43,7 @@ sidebar:
         url: "/task-installing-gcp.html"
       - title: 在 Linux 主機上安裝
         url: "/task-installing-linux.html"
-  - title: 使用NetApp複製和同步
+  - title: 使用NetApp Copy and Sync
     entries:
     - title: 在來源和目標之間同步數據
       entries:

@@ -4,7 +4,7 @@ permalink: task-managing-relationships.html
 keywords: sync, immediate, now, schedule, minutes, hours, on, off, delete, group, accelerate, accelerating, grouping, multiple data brokers, sync now, turn off, turn on, sync schedule, settings, change settings, recently modified files, delete files on target, retries, retry, file types, exclude file type, include file type, delete relationship 
 summary: 您可以隨時透過立即同步資料、變更計劃等來管理同步關係。 
 ---
-= 在NetApp Copy and Sync 中管理同步關係
+= 在NetApp Copy and Sync中管理同步關係
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 您可以隨時透過立即同步資料、變更計劃等來管理同�
 
 
 [role="lead"]
-您可以隨時透過立即同步資料、變更計劃等來管理NetApp Copy and Sync 中的同步關係。
+您可以隨時透過立即同步資料、變更計劃等來管理NetApp Copy and Sync中的同步關係。
 
 
 
@@ -90,7 +90,7 @@ image:screenshot_sync_update_credentials.png["螢幕截圖顯示了同步關係�
 
 每個同步關係的*通知*設定可讓您選擇是否在NetApp控制台的通知中心接收複製和同步通知。您可以啟用資料同步成功、資料同步失敗和資料同步取消的通知。
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-notification-center.png["顯示NetApp控制台中的通知中心的螢幕截圖。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-notification-center.png["顯示NetApp Console中的通知中心的螢幕截圖。"]
 
 此外，您也可以透過電子郵件接收通知。
 
@@ -98,7 +98,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/s
 . 修改同步關係的設定：
 +
 .. 從“儀表板”導航到同步關係並選擇image:icon-sync-action.png["允許您對同步關係採取行動的按鈕的螢幕截圖"]
-.. 選擇“設定”。
+.. 選擇“*設定*”。
 .. 啟用*通知*。
 .. 選擇“儲存設定”。
 
@@ -122,7 +122,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/s
 修改定義如何在目標位置同步和維護來源檔案和資料夾的設定。
 
 . 從“儀表板”導航到同步關係並選擇image:icon-sync-action.png["允許您對同步關係採取行動的按鈕的螢幕截圖"]
-. 選擇“設定”。
+. 選擇“*設定*”。
 . 修改任何設定。
 +
 image:screenshot_sync_settings.png["顯示同步關係設定的螢幕截圖。"]

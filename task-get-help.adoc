@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-get-help.html 
 keywords: help, ticket, open support case, support, netapp support, technical support, call support, phone number, open ticket, web ticket, open an issue 
-summary: 'NetApp以多種方式為NetApp控制台提供支援。全天候提供廣泛的免費自助支援選項，例如知識庫 (KB) 文章和社群論壇。您的支援註冊包含透過網路工單取得的遠端技術支援。' 
+summary: 'NetApp以多種方式為NetApp Console提供支援。全天候提供廣泛的免費自助支援選項，例如知識庫 (KB) 文章和社群論壇。您的支援註冊包含透過網路工單取得的遠端技術支援。' 
 ---
 = 獲取協助
 :allow-uri-read: 
@@ -62,7 +62,7 @@ NetApp以多種方式為BlueXP及其雲端服務提供支援。我們提供全�
 . 在「*資源*」頁面上，選擇「技術支援」下的可用選項之一：
 +
 .. 如果您想透過電話與某人交談，請選擇「致電我們」。您將被引導至 netapp.com 上的一個頁面，其中列出了您可以撥打的電話號碼。
-.. 選擇「建立案例」向NetApp支援專家開立一張票：
+.. 選擇「建立案例」向NetApp支援專家開立票據：
 +
 *** *服務*：選擇與問題相關的服務。例如， BlueXP專門針對服務中的工作流程或功能的技術支援問題。
 *** *工作環境*：如果適用於存儲，請選擇* Cloud Volumes ONTAP* 或 *On-Prem*，然後選擇相關的工作環境。

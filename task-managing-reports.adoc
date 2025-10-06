@@ -4,7 +4,7 @@ permalink: task-managing-reports.html
 keywords: reports, sync reports, NetApp Copy and Sync reports, report errors, path reports 
 summary: 建立和查看報告以獲取信息，您可以在NetApp人員的幫助下使用這些資訊來調整資料代理的配置並提高效能。 
 ---
-= 建立和檢視報告以調整NetApp Copy and Sync 中的配置
+= 建立和檢視報告以調整NetApp Copy and Sync中的配置
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 建立和查看報告以獲取信息，您可以在NetApp人員的幫�
 
 
 [role="lead"]
-在NetApp Copy and Sync 中建立和查看報告以獲取信息，您可以在NetApp人員的幫助下使用這些資訊來調整資料代理的配置並提高效能。
+在NetApp Copy and Sync中建立和查看報告以獲取信息，您可以在NetApp人員的幫助下使用這些資訊來調整資料代理的配置並提高效能。
 
 每份報告都提供有關同步關係中路徑的詳細資訊。它將包括有多少個目錄、檔案和符號連結、檔案大小的分佈、目錄的深度和寬度、修改時間和存取時間。這與同步靜態資料不同，後者可在 https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html["成功創建並完成同步"]。
 

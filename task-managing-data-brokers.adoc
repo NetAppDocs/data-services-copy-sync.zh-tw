@@ -4,7 +4,7 @@ permalink: task-managing-data-brokers.html
 keywords: manage data brokers, manage data broker groups, data broker performance, data broker configuration, data broker removal, remove data broker, delete data broker, groups, data broker group, rename data broker group, add data broker, data broker cpu, data broker ram, data broker status, edit group name, change group name, modify group name 
 summary: 資料代理將資料從來源位置同步到目標位置。您建立的每個同步關係都需要一個資料代理。透過將新的資料代理程式新增至群組、查看有關資料代理的資訊等來管理資料代理程式。 
 ---
-= 在NetApp Copy and Sync 中管理資料代理組
+= 在NetApp Copy and Sync中管理資料代理組
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 資料代理將資料從來源位置同步到目標位置。您建立�
 
 
 [role="lead"]
-NetApp Copy and Sync 中的資料代理程式群組將資料從來源位置同步到目標位置。對於您建立的每個同步關係，群組中至少需要一個資料代理。透過為群組新增新的資料代理程式、查看有關群組的資訊等方式來管理資料代理群組。
+NetApp Copy and Sync中的資料代理群組將資料從來源位置同步到目標位置。對於您建立的每個同步關係，群組中至少需要一個資料代理。透過為群組新增新的資料代理程式、查看有關群組的資訊等方式來管理資料代理群組。
 
 
 

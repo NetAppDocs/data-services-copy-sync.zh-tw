@@ -4,7 +4,7 @@ permalink: task-nfs-encryption.html
 keywords: encryption, in flight, data in flight, in-flight, data-in-flight, nfs, initiator, listener, port 
 summary: 如果您的企業有嚴格的安全策略，請使用動態資料加密在不同網路中的 NFS 伺服器之間同步資料。 
 ---
-= 使用NetApp Copy and Sync 中的資料傳輸加密同步 NFS 數據
+= 使用NetApp Copy and Sync中的資料傳輸加密同步 NFS 數據
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 如果您的企業有嚴格的安全策略，請使用動態資料加�
 
 
 [role="lead"]
-如果您的企業有嚴格的安全策略，您可以使用NetApp Copy and Sync 中的資料傳輸加密來同步 NFS 資料。此功能支援從一個 NFS 伺服器到另一個 NFS 伺服器以及從Azure NetApp Files到Azure NetApp Files。
+如果您的企業有嚴格的安全策略，您可以使用NetApp Copy and Sync中的資料傳輸加密來同步 NFS 資料。此功能支援從一個 NFS 伺服器到另一個 NFS 伺服器以及從Azure NetApp Files到Azure NetApp Files。
 
 例如，您可能希望在位於不同網路中的兩個 NFS 伺服器之間同步資料。或者您可能需要跨子網路或區域安全地傳輸Azure NetApp Files上的資料。
 
@@ -44,7 +44,7 @@ image:diagram_nfs_encryption.gif["顯示兩個 NFS 伺服器和兩個資料代�
 
 
 
-== 支援的NFS版本
+== 支援的 NFS 版本
 
 * 對於 NFS 伺服器，NFS 版本 3、4.0、4.1 和 4.2 支援資料傳輸加密。
 * 對於Azure NetApp Files，NFS 版本 3 和 4.1 支援資料傳輸加密。

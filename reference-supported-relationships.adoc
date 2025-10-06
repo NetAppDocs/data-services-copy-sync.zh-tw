@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: reference-supported-relationships.html 
 keywords: supported sync relationships, support, supported target, supported source 
-summary: NetApp Copy and Sync 讓您能夠將資料從來源同步到目標。這稱為同步關係。在開始之前您應該了解所支持的關係。 
+summary: NetApp Copy and Sync可讓您將資料從來源同步到目標。這稱為同步關係。在開始之前您應該了解所支持的關係。 
 ---
-= NetApp Copy and Sync 中支援的同步關係
+= NetApp Copy and Sync中支援的同步關係
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: NetApp Copy and Sync 讓您能夠將資料從來源同步到目標。�
 
 
 [role="lead"]
-NetApp Copy and Sync 讓您能夠將資料從來源同步到目標。這稱為同步關係。在開始之前您應該了解所支持的關係。
+NetApp Copy and Sync可讓您將資料從來源同步到目標。這稱為同步關係。在開始之前您應該了解所支持的關係。
 
 [cols="20,25"]
 |===

@@ -4,7 +4,7 @@ permalink: task-licensing.html
 keywords: license, subscription, registering, subscribing, subscribing in aws, subscribing in azure, subscribing to aws, subscribing to azure, aws marketplace, azure marketplace, netapp license, byol license, purchase a license, license settings, pay for relationships, paygo, annual, pay-as-you-go 
 summary: 14 天免費試用期結束後，有兩種方式可以支付同步關係的費用。第一個選擇是現收現付。第二種選擇是直接從NetApp購買許可證。 
 ---
-= NetApp Copy and Sync 免費試用期結束後，支付同步關係費用
+= NetApp Copy and Sync免費試用期結束後，支付同步關係費用
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 14 天免費試用期結束後，有兩種方式可以支付同步關�
 
 
 [role="lead"]
-NetApp Copy and Sync 的 14 天免費試用期結束後，有兩種方式可以支付同步關係的費用。第一個選項是從 AWS 或 Azure 訂閱，按使用量付費或按年付費。第二種選擇是直接從NetApp購買許可證。
+NetApp Copy and Sync 的14 天免費試用期結束後，有兩種方式可以支付同步關係的費用。第一個選項是從 AWS 或 Azure 訂閱，按使用量付費或按年付費。第二種選擇是直接從NetApp購買許可證。
 
 您可以從 AWS Marketplace 或 Azure Marketplace 訂閱。您不能同時訂閱兩者。
 
@@ -24,7 +24,7 @@ link:concept-licensing.html["詳細了解許可證的運作方式"] 。
 
 如果您在免費試用期結束後沒有立即付款，您將無法建立任何其他關係。現有的關係不會被刪除，但在您訂閱或輸入許可證之前，您不能對其進行任何更改。
 
-授權應透過NetApp Copy and Sync 或適用網站進行管理，而非透過NetApp Console 訂閱進行管理。
+授權應透過NetApp Copy and Sync或適用網站進行管理，而非透過NetApp Console訂閱進行管理。
 
 
 
@@ -33,7 +33,7 @@ link:concept-licensing.html["詳細了解許可證的運作方式"] 。
 AWS 可讓您按使用量付費或按年付費。
 
 .即用即付的步驟
-. 從NetApp控制台導覽選單中，選擇 *Mobility > Copy and Sync*。
+. 從NetApp Console導覽功能表中，選擇 *Mobility > Copy and Sync*。
 . 選擇*許可*。
 . 選擇 *AWS*。
 . 選擇*訂閱*，然後選擇*繼續*。
@@ -62,7 +62,7 @@ Azure 可讓您按使用量付費或按年付費。
 在相關訂閱中具有貢獻者或擁有者權限的 Azure 使用者帳戶。
 
 .步驟
-. 從NetApp控制台導覽選單中，選擇 *Mobility > Copy and Sync*。
+. 從NetApp Console導覽功能表中，選擇 *Mobility > Copy and Sync*。
 . 選擇*許可*。
 . 選擇“*Azure*”。
 . 選擇*訂閱*，然後選擇*繼續*。
@@ -98,7 +98,7 @@ video::a6a39447-b7b1-42f6-9c89-b24c010b21b9[panopto]
 .. 輸入序號。
 .. 選擇與您要新增的許可證關聯的NetApp支援網站帳戶：
 +
-*** 如果您的帳戶已新增至NetApp控制台，請從下拉清單中選擇它。
+*** 如果您的帳戶已新增至NetApp Console，請從下拉清單中選擇它。
 *** 如果您的帳戶尚未新增，請選擇*新增 NSS 憑證*，輸入使用者名稱和密碼，選擇*註冊*，然後從下拉清單中選擇它。
 
 
@@ -111,10 +111,10 @@ video::a6a39447-b7b1-42f6-9c89-b24c010b21b9[panopto]
 
 == 更新許可證
 
-如果您延長了從NetApp購買的複製和同步許可證，則新的到期日期將不會在複製和同步中自動更新。您需要重新新增許可證以刷新到期日期。許可證應透過複製和同步或適用的網站進行管理，而不是透過NetApp控制台訂閱進行管理。
+如果您延長了從NetApp購買的複製和同步許可證，則新的到期日期將不會在複製和同步中自動更新。您需要重新新增許可證以刷新到期日期。許可證應透過複製和同步或適用的網站進行管理，而不是透過NetApp Console訂閱進行管理。
 
 .步驟
-. 從NetApp控制台導覽選單中，選擇 *Mobility > Copy and Sync*。
+. 從NetApp Console導覽功能表中，選擇 *Mobility > Copy and Sync*。
 . 選擇*許可*。
 . 選擇*新增許可證*並新增所需資訊：
 +

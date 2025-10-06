@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-installing-gcp.html 
 keywords: data broker, install, gcp, google, networking, permissions, regions, install data broker in gcp, install in gcp, deploy in gcp, deploy data broker in gcp, install data broker in google, install in google, deploy in google, deploy data broker in google, networking requirements, port, ports, 443, port 443, ntp, network time protocol, gcp data broker, service account 
-summary: 建立新的資料代理程式時，選擇 Google Cloud Data Broker 選項以在 VPC 中的新虛擬機器執行個體上部署資料代理軟體。  NetApp Copy and Sync 將引導您完成安裝過程，但此頁面上重複了要求和步驟，以協助您為安裝準備工作。 
+summary: 建立新的資料代理程式時，選擇 Google Cloud Data Broker 選項以在 VPC 中的新虛擬機器執行個體上部署資料代理軟體。  NetApp Copy and Sync將引導您完成安裝過程，但此頁面上重複了要求和步驟，以協助您為安裝準備工作。 
 ---
-= 在 Google Cloud 中為NetApp Copy and Sync 建立新的資料代理
+= 在 Google Cloud 中為NetApp Copy and Sync建立新的資料代理
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 建立新的資料代理程式時，選擇 Google Cloud Data Broker 選
 
 
 [role="lead"]
-為NetApp Copy and Sync 建立新的資料代理群組時，請選擇 Google Cloud Platform 在 Google Cloud VPC 中的新虛擬機器實例上部署資料代理軟體。  NetApp Copy and Sync 將引導您完成安裝過程，但此頁面上重複了要求和步驟，以協助您為安裝準備工作。
+為NetApp Copy and Sync建立新的資料代理群組時，請選擇 Google Cloud Platform 在 Google Cloud VPC 中的新虛擬機器實例上部署資料代理軟體。  NetApp Copy and Sync將引導您完成安裝過程，但此頁面上重複了要求和步驟，以協助您為安裝準備工作。
 
 您也可以選擇在雲端或本機的現有 Linux 主機上安裝資料代理程式。link:task-installing-linux.html["了解更多"] 。
 

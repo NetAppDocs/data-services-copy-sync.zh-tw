@@ -47,4 +47,4 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 
 通知文件提供有關NetApp軟體中使用的第三方版權和許可的資訊。
 
-link:media/notice_cloud_sync.pdf["NetApp複製和同步通知"^]
+link:media/notice_cloud_sync.pdf["NetApp Copy and Sync通知"^]

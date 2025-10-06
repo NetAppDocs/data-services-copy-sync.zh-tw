@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-installing-azure.html 
 keywords: data broker, install, azure, networking, permissions, regions, install data broker in azure, install in azure, deploy in azure, deploy data broker in azure, networking requirements, port, ports, 443, port 443, ntp, network time protocol, azure data broker 
-summary: 建立新的資料代理程式時，選擇 Azure 資料代理程式選項在 VNet 中的新虛擬機器上部署資料代理程式軟體。  NetApp Copy and Sync 將引導您完成安裝過程，但此頁面上重複了要求和步驟，以協助您為安裝準備工作。 
+summary: 建立新的資料代理程式時，選擇 Azure 資料代理程式選項在 VNet 中的新虛擬機器上部署資料代理程式軟體。  NetApp Copy and Sync將引導您完成安裝過程，但此頁面上重複了要求和步驟，以協助您為安裝準備工作。 
 ---
-= 在 Azure 中為NetApp複製和同步建立新的資料代理
+= 在 Azure 中為NetApp Copy and Sync建立新的資料代理
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 建立新的資料代理程式時，選擇 Azure 資料代理程式選�
 
 
 [role="lead"]
-為NetApp Copy and Sync 建立新的資料代理程式群組時，請選擇 Microsoft Azure 在 VNet 中的新虛擬機器上部署資料代理程式軟體。  NetApp Copy and Sync 將引導您完成安裝過程，但此頁面上重複了要求和步驟，以協助您為安裝準備工作。
+為NetApp Copy and Sync建立新的資料代理程式群組時，請選擇 Microsoft Azure 在 VNet 中的新虛擬機器上部署資料代理程式軟體。  NetApp Copy and Sync將引導您完成安裝過程，但此頁面上重複了要求和步驟，以協助您為安裝準備工作。
 
 您也可以選擇在雲端或本機的現有 Linux 主機上安裝資料代理程式。link:task-installing-linux.html["了解更多"] 。
 

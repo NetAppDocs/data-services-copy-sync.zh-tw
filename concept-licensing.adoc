@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concept-licensing.html 
 keywords: licenses, licensing, subscriptions, annual subscription, paygo, hourly subscription, bluexp 
-summary: 14 天免費試用期結束後，有兩種方式可以支付同步關係的費用。第一個選項是從 AWS 或 Azure 訂閱，按使用量付費或按年付費。第二種選擇是直接從NetApp購買許可證。 
+summary: 14 天免費試用期結束後，有兩種方式可以支付同步關係的費用。第一個選項是從 AWS 或 Azure 訂閱按使用量付費或按年付費。第二種選擇是直接從NetApp購買許可證。 
 ---
-= NetApp複製和同步授權概述
+= NetApp Copy and Sync許可概述
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,9 +14,9 @@ summary: 14 天免費試用期結束後，有兩種方式可以支付同步關�
 
 
 [role="lead"]
-14 天免費試用期結束後，您可以透過兩種方式支付NetApp Copy 和 Sync 關係的費用。第一個選項是從 AWS 或 Azure 訂閱，按使用量付費或按年付費。第二種選擇是直接從NetApp購買許可證。
+14 天免費試用期結束後，您可以透過兩種方式支付NetApp Copy and Sync關係的費用。第一個選項是從 AWS 或 Azure 訂閱按使用量付費或按年付費。第二種選擇是直接從NetApp購買許可證。
 
-授權應透過NetApp Copy and Sync 或適用網站進行管理，而非透過NetApp Console 進行管理。
+授權應透過NetApp Copy and Sync或適用網站進行管理，而非透過NetApp Console進行管理。
 
 
 

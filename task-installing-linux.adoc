@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-installing-linux.html 
 keywords: data broker, install, linux, on-prem data broker, on-prem, on prem, on premises, networking, permissions, os, operating system, rhel, red hat, ram, cpu, disk space, install data broker, installing data broker, install a data broker, data broker installation, linux installation, linux operating system, aws access, aws keys, keys, gcp access, aws permissions, gcp permissions, google permissions 
-summary: 建立新的資料代理程式時，請選擇 On-Prem Data Broker 選項在本機 Linux 主機或雲端中的現有 Linux 主機上安裝資料代理軟體。  NetApp Copy and Sync 將引導您完成安裝過程，但此頁面上重複了要求和步驟，以協助您為安裝準備工作。 
+summary: 建立新的資料代理程式時，請選擇 On-Prem Data Broker 選項在本機 Linux 主機或雲端中的現有 Linux 主機上安裝資料代理軟體。  NetApp Copy and Sync將引導您完成安裝過程，但此頁面上重複了要求和步驟，以協助您為安裝準備工作。 
 ---
-= 在 Linux 主機上安裝用於NetApp複製和同步的資料代理
+= 在 Linux 主機上安裝用於NetApp Copy and Sync的資料代理
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 建立新的資料代理程式時，請選擇 On-Prem Data Broker 選�
 
 
 [role="lead"]
-為NetApp Copy and Sync 建立新的資料代理群組時，請選擇 On-Prem Data Broker 選項在本機 Linux 主機或雲端中的現有 Linux 主機上安裝資料代理軟體。  NetApp Copy and Sync 將引導您完成安裝過程，但此頁面上重複了要求和步驟，以協助您為安裝準備工作。
+為NetApp Copy and Sync建立新的資料代理群組時，請選擇 On-Prem Data Broker 選項在本機 Linux 主機或雲端中的現有 Linux 主機上安裝資料代理軟體。  NetApp Copy and Sync將引導您完成安裝過程，但此頁面上重複了要求和步驟，以協助您為安裝準備工作。
 
 
 

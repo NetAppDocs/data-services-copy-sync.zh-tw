@@ -4,7 +4,7 @@ permalink: task-uninstalling.html
 keywords: uninstall, uninstall data broker, remove data broker 
 summary: 如果需要，請執行卸載腳本來刪除資料代理程式以及安裝資料代理程式時建立的套件和目錄。 
 ---
-= 卸載NetApp Copy and Sync 的資料代理
+= 卸載NetApp Copy and Sync的資料代理
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 如果需要，請執行卸載腳本來刪除資料代理程式以及�
 
 
 [role="lead"]
-如果需要，請執行卸載腳本以刪除資料代理程式以及安裝資料代理程式時為NetApp Copy and Sync 建立的軟體包和目錄。
+如有需要，請執行卸載腳本以刪除資料代理程式以及安裝資料代理程式時為NetApp Copy and Sync建立的軟體包和目錄。
 
 .步驟
 . 登入資料代理主機。

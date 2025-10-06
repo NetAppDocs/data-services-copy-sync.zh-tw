@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, enhancements, fixes' 
-summary: 了解NetApp Copy and Sync 的新功能。 
+summary: 了解NetApp Copy and Sync的新功能。 
 ---
-= NetApp複製和同步的新功能
+= NetApp Copy and Sync的新功能
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 了解NetApp Copy and Sync 的新功能。
 
 
 [role="lead"]
-了解NetApp Copy and Sync 的新功能。
+了解NetApp Copy and Sync的新功能。
 
 
 
@@ -22,17 +22,17 @@ summary: 了解NetApp Copy and Sync 的新功能。
 
 
 
-=== BlueXP copy and sync現已更名NetApp複製和同步
+=== BlueXP copy and sync現已更名NetApp Copy and Sync
 
-BlueXP copy and sync已重新命名為NetApp複製和同步。
+BlueXP copy and sync已重新命名為NetApp Copy and Sync。
 
 
 
-=== BlueXP現在是NetApp控制台
+=== BlueXP現在是NetApp Console
 
-NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
+NetApp Console建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp Data Services，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
 
-有關更改的詳細信息，請參閱link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台發行說明"]。
+有關更改的詳細信息，請參閱link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console發行說明"]。
 
 
 
@@ -54,7 +54,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-
 
 === 錯誤修復
 
-我們更新了NetApp Copy and Sync 和資料代理程式以修復一些錯誤。新的資料代理版本是 1.0.56。
+我們更新了NetApp Copy and Sync和資料代理程式以修復一些錯誤。新的資料代理版本是 1.0.56。
 
 
 
@@ -64,7 +64,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-
 
 === 錯誤修復
 
-我們更新了NetApp Copy and Sync 和資料代理程式以修復一些錯誤。新的資料代理版本是 1.0.55。
+我們更新了NetApp Copy and Sync和資料代理程式以修復一些錯誤。新的資料代理版本是 1.0.55。
 
 
 
@@ -74,7 +74,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-
 
 === 錯誤修復
 
-我們更新了NetApp Copy and Sync 和資料代理程式以修復一些錯誤。新的資料代理版本是 1.0.54。
+我們更新了NetApp Copy and Sync和資料代理程式以修復一些錯誤。新的資料代理版本是 1.0.54。
 
 
 
@@ -94,7 +94,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-
 
 === 錯誤修復
 
-NetApp Copy and Sync 已更新，修復了一些錯誤。資料代理也進行了更新以應用安全性更新。新的資料代理版本是 1.0.52。
+NetApp Copy and Sync已更新，修復了一些錯誤。資料代理也進行了更新以應用安全性更新。新的資料代理版本是 1.0.52。
 
 
 
@@ -144,7 +144,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#creating
 
 === 更新資料代理程式的節點版本
 
-所有新的資料代理現在都將使用節點版本 21.2.0。與此更新不相容的資料代理程式（例如 CentOS 7.0 和 Ubuntu Server 18.0）將不再與NetApp Copy 和 Sync 一起使用。
+所有新的資料代理現在都將使用節點版本 21.2.0。與此更新不相容的資料代理程式（例如 CentOS 7.0 和 Ubuntu Server 18.0）將不再與NetApp Copy and Sync一起使用。
 
 
 
@@ -196,7 +196,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html["了�
 * cloudkms.keyRings.列表
 
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#google-cloud-storage-bucket-requirements["詳細了解 Google Cloud Storage 儲存桶要求。"]
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#google-cloud-storage-bucket-requirements["了解有關 Google Cloud Storage 儲存桶要求的更多資訊。"]
 
 
 
@@ -465,7 +465,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 
 現在您可以透過電子郵件接收Cloud Sync通知。
 
-為了透過電子郵件接收通知，您需要在同步關係上啟用*通知*設置，然後在NetApp控制台中配置警報和通知設定。
+為了透過電子郵件接收通知，您需要在同步關係上啟用*通知*設置，然後在NetApp Console中配置警報和通知設定。
 
 https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#setting-up-notifications["了解如何設定通知"] 。
 
@@ -508,7 +508,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships
 
 現在您可以透過將一個系統拖曳到另一個系統上來從系統頁面設定同步關係。
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-enable-drag-and-drop.png["顯示NetApp控制台中的通知中心的螢幕截圖。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-enable-drag-and-drop.png["顯示NetApp Console中的通知中心的螢幕截圖。"]
 
 
 
@@ -516,7 +516,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/s
 
 現在，您可以透過從系統頁面選擇系統，然後從右側面板選擇同步選項來為 Azure Blob 儲存體或 Google Cloud Storage 設定同步關係。
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-enable-panel.png["顯示NetApp控制台中的通知中心的螢幕截圖。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-enable-panel.png["顯示NetApp Console中的通知中心的螢幕截圖。"]
 
 
 
@@ -637,7 +637,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#
 
 現在可以使用新的*通知*設定來同步關係。此設定可讓您選擇是否在NetApp控制台的通知中心接收Cloud Sync通知。您可以啟用資料同步成功、資料同步失敗和資料同步取消的通知。
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-notification-center.png["顯示NetApp控制台中的通知中心的螢幕截圖。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-notification-center.png["顯示NetApp Console中的通知中心的螢幕截圖。"]
 
 https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#change-the-settings-for-a-sync-relationship["了解有關更改同步關係設定的詳細信息"] 。
 
@@ -820,7 +820,7 @@ link:task-managing-relationships.html["了解如何更新憑證"] 。
 
 
 
-=== 盒子支撐
+=== 箱體支撐
 
 Box 支援現已在Cloud Sync使用者介面中作為預覽提供。
 
@@ -1002,9 +1002,9 @@ link:task-managing-relationships.html#change-the-settings-for-a-sync-relationshi
 
 === 獨立Cloud Sync服務已停用
 
-獨立的Cloud Sync服務已退役。現在您可以直接從NetApp控制台存取Cloud Sync，其中所有相同的功能和功能均可用。
+獨立的Cloud Sync服務已退役。現在您可以直接從NetApp Console存取Cloud Sync，其中所有相同的功能和功能均可使用。
 
-登入NetApp控制台後，您可以切換到頂部的「同步」標籤並查看您的關係，就像以前一樣。
+登入NetApp Console後，您可以切換到頂部的「同步」標籤並查看您的關係，就像以前一樣。
 
 
 

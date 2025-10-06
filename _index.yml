@@ -1,19 +1,19 @@
 ---
 indexpage:
-  title: NetApp複製和同步文檔
-  summary: NetApp Copy and Sync 是一種雲端複製和同步服務，用於在本機和雲端物件儲存之間傳輸 NAS 資料。
+  title: NetApp Copy and Sync文檔
+  summary: NetApp Copy and Sync是一種雲端複製和同步服務，用於在本機和雲端物件儲存之間傳輸 NAS 資料。
   keywords: bluexp-family, documentation, cloud, copy and sync, cloud sync, netapp
-  lead: NetApp Copy and Sync 是一種雲端複製和同步服務，用於在本機和雲端物件儲存之間傳輸 NAS 資料。
+  lead: NetApp Copy and Sync是一種雲端複製和同步服務，用於在本機和雲端物件儲存之間傳輸 NAS 資料。
   tiles:
   - title: 開始
     links:
-    - title: NetApp複製和同步概述
+    - title: NetApp Copy and Sync概述
       url: concept-cloud-sync.html
     - title: 快速啟動
       url: task-quick-start.html
     - title: 常問問題
       url: faq.html
-  - title: 使用NetApp複製和同步
+  - title: 使用NetApp Copy and Sync
     links:
     - title: 建立同步關係
       url: task-creating-relationships.html
@@ -23,9 +23,9 @@ indexpage:
       url: task-managing-data-brokers.html
   - title: 部落格和社區
     links:
-    - title: NetApp控制台
+    - title: NetApp Console
       url: https://www.netapp.com/console
-    - title: NetApp資料服務
+    - title: NetApp Data Services
       url: https://www.netapp.com/data-services/
     - title: NetApp社群
       url: https://community.netapp.com

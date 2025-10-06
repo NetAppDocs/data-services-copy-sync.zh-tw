@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: faq.html 
 keywords: community, forums, help, support, videos, faq, getting help, permissions, access control lists, acls, preserve, preserving, troubleshooting, support, encryption, smb 
-summary: 您可以透過各種資源（包括論壇、聊天服務和影片）取得有關NetApp Copy and Sync 的協助並尋找更多資訊。 
+summary: 您可以透過各種資源（包括論壇、聊天服務和影片）取得有關NetApp Copy and Sync的協助並尋找更多資訊。 
 ---
-= NetApp複製和同步技術常見問題解答
+= NetApp Copy and Sync技術常見問題解答
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -20,11 +20,11 @@ summary: 您可以透過各種資源（包括論壇、聊天服務和影片）�
 
 == 入門
 
-以下問題與開始使用NetApp Copy and Sync 有關。
+以下問題與開始使用NetApp Copy and Sync有關。
 
 
 
-=== NetApp複製和同步如何運作？
+=== NetApp Copy and Sync如何運作？
 
 複製並同步使用NetApp資料代理軟體將資料從來源同步到目標（這稱為_同步關係_）。
 
@@ -53,7 +53,7 @@ summary: 您可以透過各種資源（包括論壇、聊天服務和影片）�
 * https://azuremarketplace.microsoft.com/en-us/marketplace/apps/netapp.cloud-sync-service?tab=PlansAndPrice["查看 Azure 中的定價"^]
 
 
-您也可以透過NetApp代表取得複製和同步授權。每個許可證可啟用 12 個月的 20 個同步關係。
+您也可以透過NetApp代表取得複製和同步授權。每個許可證可支援 12 個月的 20 個同步關係。
 
 link:concept-licensing.html["了解有關許可證的更多信息"] 。
 
@@ -68,7 +68,7 @@ NOTE: 對於Azure NetApp Files來說，複製和同步關係是免費的。
 
 === 複製和同步如何計費以及如何管理我的訂閱？
 
-14 天免費試用期結束後，有兩種方式可以支付同步關係的費用。第一個選項是從 AWS 或 Azure 訂閱，這樣您就可以按使用量付費或按年付費。第二種選擇是直接從NetApp購買許可證。在每種情況下，您的訂閱都將透過您的供應商市場進行管理，而不是透過複製和同步使用者介面進行管理。
+14 天免費試用期結束後，您可以透過兩種方式支付同步關係費用。第一個選項是從 AWS 或 Azure 訂閱，這樣您就可以按使用量付費或按年付費。第二種選擇是直接從NetApp購買許可證。在每種情況下，您的訂閱都將透過您的供應商市場進行管理，而不是透過複製和同步使用者介面進行管理。
 
 
 
@@ -86,7 +86,7 @@ NOTE: 對於Azure NetApp Files來說，複製和同步關係是免費的。
 
 === 如何存取複製和同步？
 
-可從NetApp控制台進行複製和同步。從控制台左側導覽中，選擇*移動性*>*複製和同步*。
+可以從NetApp Console進行複製和同步。從控制台左側導覽中，選擇*移動性*>*複製和同步*。
 
 
 
