@@ -1,0 +1,190 @@
+---
+sidebar: sidebar 
+permalink: api-sync.html 
+keywords: api, apis, rest, restful, authorization, getting started, body, header, token, reference, expired token, expires, expired, token expired, list apis, 202, https status code 202, status code 202, id, id field, box 
+summary: 可透過 Web UI 使用的NetApp複製和同步功能也可透過 RESTful API 使用。 
+---
+= NetApp複製和同步 API
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+可透過 Web UI 使用的NetApp複製和同步功能也可透過 RESTful API 使用。
+
+
+
+== 開始
+
+要開始使用複製和同步 API，您需要取得使用者令牌和NetApp控制台帳戶 ID。進行 API 呼叫時，您需要將令牌和帳戶 ID 新增至授權標頭。
+
+.步驟
+. 從NetApp控制台取得使用者令牌。
++
+[source, http]
+----
+POST https://netapp-cloud-account.auth0.com/oauth/token
+Header: Content-Type: application/json
+Body:
+{
+              "username": "<user_email>",
+              "scope": "profile",
+              "audience": "https://api.cloud.netapp.com",
+              "client_id": "UaVhOIXMWQs5i1WdDxauXe5Mqkb34NJQ",
+              "grant_type": "password",
+              "password": "<user_password>"
+}
+----
++
+
+NOTE: 如果您使用的是沒有客戶端 ID 的個人電子郵件帳戶，則可以使用預設用戶端 ID「QC3AgHk6qdbmC7Yyr82ApBwaaJLwRrNO」。
+
+. 取得您的NetApp控制台帳戶 ID。
++
+[source, http]
+----
+GET https://api.cloudsync.netapp.com/api/accounts
+Headers: Authorization: Bearer <user_token>
+Content-Type: application/json
+----
++
+此 API 將傳回以下回應：
+
++
+[source, json]
+----
+[
+  {
+    "accountId": "account-JeL97Ry3",
+    "name": "Test"
+  }
+]
+----
+. 在每個 API 呼叫的授權標頭中新增使用者令牌和帳戶 ID。
++
+*例子*
+
++
+以下範例顯示在 Microsoft Azure 中建立資料代理程式的 API 呼叫。您只需將 <user_token> 和 <accountId> 替換為您在前面步驟中獲得的令牌和 ID。
+
++
+[source, http]
+----
+POST https://api.cloudsync.netapp.com/api/data-brokers
+Headers: Authorization: Bearer <user_token>
+Content-Type: application/json
+x-account-id: <accountId>
+Body: { "name": "databroker1", "type": "AZURE" }
+----
+
+
+.下一步是什麼？
+NetApp控制台中的使用者令牌有一個到期日期。若要刷新令牌，您需要再次呼叫步驟 1 中的 API。
+
+API 回應包含一個「expires_in」字段，用於說明令牌何時過期。
+
+
+
+== 使用列表 API
+
+List API 是非同步 API，因此結果不會立即傳回（例如： `GET /data-brokers/{id}/list-nfs-export-folders`和 `GET /data-brokers/{id}/list-s3-buckets`）。來自伺服器的唯一回應是 HTTP 狀態 202。要獲得實際結果，您必須使用 `GET /messages/client`API。
+
+.步驟
+. 呼叫您想要使用的清單 API。
+. 使用 `GET /messages/client`API查看操作結果。
+. 使用相同的 API，並在其後附加您剛剛收到的 ID： `GET \http://api.cloudsync.netapp.com/api/messages/client?last=<id_from_step_2>`
++
+請注意，每次調用 `GET /messages/client`API。
+
+
+
+*例子*
+
+當你撥打 `list-s3-buckets`API，結果不會立即回傳：
+
+[source, http]
+----
+GET http://api.cloudsync.netapp.com/api/data-brokers/<data-broker-id>/list-s3-buckets
+Headers: Authorization: Bearer <user_token>
+Content-Type: application/json
+x-account-id: <accountId>
+----
+結果是 HTTP 狀態代碼 202，這表示訊息已被接受，但尚未處理。
+
+要取得操作的結果，需要使用下列API：
+
+[source, http]
+----
+GET http://api.cloudsync.netapp.com/api/messages/client
+Headers: Authorization: Bearer <user_token>
+Content-Type: application/json
+x-account-id: <accountId>
+----
+結果是一個包含一個 ID 欄位的物件的陣列。 ID 欄位代表伺服器傳送的最後一則訊息。例如：
+
+[source, json]
+----
+[
+    {
+        "header": {
+            "requestId": "init",
+            "clientId": "init",
+            "agentId": "init"
+        },
+        "payload": {
+            "init": {}
+        },
+        "id": "5801"
+    }
+]
+----
+現在，您可以使用剛剛收到的 ID 進行以下 API 呼叫：
+
+[source, http]
+----
+GET http://api.cloudsync.netapp.com/api/messages/client?last=<id_from_step_2>
+Headers: Authorization: Bearer <user_token>
+Content-Type: application/json
+x-account-id: <accountId>
+----
+結果是一組訊息。每個訊息內部都有一個有效負載對象，它由操作名稱（作為鍵）及其結果（作為值）組成。例如：
+
+[source, json]
+----
+[
+    {
+        "payload": {
+            "list-s3-buckets": [
+                {
+                    "tags": [
+                        {
+                            "Value": "100$",
+                            "Key": "price"
+                        }
+                    ],
+                    "region": {
+                        "displayName": "US West (Oregon)",
+                        "name": "us-west-2"
+                    },
+                    "name": "small"
+                }
+            ]
+        },
+        "header": {
+            "requestId": "f687ac55-2f0c-40e3-9fa6-57fb8c4094a3",
+            "clientId": "5beb032f548e6e35f4ed1ba9",
+            "agentId": "5bed61f4489fb04e34a9aac6"
+        },
+        "id": "5802"
+    }
+]
+----
+
+
+== API 參考
+
+每個複製和同步 API 的文檔可從 https://api.cloudsync.netapp.com/docs[]。

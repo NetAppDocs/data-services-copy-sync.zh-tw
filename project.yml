@@ -1,0 +1,90 @@
+---
+settings:
+  name: NetApp Copy and Sync
+  harmony_integration: maestro
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: zh-tw,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn
+sidebar:
+  entries:
+  - title: NetApp複製和同步文檔
+    url: "/index.html"
+  - title: 發行說明
+    entries:
+    - title: 什麼是新的
+      url: "/whats-new.html"
+    - title: 限制
+      url: "/reference-limitations.html"
+  - title: 開始
+    entries:
+    - title: 了解NetApp複製與同步
+      url: "/concept-cloud-sync.html"
+    - title: 快速啟動
+      url: "/task-quick-start.html"
+    - title: 查看支援的同步關係
+      url: "/reference-supported-relationships.html"
+    - title: 準備源和目標
+      url: "/reference-requirements.html"
+    - title: 準備網路
+      url: "/reference-networking.html"
+    - title: 登入NetApp複製和同步
+      url: "/task-login-copyandsync.html"
+    - title: 安裝數據代理
+      entries:
+      - title: 在 AWS 中安裝
+        url: "/task-installing-aws.html"
+      - title: 在 Azure 中安裝
+        url: "/task-installing-azure.html"
+      - title: 在 Google Cloud 中安裝
+        url: "/task-installing-gcp.html"
+      - title: 在 Linux 主機上安裝
+        url: "/task-installing-linux.html"
+  - title: 使用NetApp複製和同步
+    entries:
+    - title: 在來源和目標之間同步數據
+      entries:
+      - title: 準備資料代理以在物件儲存之間同步數據
+        url: "/task-prepare-object-storage.html"
+      - title: 建立同步關係
+        url: "/task-creating-relationships.html"
+      - title: 從 SMB 共用複製 ACL
+        url: "/task-copying-acls.html"
+      - title: 加密傳輸中的 NFS 數據
+        url: "/task-nfs-encryption.html"
+      - title: 使用 HashiCorp Vault 中的機密
+        url: "/task-external-vault.html"
+    - title: 設定許可
+      url: "/task-licensing.html"
+    - title: 管理同步關係
+      url: "/task-managing-relationships.html"
+    - title: 管理數據經紀人
+      url: "/task-managing-data-brokers.html"
+    - title: 查看報告以調整您的配置
+      url: "/task-managing-reports.html"
+    - title: 解除安裝資料代理
+      url: "/task-uninstalling.html"
+  - title: 使用 REST API 實現自動化
+    url: "/api-sync.html"
+  - title: 概念
+    entries:
+    - title: 授權
+      url: "/concept-licensing.html"
+    - title: 資料隱私
+      url: "/concept-privacy.html"
+    - title: 常問問題
+      url: "/faq.html"
+  - title: 知識和支持
+    entries:
+    - title: 註冊以獲得支持
+      url: "/task-support-registration.html"
+    - title: 獲取協助
+      url: "/task-get-help.html"
+  - title: 法律聲明
+    url: "/legal-notices.html"
+product-family:
+  name: NetApp Data Services
+  repo: data-services-family

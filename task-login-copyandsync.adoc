@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task-login-copyandsync.html 
+keywords: copy and sync, NetApp Copy and Sync, log in to Copy and Sync, NetApp BlueXP, BlueXP Copy and Sync, NetApp Console 
+summary: 使用NetApp控制台登入NetApp Copy and Sync。 
+---
+= 登入NetApp複製和同步
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+使用NetApp控制台登入NetApp Copy and Sync。
+
+若要登入控制台，您可以使用您的NetApp支援網站憑證，也可以使用您的電子郵件和密碼註冊NetApp雲端登入。 https://docs.netapp.com/us-en/bluexp-setup-admin/task-logging-in.html["了解有關登入的更多信息"^] 。
+
+NetApp Copy and Sync 使用身分存取管理來控制每個使用者對特定操作的存取權限。
+
+*必要的NetApp控制台角色* 組織管理員角色。 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解NetApp控制台存取角色"^] 。
+
+.步驟
+. 開啟 Web 瀏覽器並前往 https://console.netapp.com/["NetApp控制台"^]。
++
+出現NetApp控制台登入頁面。
+
+. 登入控制台。
+. 從控制台左側導覽中，選擇*移動性*>*複製和同步*。
+

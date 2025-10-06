@@ -1,0 +1,70 @@
+---
+sidebar: sidebar 
+permalink: task-quick-start.html 
+keywords: quick start, overview, deploying, getting started, get started, signing up, free trial 
+summary: 開始使用NetApp Copy and Sync 包含幾個步驟。 
+---
+= NetApp複製與同步快速入門
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+開始使用NetApp Copy and Sync 包含幾個步驟。
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一"]登入並設定NetApp控制台
+[role="quick-margin-para"]
+您應該已經開始使用NetApp控制台，其中包括登入、設定帳戶以及可能部署控制台代理程式和建立系統。
+
+[role="quick-margin-para"]
+如果您想要為以下任何一項建立同步關係，那麼您首先需要建立或發現一個系統：
+
+[role="quick-margin-list"]
+* 適用於ONTAP 的Amazon FSx
+* Azure NetApp Files
+* Cloud Volumes ONTAP
+* 本地ONTAP集群
+
+
+[role="quick-margin-para"]
+Cloud Volumes ONTAP、本機ONTAP叢集和Amazon FSx for ONTAP都需要控制台代理程式。
+
+[role="quick-margin-list"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["了解如何開始使用NetApp控制台"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["了解有關控制台代理的更多信息"^]
+
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["二"]準備源和目標
+[role="quick-margin-para"]
+驗證您的來源和目標是否受支援並已設定。最重要的要求是驗證資料代理組與來源位置和目標位置之間的連線。
+
+[role="quick-margin-list"]
+* link:reference-supported-relationships.html["查看支援的關係"]
+* link:reference-requirements.html["準備源和目標"]
+
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三"]為NetApp資料代理程式準備位置
+[role="quick-margin-para"]
+NetApp資料代理軟體將資料從來源同步到目標（這稱為_同步關係_）。您可以在 AWS、Azure、Google Cloud Platform 或您的本機上執行資料代理程式。由一個或多個資料代理組成的資料代理組需要透過連接埠 443 建立出站互聯網連接，以便與NetApp Copy 和 Sync 通訊並聯繫其他一些服務和儲存庫。link:reference-networking.html#networking-endpoints["查看端點列表"] 。
+
+[role="quick-margin-para"]
+當您建立同步關係時， NetApp Copy and Sync 會引導您完成安裝過程，此時您可以在雲端部署資料代理程式或為您自己的 Linux 主機下載安裝腳本。
+
+[role="quick-margin-list"]
+* link:task-installing-aws.html["檢查 AWS 安裝"]
+* link:task-installing-azure.html["查看 Azure 安裝Review Azure installation"]
+* link:task-installing-gcp.html["檢查 Google Cloud 安裝"]
+* link:task-installing-linux.html["檢查 Linux 主機安裝"]
+
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四"]建立您的第一個同步關係
+[role="quick-margin-para"]
+登入 https://console.netapp.com/["NetApp控制台"^]，選擇*同步*，然後拖曳來源和目標的選擇。按照提示完成設定。link:task-creating-relationships.html["了解更多"] 。
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["五"]免費試用期結束後，支付同步關係費用
+[role="quick-margin-para"]
+從 AWS 或 Azure 訂閱，按使用量付費或按年付費。或直接從NetApp購買許可證。只需前往NetApp Copy and Sync 中的「許可證設定」頁面進行設定。link:task-licensing.html["了解更多"] 。

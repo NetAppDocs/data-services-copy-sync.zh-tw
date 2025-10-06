@@ -1,0 +1,82 @@
+---
+sidebar: sidebar 
+permalink: concept-cloud-sync.html 
+keywords: NetApp Copy and Sync, overview, conceptual, how, data broker, service, cloudsync, bluexp, copy and sync 
+summary: NetApp Copy and Sync 提供了一種簡單、安全且自動化的方式，可將您的資料遷移到雲端或本地的任何目標。 
+---
+= 了解NetApp複製與同步
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp Copy and Sync 提供了一種簡單、安全且自動化的方式，可將您的資料遷移到雲端或本地的任何目標。無論它是基於文件的 NAS 資料集（NFS 或 SMB）、Amazon Simple Storage Service (S3) 物件格式、 NetApp StorageGRID設備或任何其他雲端提供者物件存儲，Copy and Sync 都可以為您轉換和移動它。
+
+
+
+== NetApp控制台
+
+可透過NetApp控制台存取NetApp Copy and Sync。
+
+NetApp控制台提供企業級跨本機和雲端環境的NetApp儲存和資料服務的集中管理。需要控制台才能存取和使用NetApp資料服務。作為管理介面，它使您能夠從一個介面管理許多儲存資源。控制台管理員可以控制企業內所有系統的儲存和服務的存取。
+
+您不需要許可證或訂閱即可開始使用NetApp控制台，並且只有當您需要在雲端部署控制台代理程式以確保與儲存系統或NetApp資料服務的連接時才需要付費。但是，一些可從控制台存取的NetApp資料服務是需要授權或基於訂閱的。
+
+詳細了解 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetApp控制台"]。
+
+
+
+== NetApp複製和同步的工作原理
+
+NetApp Copy and Sync 是一個軟體即服務 (SaaS) 平台，由資料代理群組、可透過NetApp控制台存取的基於雲端的介面以及來源和目標組成。
+
+下圖顯示了 Copy 和 Sync 元件之間的關係：
+
+image:diagram_cloud_sync_overview.png["顯示資料從來源流向目標的概念圖。數據代理軟體充當中介並輪詢複製和同步任務。"]
+
+NetApp資料代理軟體將資料從來源同步到目標（這稱為_同步關係_）。您可以在 AWS、Azure、Google Cloud Platform 或您的本機上執行資料代理程式。由一個或多個資料代理組成的資料代理群組需要透過連接埠 443 建立出站互聯網連接，以便它可以與複製和同步進行通訊並聯繫其他一些服務和儲存庫。link:reference-networking.html["查看端點列表"] 。
+
+初始複製後，「複製和同步」會根據您設定的計劃同步任何變更的資料。
+
+
+
+== 支援的儲存類型
+
+複製和同步支援以下儲存類型：
+
+* 任何 NFS 伺服器
+* 任何 SMB 伺服器
+* 亞馬遜 EFS
+* 適用於ONTAP 的Amazon FSx
+* 亞馬遜 S3
+* Azure Blob
+* Azure 資料湖儲存體 Gen2
+* Azure NetApp Files
+* Box（可預覽）
+* Cloud Volumes ONTAP
+* Google 雲端儲存
+* Google 雲端硬碟
+* IBM 雲端物件儲存
+* 本地ONTAP集群
+* ONTAP S3 存儲
+* SFTP（僅使用 API）
+* StorageGRID
+
+
+link:reference-supported-relationships.html["查看支援的同步關係"] 。
+
+
+
+== 成本
+
+使用複製和同步涉及兩種類型的成本：資源費用和服務費用。
+
+資源費用:: 資源費用與在雲端中運行一個或多個資料代理程式的運算和儲存成本有關。
+服務費:: 14 天免費試用期結束後，有兩種方式可以支付同步關係的費用。第一個選項是從 AWS 或 Azure 訂閱，這樣您就可以按小時或按年付費。第二種選擇是直接從NetApp購買許可證。
+
+
+link:concept-licensing.html["了解許可的工作原理"] 。

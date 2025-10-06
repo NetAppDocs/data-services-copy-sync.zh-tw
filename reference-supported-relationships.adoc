@@ -1,0 +1,324 @@
+---
+sidebar: sidebar 
+permalink: reference-supported-relationships.html 
+keywords: supported sync relationships, support, supported target, supported source 
+summary: NetApp Copy and Sync 讓您能夠將資料從來源同步到目標。這稱為同步關係。在開始之前您應該了解所支持的關係。 
+---
+= NetApp Copy and Sync 中支援的同步關係
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp Copy and Sync 讓您能夠將資料從來源同步到目標。這稱為同步關係。在開始之前您應該了解所支持的關係。
+
+[cols="20,25"]
+|===
+| 來源位置 | 支援的目標位置 
+
+
+| 亞馬遜 EFS  a| 
+* 亞馬遜 EFS
+* 適用於ONTAP 的Amazon FSx
+* 亞馬遜 S3
+* Azure Blob
+* Azure NetApp Files
+* Cloud Volumes ONTAP
+* Google 雲端儲存
+* IBM 雲端物件儲存
+* NFS 伺服器
+* 本地ONTAP集群（NFS 或 SMB）
+* SMB 伺服器
+* StorageGRID
+
+
+
+
+| 適用於ONTAP 的Amazon FSx  a| 
+* 亞馬遜 EFS
+* 適用於ONTAP 的Amazon FSx
+* 亞馬遜 S3
+* Azure Blob
+* Azure 資料湖儲存體 Gen2
+* Azure NetApp Files
+* Cloud Volumes ONTAP
+* Google 雲端儲存
+* IBM 雲端物件儲存
+* NFS 伺服器
+* 本地ONTAP集群（NFS 或 SMB）
+* SMB 伺服器
+* StorageGRID
+
+
+
+
+| 亞馬遜 S3  a| 
+* 亞馬遜 EFS
+* 適用於ONTAP 的Amazon FSx
+* 亞馬遜 S3
+* Azure Blob
+* Azure 資料湖儲存體 Gen2
+* Azure NetApp Files
+* 盒子^1^
+* Cloud Volumes ONTAP
+* Google 雲端儲存
+* IBM 雲端物件儲存
+* NFS 伺服器
+* 本地ONTAP集群（NFS 或 SMB）
+* ONTAP S3 存儲
+* SMB 伺服器
+* StorageGRID
+
+
+
+
+| Azure Blob  a| 
+* 亞馬遜 EFS
+* 適用於ONTAP 的Amazon FSx
+* 亞馬遜 S3
+* Azure Blob
+* Azure NetApp Files
+* Cloud Volumes ONTAP
+* Google 雲端儲存
+* IBM 雲端物件儲存
+* NFS 伺服器
+* 本地ONTAP集群（NFS 或 SMB）
+* SMB 伺服器
+* StorageGRID
+
+
+
+
+| Azure 資料湖儲存體 Gen2  a| 
+* Azure NetApp Files
+* Cloud Volumes ONTAP
+* 適用於ONTAP的 FSx
+* IBM 雲端物件儲存
+* NFS 伺服器
+* 本地ONTAP
+* ONTAP S3 存儲
+* SMB 伺服器
+* StorageGRID
+
+
+
+
+| Azure NetApp Files  a| 
+* 亞馬遜 EFS
+* 適用於ONTAP 的Amazon FSx
+* 亞馬遜 S3
+* Azure Blob
+* Azure 資料湖儲存體 Gen2
+* Azure NetApp Files
+* Cloud Volumes ONTAP
+* Google 雲端儲存
+* IBM 雲端物件儲存
+* NFS 伺服器
+* 本地ONTAP集群（NFS 或 SMB）
+* SMB 伺服器
+* StorageGRID
+
+
+
+
+| 盒子^1^  a| 
+* 適用於ONTAP 的Amazon FSx
+* 亞馬遜 S3
+* Azure NetApp Files
+* Cloud Volumes ONTAP
+* IBM 雲端物件儲存
+* NFS 伺服器
+* SMB 伺服器
+* StorageGRID
+
+
+
+
+| Cloud Volumes ONTAP  a| 
+* 亞馬遜 EFS
+* 適用於ONTAP 的Amazon FSx
+* 亞馬遜 S3
+* Azure Blob
+* Azure 資料湖儲存體 Gen2
+* Azure NetApp Files
+* Cloud Volumes ONTAP
+* Google 雲端儲存
+* IBM 雲端物件儲存
+* NFS 伺服器
+* 本地ONTAP集群（NFS 或 SMB）
+* SMB 伺服器
+* StorageGRID
+
+
+
+
+| Google 雲端儲存  a| 
+* 亞馬遜 EFS
+* 適用於ONTAP 的Amazon FSx
+* 亞馬遜 S3
+* Azure Blob
+* Azure NetApp Files
+* Cloud Volumes ONTAP
+* Google 雲端儲存
+* IBM 雲端物件儲存
+* NFS 伺服器
+* 本地ONTAP集群（NFS 或 SMB）
+* ONTAP S3 存儲
+* SMB 伺服器
+* StorageGRID
+
+
+
+
+| Google 雲端硬碟  a| 
+* NFS 伺服器
+* SMB 伺服器
+
+
+
+
+| IBM 雲端物件儲存  a| 
+* 亞馬遜 EFS
+* 適用於ONTAP 的Amazon FSx
+* 亞馬遜 S3
+* Azure Blob
+* Azure 資料湖儲存體 Gen2
+* Azure NetApp Files
+* 盒子^1^
+* Cloud Volumes ONTAP
+* Google 雲端儲存
+* IBM 雲端物件儲存
+* NFS 伺服器
+* 本地ONTAP集群（NFS 或 SMB）
+* SMB 伺服器
+* StorageGRID
+
+
+
+
+| NFS 伺服器  a| 
+* 亞馬遜 EFS
+* 適用於ONTAP 的Amazon FSx
+* 亞馬遜 S3
+* Azure Blob
+* Azure 資料湖儲存體 Gen2
+* Azure NetApp Files
+* Cloud Volumes ONTAP
+* Google 雲端儲存
+* Google 雲端硬碟
+* IBM 雲端物件儲存
+* NFS 伺服器
+* 本地ONTAP集群（NFS 或 SMB）
+* ONTAP S3 存儲
+* SMB 伺服器
+* StorageGRID
+
+
+
+
+| 本地ONTAP集群（NFS 或 SMB）  a| 
+* 亞馬遜 EFS
+* 適用於ONTAP 的Amazon FSx
+* 亞馬遜 S3
+* Azure Blob
+* Azure 資料湖儲存體 Gen2
+* Azure NetApp Files
+* Cloud Volumes ONTAP
+* Google 雲端儲存
+* IBM 雲端物件儲存
+* NFS 伺服器
+* 本地ONTAP集群（NFS 或 SMB）
+* SMB 伺服器
+* StorageGRID
+
+
+
+
+| ONTAP S3 存儲  a| 
+* 亞馬遜 S3
+* Azure 資料湖儲存體 Gen2
+* Google 雲端儲存
+* NFS 伺服器
+* SMB 伺服器
+* StorageGRID
+* ONTAP S3 存儲
+
+
+
+
+| SFTP ^2^ | S3 
+
+
+| SMB 伺服器  a| 
+* 亞馬遜 EFS
+* 適用於ONTAP 的Amazon FSx
+* 亞馬遜 S3
+* Azure Blob
+* Azure 資料湖儲存體 Gen2
+* Azure NetApp Files
+* Cloud Volumes ONTAP
+* Google 雲端儲存
+* Google 雲端硬碟
+* IBM 雲端物件儲存
+* NFS 伺服器
+* 本地ONTAP集群（NFS 或 SMB）
+* ONTAP S3 存儲
+* SMB 伺服器
+* StorageGRID
+
+
+
+
+| StorageGRID  a| 
+* 亞馬遜 EFS
+* 適用於ONTAP 的Amazon FSx
+* 亞馬遜 S3
+* Azure Blob
+* Azure 資料湖儲存體 Gen2
+* Azure NetApp Files
+* 盒子^1^
+* Cloud Volumes ONTAP
+* Google 雲端儲存
+* IBM 雲端物件儲存
+* NFS 伺服器
+* 本地ONTAP集群（NFS 或 SMB）
+* ONTAP S3 存儲
+* SMB 伺服器
+* StorageGRID
+
+
+|===
+筆記：
+
+. Box 支援目前可作為預覽使用。
+. 僅透過使用複製和同步 API 支援與此來源/目標的同步關係。
+. 當 Blob 容器是目標時，您可以選擇特定的 Azure Blob 儲存層：
++
+** 熱儲存
+** 冷藏
+
+
+. [[storage-classes]]當 Amazon S3 是目標時，您可以選擇特定的 S3 儲存類別：
++
+** 標準（這是預設類別）
+** 智能分層
+** 標準-不頻繁訪問
+** 單區-不頻繁訪問
+** 冰川深度檔案
+** 冰川彈性檢索
+** 冰川即時檢索
+
+
+. 當 Google Cloud Storage 儲存桶是目標時，您可以選擇特定的儲存類別：
++
+** 標準
+** 近線
+** 涼線
+** 檔案
+
+
+

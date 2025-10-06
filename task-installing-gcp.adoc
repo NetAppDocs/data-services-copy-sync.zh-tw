@@ -1,0 +1,176 @@
+---
+sidebar: sidebar 
+permalink: task-installing-gcp.html 
+keywords: data broker, install, gcp, google, networking, permissions, regions, install data broker in gcp, install in gcp, deploy in gcp, deploy data broker in gcp, install data broker in google, install in google, deploy in google, deploy data broker in google, networking requirements, port, ports, 443, port 443, ntp, network time protocol, gcp data broker, service account 
+summary: 建立新的資料代理程式時，選擇 Google Cloud Data Broker 選項以在 VPC 中的新虛擬機器執行個體上部署資料代理軟體。  NetApp Copy and Sync 將引導您完成安裝過程，但此頁面上重複了要求和步驟，以協助您為安裝準備工作。 
+---
+= 在 Google Cloud 中為NetApp Copy and Sync 建立新的資料代理
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+為NetApp Copy and Sync 建立新的資料代理群組時，請選擇 Google Cloud Platform 在 Google Cloud VPC 中的新虛擬機器實例上部署資料代理軟體。  NetApp Copy and Sync 將引導您完成安裝過程，但此頁面上重複了要求和步驟，以協助您為安裝準備工作。
+
+您也可以選擇在雲端或本機的現有 Linux 主機上安裝資料代理程式。link:task-installing-linux.html["了解更多"] 。
+
+
+
+== 支援的 Google Cloud 區域
+
+支援所有地區。
+
+
+
+== Root權限
+
+資料代理軟體在 Linux 主機上自動以 root 身分執行。以 root 身分運行是資料代理操作的必要條件。例如，掛載共享。
+
+
+
+== 網路需求
+
+* 資料代理需要出站互聯網連接，以便它可以透過連接埠 443 輪詢複製和同步任務。
++
+當 Copy and Sync 在 Google Cloud 中部署資料代理程式時，它會建立一個安全性群組來啟用所需的出站通訊。
+
++
+如果需要限制出站連接，請參閱link:reference-networking.html["資料代理聯繫的端點列表"]。
+
+* NetApp建議設定來源、目標和資料代理程式以使用網路時間協定 (NTP) 服務。三個組件之間的時間差不應超過5分鐘。
+
+
+
+
+== 在 Google Cloud 中部署資料代理程式所需的權限
+
+確保部署資料代理程式的 Google Cloud 使用者俱有以下權限：
+
+[source, yaml]
+----
+- compute.networks.list
+- compute.regions.list
+- deploymentmanager.deployments.create
+- deploymentmanager.deployments.delete
+- deploymentmanager.operations.get
+- iam.serviceAccounts.list
+----
+
+
+== 服務帳戶所需的權限
+
+部署資料代理程式時，您需要選擇具有下列權限的服務帳戶：
+
+[source, yaml]
+----
+- logging.logEntries.create
+- resourcemanager.projects.get
+- storage.buckets.get
+- storage.buckets.list
+- storage.objects.create
+- storage.objects.delete
+- storage.objects.get
+- storage.objects.getIamPolicy
+- storage.objects.list
+- storage.objects.setIamPolicy
+- storage.objects.update
+- iam.serviceAccounts.signJwt
+- pubsub.subscriptions.consume
+- pubsub.subscriptions.create
+- pubsub.subscriptions.delete
+- pubsub.subscriptions.list
+- pubsub.topics.attachSubscription
+- pubsub.topics.create
+- pubsub.topics.delete
+- pubsub.topics.list
+- pubsub.topics.setIamPolicy
+- storage.buckets.update
+- cloudkms.cryptoKeys.list
+- cloudkms.keyRings.list
+----
+筆記：
+
+. 僅當您計劃設定資料代理程式以使用外部 HashiCorp 保險庫時才需要「iam.serviceAccounts.signJwt」權限。
+. 只有當您計劃在從 Google Cloud Storage 到另一個雲端儲存位置的同步關係上啟用連續同步設定時，才需要「pubsub.*」和「storage.buckets.update」權限。link:task-creating-relationships.html#settings["了解有關持續同步選項的更多信息"] 。
+. 只有當您計劃在目標 Google Cloud Storage 儲存桶上使用客戶管理的 KMS 金鑰時，才需要「cloudkms.cryptoKeys.list」和「cloudkms.keyRings.list」權限。
+
+
+
+
+== 建立資料代理
+
+有幾種方法可以建立新的資料代理。以下步驟描述了在建立同步關係時如何在 Google Cloud 中安裝資料代理程式。
+
+.步驟
+. link:task-login-copyandsync.html["登入以複製和同步"] 。
+. 選擇*建立新同步*。
+. 在*定義同步關係*頁面上，選擇來源和目標，然後選擇*繼續*。
++
+完成這些步驟，直到到達*資料經紀人群組*頁面。
+
+. 在*資料經紀人群組*頁面上，選擇*建立資料經紀人*，然後選擇*Google Cloud Platform*。
++
+image:screenshot-google.png["資料代理頁面的螢幕截圖，可讓您在 AWS、Azure、Google Cloud 和 On-Prem 資料代理程式之間進行選擇。"]
+
+. 輸入資料代理的名稱並選擇*繼續*。
+. 如果出現提示，請使用您的 Google 帳號登入。
++
+該表單由 Google 擁有並託管。您的憑證未提供給NetApp。
+
+. 選擇一個項目和服務帳戶，然後選擇資料代理的位置，包括是否要啟用或停用公用 IP 位址。
++
+如果您沒有啟用公用 IP 位址，那麼您需要在下一個步驟中定義代理伺服器。
+
++
+image:screenshot_data_broker_gcp.png["顯示在 Google Cloud 中部署資料代理程式所需資訊的螢幕截圖。"]
+
+. 如果 VPC 中的網際網路存取需要代理，請指定代理設定。
++
+如果需要代理程式才能存取互聯網，則代理必須位於 Google Cloud 中並使用與資料代理相同的服務帳戶。
+
+. 一旦資料代理可用，請在複製和同步中選擇*繼續*。
++
+該實例大約需要 5 到 10 分鐘才能部署。您可以從複製和同步中監控進度，當實例可用時會自動刷新。
+
+. 完成精靈中的頁面以建立新的同步關係。
+
+
+.結果
+您已在 Google Cloud 中部署了資料代理並建立了新的同步關係。您可以將此資料代理與其他同步關係一起使用。
+
+
+
+== 提供在其他 Google Cloud 專案中使用儲存桶的權限
+
+當您建立同步關係並選擇 Google Cloud Storage 作為來源或目標時，複製和同步可讓您從資料代理程式的服務帳戶有權使用的儲存桶中進行選擇。預設情況下，這包括與資料代理服務帳戶位於相同專案中的儲存桶。但是如果您提供所需的權限，您可以從其他項目中選擇儲存桶。
+
+.步驟
+. 開啟 Google Cloud Platform 控制台並載入 Cloud Storage 服務。
+. 選擇您想要用作同步關係中的來源或目標的儲存桶的名稱。
+. 選擇*權限*。
+. 選擇“*新增*”。
+. 輸入資料代理的服務帳戶的名稱。
+. 選擇提供以下功能的角色<<服務帳戶所需的權限,與上面顯示的權限相同>>。
+. 選擇*儲存*。
+
+
+.結果
+當您設定同步關係時，現在可以選擇該儲存桶作為同步關係中的來源或目標。
+
+
+
+== 有關資料代理虛擬機器實例的詳細信息
+
+複製和同步使用以下配置在 Google Cloud 中建立資料代理程式。
+
+Node.js 相容性:: v21.2.0
+機器類型:: n2-標準-4
+虛擬 CPU:: 4
+記憶體:: 15GB
+作業系統:: Rocky Linux 9.0
+磁碟大小和類型:: 20 GB 硬碟 pd-標準
+

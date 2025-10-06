@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: concept-privacy.html 
+keywords: privacy, data privacy, credentials, access to credentials, hashicorp vault 
+summary: NetApp無法存取您在使用NetApp Copy and Sync 時提供的任何憑證。憑證直接儲存在位於您的網路中的資料代理機器上。 
+---
+= NetApp複製與同步中的資料隱私
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp無法存取您在使用NetApp Copy and Sync 時提供的任何憑證。憑證直接儲存在位於您的網路中的資料代理機器上。
+
+根據您選擇的配置，當您建立新的關係時，「複製和同步」可能會提示您輸入憑證。例如，在設定包含 SMB 伺服器的關係時，或在 AWS 中部署資料代理程式時。
+
+這些憑證始終直接保存到資料代理本身。資料代理程式駐留在您網路中的一台機器上，無論它是在本機還是在您的雲端帳戶中。這些憑證永遠不會提供給NetApp。
+
+憑證使用 HashiCorp Vault 在資料代理機器上進行本機加密。

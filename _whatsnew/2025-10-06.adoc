@@ -1,0 +1,17 @@
+= BlueXP copy and sync現已更名NetApp複製和同步
+:allow-uri-read: 
+
+
+
+
+=== BlueXP copy and sync現已更名NetApp複製和同步
+
+BlueXP copy and sync已重新命名為NetApp複製和同步。
+
+
+
+=== BlueXP現在是NetApp控制台
+
+NetApp控制台建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp資料服務，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
+
+有關更改的詳細信息，請參閱link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台發行說明"]。

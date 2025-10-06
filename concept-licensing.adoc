@@ -1,0 +1,65 @@
+---
+sidebar: sidebar 
+permalink: concept-licensing.html 
+keywords: licenses, licensing, subscriptions, annual subscription, paygo, hourly subscription, bluexp 
+summary: 14 天免費試用期結束後，有兩種方式可以支付同步關係的費用。第一個選項是從 AWS 或 Azure 訂閱，按使用量付費或按年付費。第二種選擇是直接從NetApp購買許可證。 
+---
+= NetApp複製和同步授權概述
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+14 天免費試用期結束後，您可以透過兩種方式支付NetApp Copy 和 Sync 關係的費用。第一個選項是從 AWS 或 Azure 訂閱，按使用量付費或按年付費。第二種選擇是直接從NetApp購買許可證。
+
+授權應透過NetApp Copy and Sync 或適用網站進行管理，而非透過NetApp Console 進行管理。
+
+
+
+== 市場訂閱
+
+訂閱 AWS 或 Azure 的複製和同步服務可讓您按小時付費或按年付費。link:task-licensing.html["您可以透過 AWS 或 Azure 訂閱"] ，取決於您想要在哪裡付款。
+
+
+
+=== 按小時訂閱
+
+透過按小時付費訂閱，您將根據創建的同步關係數量按小時付費。
+
+* https://azuremarketplace.microsoft.com/en-us/marketplace/apps/netapp.cloud-sync-service?tab=PlansAndPrice["查看 Azure 中的定價"^]
+* https://aws.amazon.com/marketplace/pp/B01LZV5DUJ["查看 AWS 中的按使用量付費定價"^]
+
+
+
+
+=== 年度訂閱
+
+年度訂閱可提供 20 個同步關係的許可證，您需要預付。如果您的同步關係超過 20 個並且已透過 AWS 訂閱，則您需要按小時支付額外的關係費用。
+
+https://aws.amazon.com/marketplace/pp/B06XX5V3M2["查看 AWS 中的年度定價"^]
+
+
+
+== NetApp的許可證
+
+預先支付同步關係費用的另一種方式是直接從NetApp購買授權。每個許可證允許您創建最多 20 個同步關係。
+
+您可以將這些授權與 AWS 或 Azure 訂閱一起使用。例如，如果您有 25 個同步關係，則可以使用授權支付前 20 個同步關係的費用，然後使用剩餘的 5 個同步關係從 AWS 或 Azure 按使用量付費。
+
+link:task-licensing.html["了解如何購買許可證並將其新增至NetApp Copy and Sync"] 。
+
+
+
+=== 授權條款
+
+購買自帶授權 (BYOL) 進行複製和同步的客戶應該了解與授權權利相關的限制。
+
+* 客戶有權利用 BYOL 許可證，有效期限自交付之日起不超過一年。
+* 客戶有權利用 BYOL 授權在來源和目標之間建立總共不超過 20 個單獨連線（每個連線稱為「同步關係」）。
+* 無論客戶是否已達到 20 個同步關係的限制，客戶的權利都將在一年許可期限結束時到期。
+* 如果客戶選擇續訂其許可證，則與先前的許可證授予相關的未使用的同步關係將不會延續到許可證續約。
+

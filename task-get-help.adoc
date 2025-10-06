@@ -1,0 +1,168 @@
+---
+sidebar: sidebar 
+permalink: task-get-help.html 
+keywords: help, ticket, open support case, support, netapp support, technical support, call support, phone number, open ticket, web ticket, open an issue 
+summary: 'NetApp以多種方式為NetApp控制台提供支援。全天候提供廣泛的免費自助支援選項，例如知識庫 (KB) 文章和社群論壇。您的支援註冊包含透過網路工單取得的遠端技術支援。' 
+---
+= 獲取協助
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp以多種方式為BlueXP及其雲端服務提供支援。我們提供全天候 (24/7) 的大量免費自助支援選項，例如知識庫 (KB) 文章和社群論壇。您的支援註冊包含透過網路工單取得的遠端技術支援。
+
+
+
+== 獲取雲端提供者文件服務的支持
+
+有關雲端提供者文件服務、其基礎設施或使用該服務的任何解決方案的技術支持，請參閱該產品的BlueXP文件中的「取得協助」。
+
+* link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/concept-fsx-aws.html#getting-help["適用於ONTAP 的Amazon FSx"^]
+* link:https://docs.netapp.com/us-en/bluexp-azure-netapp-files/concept-azure-netapp-files.html#getting-help["Azure NetApp Files"^]
+* link:https://docs.netapp.com/us-en/bluexp-google-cloud-netapp-volumes/concept-gcnv.html#getting-help["Google Cloud NetApp Volumes"^]
+
+
+要獲得針對BlueXP及其儲存解決方案和服務的技術支持，請使用下面所述的支援選項。
+
+
+
+== 使用自助選項
+
+這些選項每週 7 天、每天 24 小時免費提供：
+
+* 文件
++
+您目前正在檢視的BlueXP文件。
+
+* https://kb.netapp.com/Cloud/BlueXP["知識庫"^]
++
+搜尋BlueXP知識庫以尋找有助於解決問題的文章。
+
+* http://community.netapp.com/["社群"^]
++
+加入BlueXP社群以關注正在進行的討論或創建新的討論。
+
+
+
+
+
+== 向NetApp支援建立案例
+
+除了上述自助支援選項之外，您還可以在啟動支援後與NetApp支援專家合作解決任何問題。
+
+.開始之前
+* 若要使用「建立案例」功能，您必須先將您的NetApp支援網站憑證與您的BlueXP登入名稱關聯。 https://docs.netapp.com/us-en/bluexp-setup-admin/task-manage-user-credentials.html["了解如何管理與BlueXP登入相關的憑證"^] 。
+* 如果您要為具有序號的ONTAP系統開啟案例，那麼您的 NSS 帳戶必須與該系統的序號相關聯。
+
+
+.步驟
+. 在BlueXP中，選擇 *幫助 > 支持*。
+. 在「*資源*」頁面上，選擇「技術支援」下的可用選項之一：
++
+.. 如果您想透過電話與某人交談，請選擇「致電我們」。您將被引導至 netapp.com 上的一個頁面，其中列出了您可以撥打的電話號碼。
+.. 選擇「建立案例」向NetApp支援專家開立一張票：
++
+*** *服務*：選擇與問題相關的服務。例如， BlueXP專門針對服務中的工作流程或功能的技術支援問題。
+*** *工作環境*：如果適用於存儲，請選擇* Cloud Volumes ONTAP* 或 *On-Prem*，然後選擇相關的工作環境。
++
+工作環境清單屬於您在服務頂部橫幅中所選的BlueXP組織（或帳戶）、專案（或工作區）和連接器的範圍內。
+
+*** *個案優先級*：選擇個案的優先級，可以是低、中、高或嚴重。
++
+要了解有關這些優先事項的更多詳細信息，請將滑鼠懸停在欄位名稱旁邊的資訊圖示上。
+
+*** *問題描述*：提供問題的詳細描述，包括任何適用的錯誤訊息或您執行的故障排除步驟。
+*** *其他電子郵件地址*：如果您想讓其他人知道此問題，請輸入其他電子郵件地址。
+*** *附件（選購）*：一次最多上傳五個附件。
++
+每個附件檔案大小限制為 25 MB。支援以下檔案副檔名：txt、log、pdf、jpg/jpeg、rtf、doc/docx、xls/xlsx 和 csv。
+
+
+
+
+
++
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-create-case.png["建立案例表單的螢幕截圖，可讓您向NetApp支援建立案例。"]
+
+
+
+.完成後
+將會出現一個彈出窗口，其中顯示您的支援案例編號。NetApp支援專家將審查您的案例並儘快回覆您。
+
+若要查看支援案例的歷史記錄，您可以選擇*設定>時間軸*並尋找名為「建立支援案例」的操作。最右邊的按鈕可讓您展開操作以查看詳細資訊。
+
+嘗試建立案例時，您可能會遇到以下錯誤訊息：
+
+“您無權針對所選服務建立案例”
+
+此錯誤可能表示 NSS 帳戶及其關聯的記錄公司與BlueXP帳戶序號的記錄公司不是同一家（即。960xxxx）或工作環境序號。您可以使用以下選項之一尋求協助：
+
+* 使用產品內聊天
+* 提交非技術案例 https://mysupport.netapp.com/site/help[]
+
+
+
+
+== 管理您的支援案例（預覽）
+
+您可以直接從BlueXP查看和管理活動和已解決的支援案例。您可以管理與您的 NSS 帳戶和公司相關的案例。
+
+案例管理目前可作為預覽版。我們計劃在即將發布的版本中完善這種體驗並增加增強功能。請使用產品內聊天向我們發送回饋。
+
+請注意以下事項：
+
+* 頁面頂部的案例管理儀表板提供兩種視圖：
++
+** 左側視圖顯示了您提供的使用者 NSS 帳戶在過去 3 個月內開啟的案件總數。
+** 右側的視圖根據您的使用者 NSS 帳戶顯示了過去 3 個月內貴公司層級開設的案件總數。
+
+
++
+表中的結果反映了與您選擇的視圖相關的案例。
+
+* 您可以新增或刪除感興趣的列，並且可以過濾優先順序和狀態等列的內容。其他欄位僅提供排序功能。
++
+請查看以下步驟以了解更多詳細資訊。
+
+* 在每個案件級別，我們提供更新案件記錄或關閉尚未關閉或待關閉狀態的案件的功能。
+
+
+.步驟
+. 在BlueXP中，選擇 *幫助 > 支持*。
+. 選擇*案例管理*，如果出現提示，請將您的 NSS 帳戶新增至BlueXP。
++
+*案例管理*頁面顯示與您的BlueXP使用者帳戶相關的 NSS 帳戶相關的未結案例。這與出現在 *NSS 管理* 頁面頂部的 NSS 帳戶相同。
+
+. （可選）修改表中顯示的資訊：
++
+** 在「組織的案例」下，選擇「查看」以查看與您的公司相關的所有案例。
+** 透過選擇精確的日期範圍或選擇不同的時間範圍來修改日期範圍。
++
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-case-management-date-range.png["案例管理頁面表格上方選項的螢幕截圖，可讓您選擇確切的日期範圍或過去 7 天、30 天或 3 個月。"]
+
+** 過濾列的內容。
++
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-case-management-filter.png["狀態列中的篩選選項的螢幕截圖，可讓您篩選出符合特定狀態（例如「活動」或「已關閉」）的案例。"]
+
+** 透過選擇image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-table-columns.png["表格中出現的加號圖標"]然後選擇您想要顯示的列。
++
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-case-management-columns.png["螢幕截圖顯示了您可以在表格中顯示的列。"]
+
+
+
+. 透過選擇管理現有案例image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-table-action.png["表格最後一列出現的帶有三個點的圖標"]並選擇其中一個可用選項：
++
+** *查看案例*：查看有關特定案例的完整詳細資訊。
+** *更新案例說明*：提供有關您的問題的更多詳細信息，或選擇*上傳文件*以附加最多五個文件。
++
+每個附件檔案大小限制為 25 MB。支援以下檔案副檔名：txt、log、pdf、jpg/jpeg、rtf、doc/docx、xls/xlsx 和 csv。
+
+** *結案*：提供有關結案原因的詳細信息，然後選擇*結案*。
+
+
++
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-case-management-actions.png["螢幕截圖顯示了選擇表格最後一列的選單後可以採取的動作。"]
+
+

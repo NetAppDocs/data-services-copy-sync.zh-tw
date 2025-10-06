@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: sample-article.html 
+keywords:  
+summary:  
+---
+= 此處顯示頁面標題
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+將此模板用於文章、主題，無論您如何稱呼它們。index.adoc 檔案沒有文章頁面的正確關鍵字，將其用作範本可能會導致以後的發布問題。
+
+
+NOTE: 首次發布之前刪除此文件，因為即使該文件未連結到側邊欄，它也會發布。創建幾篇文章後，您可以將它們用作入門文章。
+
+如果您的文章位於內容子資料夾中，則需要對上面顯示的符號進行兩處調整：
+
+* `:imagesdir:../media/`
+* `permalink: folder-name/sample-article.html`
+

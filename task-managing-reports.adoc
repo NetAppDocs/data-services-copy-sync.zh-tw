@@ -1,0 +1,99 @@
+---
+sidebar: sidebar 
+permalink: task-managing-reports.html 
+keywords: reports, sync reports, NetApp Copy and Sync reports, report errors, path reports 
+summary: 建立和查看報告以獲取信息，您可以在NetApp人員的幫助下使用這些資訊來調整資料代理的配置並提高效能。 
+---
+= 建立和檢視報告以調整NetApp Copy and Sync 中的配置
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+在NetApp Copy and Sync 中建立和查看報告以獲取信息，您可以在NetApp人員的幫助下使用這些資訊來調整資料代理的配置並提高效能。
+
+每份報告都提供有關同步關係中路徑的詳細資訊。它將包括有多少個目錄、檔案和符號連結、檔案大小的分佈、目錄的深度和寬度、修改時間和存取時間。這與同步靜態資料不同，後者可在 https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html["成功創建並完成同步"]。
+
+
+
+== 建立報告
+
+每次建立報告時，「複製和同步」都會掃描路徑，然後將詳細資訊編譯成報告。
+
+.步驟
+. link:task-login-copyandsync.html["登入以複製和同步"] 。
+. 選擇*同步 > 報告*。
++
+每個同步關係中的路徑（來源或目標）顯示在一個表格中。
+
+. 在*報告操作*列中，前往特定路徑並選擇*建立*，或選擇操作選單並選擇*新建*。
+. 報告準備好後，選擇操作選單並選擇*查看*。
++
+這是檔案系統路徑的範例報告。
+
++
+image:screenshot_sync_report.gif["顯示同步項目數量、檔案大小、最大值、存取時間、變更時間和修改時間的報告。"]
+
++
+這是物件儲存的範例報表。
+
++
+image:screenshot_sync_report_object.gif["顯示路徑項目數量、物件大小、修改時間和儲存類別的報表。"]
+
+
+
+
+
+== 下載報告
+
+您可以下載 PDF 格式的報告，以便離線檢視或分享。
+
+.步驟
+. link:task-login-copyandsync.html["登入以複製和同步"] 。
+. 選擇*同步 > 報告*。
+. 在*報告操作*列中，選擇操作選單並選擇*查看*。
+. 在報告的右上角，選擇操作選單並選擇*下載 pdf*。
++
+image:screenshot-sync-download-report.png["在報告中選擇操作選單後出現的下載 PDF 選項的螢幕截圖。"]
+
+
+
+
+
+== 查看報告錯誤
+
+路徑表標識最新報告中是否有任何錯誤。錯誤標識了複製和同步在掃描路徑時遇到的問題。
+
+例如，報告可能包含權限被拒絕的錯誤。此類錯誤會影響複製和同步掃描整個文件和目錄的能力。
+
+查看錯誤清單後，您可以解決問題並再次執行報告。
+
+.步驟
+. link:task-login-copyandsync.html["登入以複製和同步"] 。
+. 選擇*同步 > 報告*。
+. 在「*錯誤*」欄位中，標識報告中是否有任何錯誤。
+. 如果有錯誤，請選擇錯誤數量旁邊的箭頭。
++
+image:screenshot_sync_report_errors.gif["路徑表的螢幕截圖顯示了錯誤的數量以及錯誤列中的一個可點擊的小箭頭。"]
+
+. 使用錯誤中的資訊來修正問題。
++
+解決問題後，下次執行報告時就不會再出現該錯誤。
+
+
+
+
+
+== 刪除報告
+
+如果報告包含您已修復的錯誤，或報告與您已刪除的同步關係相關，您可以刪除該報告。
+
+.步驟
+. 選擇*同步 > 報告*。
+. 在*報告操作*列中，選擇路徑的操作選單，然後選擇*刪除最後一份報告*或*刪除所有報告*。
+. 確認您要刪除該報告或這些報告。
+

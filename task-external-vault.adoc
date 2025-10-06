@@ -1,0 +1,268 @@
+---
+sidebar: sidebar 
+permalink: task-external-vault.html 
+keywords: hashicorp, vault, credentials, secrets, API 
+summary: 當您建立需要 Amazon S3、Azure 或 Google Cloud 憑證的同步關係時，您需要透過NetApp Copy and Sync 使用者介面或 API 指定這些憑證。另一種方法是設定資料代理程式以直接從外部 HashiCorp Vault 存取憑證。 
+---
+= 設定資料代理組以在NetApp Copy and Sync 中使用外部 HashiCorp Vault
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+當您建立需要 Amazon S3、Azure 或 Google Cloud 憑證的同步關係時，您需要透過NetApp Copy and Sync 使用者介面或 API 指定這些憑證。另一種方法是設定資料代理群組以直接從外部 HashiCorp Vault 存取憑證（或_秘密_）。
+
+此功能透過複製和同步 API 支持，同步關係需要 Amazon S3、Azure 或 Google Cloud 憑證。
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一"]準備保管庫
+[role="quick-margin-para"]
+透過設定 URL 來準備保險庫以向資料代理群組提供憑證。保險庫中秘密的 URL 必須以 _Creds_ 結尾。
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["二"]準備數據經紀人組
+[role="quick-margin-para"]
+透過修改群組中每個資料代理程式的本機設定文件，準備資料代理群組從外部保險庫取得憑證。
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三"]使用 API 建立同步關係
+[role="quick-margin-para"]
+現在一切都已設定完畢，您可以發送 API 呼叫來建立使用您的保險庫取得機密的同步關係。
+
+
+
+== 準備保管庫
+
+您需要提供複製和同步到您的保險庫中的秘密的 URL。透過設定這些 URL 來準備保管庫。您需要為您計劃建立的同步關係中的每個來源和目標設定憑證的 URL。
+
+URL 必須如下設定：
+
+`/<path>/<requestid>/<endpoint-protocol>Creds`
+
+小路:: 秘密的前綴路徑。這可以是任何對您來說唯一的值。
+請求 ID:: 您需要產生的請求 ID。建立同步關係時，您需要在 API POST 請求的其中一個標頭中提供 ID。
+端點協定:: 定義如下的協定之一 https://api.cloudsync.netapp.com/docs/#/Relationships-v2/post_relationships_v2["在 post relationship v2 文件中"^]：S3、AZURE 或 GCP（每個都必須大寫）。
+信用:: URL 必須以 _Creds_ 結尾。
+
+
+
+
+=== 範例
+
+以下範例顯示了機密的 URL。
+
+來源憑證的完整 URL 和路徑範例:: \ http://example.vault.com:8200/my-path/all-secrets/hb312vdasr2/S3Creds
++
+--
+如您在範例中看到的，前綴路徑是 _/my-path/all-secrets/_，請求 ID 是 _hb312vdasr2_，來源端點是 S3。
+
+--
+目標憑證的完整 URL 和路徑範例:: \ http://example.vault.com:8200/my-path/all-secrets/n32hcbnejk2/AZURECreds
++
+--
+前綴路徑為 _/my-path/all-secrets/_，請求 ID 為 _n32hcbnejk2_，目標端點為 Azure。
+
+--
+
+
+
+
+== 準備數據經紀人組
+
+透過修改群組中每個資料代理程式的本機設定文件，準備資料代理群組從外部保險庫取得憑證。
+
+.步驟
+. 透過 SSH 連線到群組中的資料代理程式。
+. 編輯位於 /opt/netapp/databroker/config 中的 local.json 檔案。
+. 將啟用設為 *true* 並設定 _external-integrations.hashicorp_ 下的設定參數欄位如下：
++
+已啟用::
++
+--
+** 有效值：true/false
+** 類型：布林值
+** 預設值：false
+** 正確：資料經紀人從您自己的外部 HashiCorp Vault 取得機密
+** 錯誤：資料代理將憑證儲存在其本機保管庫中
+
+
+--
+網址::
++
+--
+** 類型：字串
+** 值：外部保管庫的 URL
+
+
+--
+小路::
++
+--
+** 類型：字串
+** 值：使用您的憑證作為金鑰的前綴路徑
+
+
+--
+拒絕未經授權::
++
+--
+** 確定是否希望資料代理拒絕未經授權的外部保管庫
+** 類型：布林值
+** 預設值：false
+
+
+--
+授權方法::
++
+--
+** 資料代理應使用的身份驗證方法，用於從外部保管庫存取憑證
+** 類型：字串
+** 有效值：“aws-iam” / “role-app” / “gcp-iam”
+
+
+--
+角色名稱::
++
+--
+** 類型：字串
+** 您的角色名稱（如果您使用 aws-iam 或 gcp-iam）
+
+
+--
+Secretid 和 rootid::
++
+--
+** 類型：字串（如果您使用 app-role）
+
+
+--
+命名空間::
++
+--
+** 類型：字串
+** 您的命名空間（如果需要，請輸入 X-Vault-Namespace 標頭）
+
+
+--
+
+
+. 對群組中的任何其他資料代理重複這些步驟。
+
+
+
+
+=== aws-role 身份驗證範例
+
+[source, json]
+----
+{
+          “external-integrations”: {
+                  “hashicorp”: {
+                         “enabled”: true,
+                         “url”: “https://example.vault.com:8200”,
+                         “path”: ““my-path/all-secrets”,
+                         “reject-unauthorized”: false,
+                         “auth-method”: “aws-role”,
+                         “aws-role”: {
+                               “role-name”: “my-role”
+                         }
+                }
+       }
+}
+----
+
+
+=== gcp-iam 身份驗證範例
+
+[source, json]
+----
+{
+"external-integrations": {
+    "hashicorp": {
+      "enabled": true,
+      "url": http://ip-10-20-30-55.ec2.internal:8200,
+      "path": "v1/secret",
+      "namespace": "",
+      "reject-unauthorized": true,
+      "auth-method": "gcp-iam",
+      "aws-iam": {
+        "role-name": ""
+      },
+      "app-role": {
+        "root_id": "",
+        "secret_id": ""
+      },
+"gcp-iam": {
+          "role-name": "my-iam-role"
+      }
+    }
+  }
+}
+----
+
+
+=== 使用 gcp-iam 身份驗證時設定權限
+
+如果您使用 _gcp-iam_ 驗證方法，則資料代理必須具有下列 GCP 權限：
+
+[source, yaml]
+----
+- iam.serviceAccounts.signJwt
+----
+link:task-installing-gcp.html#permissions-required-for-the-service-account["詳細了解資料代理的 GCP 權限要求"] 。
+
+
+
+== 使用保管庫中的機密建立新的同步關係
+
+現在一切都已設定完畢，您可以發送 API 呼叫來建立使用您的保險庫取得機密的同步關係。
+
+使用複製和同步 REST API 發布關係。
+
+....
+Headers:
+Authorization: Bearer <user-token>
+Content-Type: application/json
+x-account-id: <accountid>
+x-netapp-external-request-id-src: request ID as part of path for source credentials
+x-netapp-external-request-id-trg: request ID as part of path for target credentials
+Body: post relationship v2 body
+....
+* 若要取得使用者令牌和您的NetApp控制台帳戶 ID，link:api-sync.html["請參閱文件中的此頁面"] 。
+* 為了在戀愛後擁有好身材， https://api.cloudsync.netapp.com/docs/#/Relationships-v2/post_relationships_v2["參考 relationships-v2 API 呼叫"^] 。
+
+
+
+
+=== 例子
+
+POST 請求範例：
+
+[source, json]
+----
+url: https://api.cloudsync.netapp.com/api/relationships-v2
+headers:
+"x-account-id": "CS-SasdW"
+"x-netapp-external-request-id-src": "hb312vdasr2"
+"Content-Type": "application/json"
+"Authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik…"
+Body:
+{
+"dataBrokerId": "5e6e111d578dtyuu1555sa60",
+"source": {
+        "protocol": "s3",
+        "s3": {
+                "provider": "sgws",
+                "host": "1.1.1.1",
+                "port": "443",
+                "bucket": "my-source"
+     },
+"target": {
+        "protocol": "s3",
+        "s3": {
+                "bucket": "my-target-bucket"
+        }
+    }
+}
+----
