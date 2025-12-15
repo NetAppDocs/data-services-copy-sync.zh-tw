@@ -11,13 +11,13 @@ summary: 在向NetApp技術支援提交支援案例之前，您需要將NetApp�
 
 
 [role="lead"]
-需要註冊支援才能獲得針對BlueXP及其儲存解決方案和服務的技術支援。還需要支援註冊才能啟用Cloud Volumes ONTAP系統的關鍵工作流程。
+需要進行支援註冊才能獲得針對NetApp Console及其儲存解決方案和資料服務的技術支援。還需要支援註冊才能啟用Cloud Volumes ONTAP系統的關鍵工作流程。
 
-註冊支援並不能使NetApp獲得雲端提供者文件服務的支援。有關雲端提供者文件服務、其基礎設施或使用該服務的任何解決方案的技術支持，請參閱該產品的BlueXP文件中的「取得協助」。
+註冊支援並不能使NetApp獲得雲端提供者文件服務的支援。有關雲端提供者文件服務、其基礎設施或使用該服務的任何解決方案的技術支持，請參閱該產品文件中的「取得協助」。
 
-* link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/concept-fsx-aws.html#getting-help["適用於ONTAP 的Amazon FSx"^]
-* link:https://docs.netapp.com/us-en/bluexp-azure-netapp-files/concept-azure-netapp-files.html#getting-help["Azure NetApp Files"^]
-* link:https://docs.netapp.com/us-en/bluexp-google-cloud-netapp-volumes/concept-gcnv.html#getting-help["Google Cloud NetApp Volumes"^]
+* link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/start/concept-fsx-aws.html#getting-help["適用於ONTAP 的Amazon FSx"^]
+* link:https://docs.netapp.com/us-en/storage-management-azure-netapp-files/concept-azure-netapp-files.html#getting-help["Azure NetApp Files"^]
+* link:https://docs.netapp.com/us-en/storage-management-google-cloud-netapp-volumes/concept-gcnv.html#getting-help["Google Cloud NetApp Volumes"^]
 
 
 
@@ -26,43 +26,40 @@ summary: 在向NetApp技術支援提交支援案例之前，您需要將NetApp�
 
 啟動支持權利的註冊方式有兩種：
 
-* 註冊您的BlueXP帳號序號（您的 20 位 960xxxxxxxxxxxx 序號位於BlueXP中的支援資源頁面上）。
+* 註冊您的NetApp Console帳戶序號（您的 20 位元 960xxxxxxxxx 序號位於控制台中的「支援資源」頁面上）。
 +
-這是您在BlueXP內任何服務的單一支援訂閱 ID。每個BlueXP帳號級支援訂閱都必須註冊。
+這可作為控制台內任何服務的單一支援訂閱 ID。每個控制台帳戶都必須註冊。
 
 * 在您的雲端供應商市場中註冊與訂閱相關的Cloud Volumes ONTAP序號（這些是 20 位元 909201xxxxxxxx 序號）。
 +
-這些序號通常被稱為_PAYGO 序號_，由BlueXP在Cloud Volumes ONTAP部署時產生。
+這些序號通常稱為_PAYGO 序號_，由NetApp Console在Cloud Volumes ONTAP部署時產生。
 
 
 
-註冊兩種類型的序號可以實現開立支援票和自動產生案例等功能。按照如下所述，透過將NetApp支援網站 (NSS) 帳戶新增至BlueXP來完成註冊。
+註冊兩種類型的序號可以實現開立支援票和自動產生案例等功能。透過將NetApp支援網站 (NSS) 帳戶新增至控制台即可完成註冊，如下所述。
 
 
 
-== 註冊BlueXP以獲得NetApp支持
+== 註冊NetApp Console以取得NetApp支持
 
-若要註冊支援並啟動支援權利，您的BlueXP組織（或帳戶）中的使用者必須將NetApp支援網站帳號與其BlueXP登入名稱關聯。如何註冊NetApp支援取決於您是否已經擁有NetApp支援網站 (NSS) 帳號。
+要註冊支援並啟動支援權利，您的NetApp Console帳戶中的一名使用者必須將NetApp支援網站帳戶與其控制台登入名稱關聯。如何註冊NetApp支援取決於您是否已經擁有NetApp支援網站 (NSS) 帳號。
 
 
 
 === 擁有 NSS 帳戶的現有客戶
 
-如果您是擁有 NSS 帳戶的NetApp客戶，只需透過BlueXP註冊即可獲得支援。
+如果您是擁有 NSS 帳戶的NetApp客戶，只需透過控制台註冊即可獲得支援。
 
 .步驟
-. 在BlueXP控制台的右上角，選擇「設定」圖標，然後選擇「*憑證*」。
+. 選擇“*管理*”>“*憑證*”。
 . 選擇*使用者憑證*。
 . 選擇*新增 NSS 憑證*並依照NetApp支援網站 (NSS) 驗證提示進行操作。
 . 若要確認註冊過程是否成功，請選擇「幫助」圖標，然後選擇「*支援*」。
 +
-*資源*頁面應顯示您的BlueXP組織已註冊以獲得支援。
+*資源*頁面應顯示您的控制台帳戶已註冊以獲得支援。
 
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-support-registration.png["螢幕截圖顯示了帳戶序號、綠色複選框和文字「已註冊支援」。"]
-
-+
-請注意，如果其他BlueXP用戶尚未將NetApp支援網站帳戶與其BlueXP登入名稱關聯，他們將看不到相同的支援註冊狀態。但是，這並不意味著您的BlueXP組織沒有註冊支援。只要組織中的一名使用者遵循了這些步驟，那麼您的組織就已註冊。
+請注意，如果其他控制台使用者尚未將NetApp支援網站帳戶與其登入名稱關聯，他們將看不到相同的支援註冊狀態。但是，這並不意味著您的帳戶沒有註冊支援。只要組織中的一名使用者遵循了這些步驟，您的帳戶就已註冊。
 
 
 
@@ -70,16 +67,16 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/scre
 
 === 現有客戶但沒有 NSS 帳戶
 
-如果您是現有的NetApp客戶，擁有現有授權和序號但沒有 NSS 帳戶，則需要建立 NSS 帳戶並將其與您的BlueXP登入關聯。
+如果您是現有的NetApp客戶，擁有現有授權和序號但沒有 NSS 帳戶，則需要建立 NSS 帳戶並將其與您的控制台登入關聯。
 
 .步驟
 . 透過完成以下操作建立NetApp支援網站帳戶 https://mysupport.netapp.com/site/user/registration["NetApp支援網站使用者註冊表"^]
 +
 .. 請務必選擇適當的使用者級別，通常為* NetApp客戶/最終使用者*。
-.. 請務必複製上面用於序號欄位的BlueXP帳戶序號 (960xxxx)。這將加快帳戶處理速度。
+.. 請務必複製上面用於序號欄位的控制台帳戶序號（960xxxx）。這將加快帳戶處理速度。
 
 
-. 完成以下步驟，將您的新 NSS 帳戶與您的BlueXP登入名稱關聯<<擁有 NSS 帳戶的現有客戶>>。
+. 完成以下步驟，將您的新 NSS 帳戶與您的控制台登入名稱關聯<<擁有 NSS 帳戶的現有客戶>>。
 
 
 
@@ -89,10 +86,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/scre
 如果您是NetApp新使用者且沒有 NSS 帳戶，請依照下列步驟操作。
 
 .步驟
-. 在BlueXP控制台的右上角，選擇「幫助」圖標，然後選擇「*支援*」。
-+
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-help-support.png["幫助選單的螢幕截圖，其中支援是第一個選項"]
-
+. 在控制台的右上角，選擇「幫助」圖標，然後選擇「*支援*」。
 . 從支援註冊頁面找到您的帳戶 ID 序號。
 +
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-serial-number.png["幫助選單的螢幕截圖，其中支援是第一個選項"]
@@ -119,13 +113,13 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/scre
 .完成後
 NetApp應該在過程中與您聯繫。這是針對新用戶的一次性入職培訓。
 
-擁有NetApp支援網站帳號後，請依照下列步驟將帳號與您的BlueXP登入關聯<<擁有 NSS 帳戶的現有客戶>>。
+擁有NetApp支援網站帳號後，請依照下列步驟將該帳號與您的控制台登入關聯<<擁有 NSS 帳戶的現有客戶>>。
 
 
 
 == 關聯 NSS 憑證以獲得Cloud Volumes ONTAP支持
 
-需要將NetApp支援網站憑證與您的BlueXP組織關聯才能為Cloud Volumes ONTAP啟用以下關鍵工作流程：
+需要將NetApp支援網站憑證與您的控制台帳戶關聯，才能為Cloud Volumes ONTAP啟用以下關鍵工作流程：
 
 * 註冊即用即付Cloud Volumes ONTAP系統以獲得支持
 +
@@ -133,21 +127,21 @@ NetApp應該在過程中與您聯繫。這是針對新用戶的一次性入職�
 
 * 自帶授權 (BYOL) 時部署Cloud Volumes ONTAP
 +
-需要提供您的 NSS 帳戶，以便BlueXP可以上傳您的許可證金鑰並啟用您購買的期限的訂閱。這包括期限續訂的自動更新。
+需要提供您的 NSS 帳戶，以便控制台可以上傳您的許可證金鑰並啟用您購買的期限的訂閱。這包括期限續訂的自動更新。
 
 * 將Cloud Volumes ONTAP軟體升級至最新版本
 
 
-將 NSS 憑證與您的BlueXP組織關聯與與BlueXP使用者登入關聯的 NSS 帳戶不同。
+將 NSS 憑證與您的NetApp Console帳戶關聯與將 NSS 帳戶與控制台使用者登入相關聯。
 
-這些 NSS 憑證與您的特定BlueXP組織 ID 相關聯。屬於BlueXP組織的使用者可以從 *支援 > NSS 管理* 存取這些憑證。
+這些 NSS 憑證與您的特定控制台帳戶 ID 相關聯。屬於控制台組織的使用者可以從*支援 > NSS 管理*存取這些憑證。
 
 * 如果您有客戶級帳戶，則可以新增一個或多個 NSS 帳戶。
 * 如果您有合作夥伴或經銷商帳戶，則可以新增一個或多個 NSS 帳戶，但不能與客戶級帳戶一起新增。
 
 
 .步驟
-. 在BlueXP控制台的右上角，選擇「幫助」圖標，然後選擇「*支援*」。
+. 在控制台的右上角，選擇「幫助」圖標，然後選擇「*支援*」。
 +
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-help-support.png["幫助選單的螢幕截圖，其中支援是第一個選項"]
 
@@ -158,7 +152,7 @@ NetApp使用 Microsoft Entra ID 作為特定於支援和授權的身份驗證服
 
 . 在登入頁面，提供您的NetApp支援網站註冊的電子郵件地址和密碼以執行驗證程序。
 +
-這些操作使BlueXP能夠使用您的 NSS 帳戶進行許可證下載、軟體升級驗證和未來支援註冊等操作。
+這些操作使控制台能夠使用您的 NSS 帳戶進行許可證下載、軟體升級驗證和未來支援註冊等操作。
 
 +
 請注意以下事項：
