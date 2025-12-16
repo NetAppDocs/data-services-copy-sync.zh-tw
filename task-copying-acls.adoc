@@ -63,6 +63,11 @@ image:screenshot-sync-tags-metadata.png["複製到物件儲存時同步關係精
 . 選擇“儲存設定”。
 
 
+[NOTE]
+====
+複製和同步功能會保留 SMB ACL（權限），但不會複製檔案或資料夾的所有權。所有權不包含在中小企業存取控制清單 (ACL) 轉移作業中。
+
+====
 .結果
 同步資料時，複製和同步會保留來源和目標之間的 ACL。
 
@@ -72,6 +77,11 @@ image:screenshot-sync-tags-metadata.png["複製到物件儲存時同步關係精
 
 您可以使用 Windows robocopy 指令手動保留 SMB 共用之間的 ACL。
 
+[NOTE]
+====
+如果您除了需要保留存取控制清單 (ACL) 之外，還需要保留所有權（擁有者和群組），則可以使用下列方法： `robocopy`命令。使用 `/copyall`標記副本 ACL、所有權和審計資訊。
+
+====
 .步驟
 . 確定對兩個 SMB 共用都具有完全存取權限的 Windows 主機。
 . 如果任一端點需要驗證，請使用 *net use* 指令從 Windows 主機連線到端點。

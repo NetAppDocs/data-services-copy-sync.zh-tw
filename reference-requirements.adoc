@@ -55,6 +55,9 @@ NFS:: 必須在來源/目標上使用檔案和目錄的 uid/gid 定義權限。
 NOTE: 資料代理程式預設忽略以下目錄：.snapshot、~snapshot、.copy-offload
 
 
+NOTE: 使用複製和同步將 SMB 資料複製到Cloud Volumes ONTAP時，來源系統中的檔案和資料夾擁有權不會保留。造成這種行為的原因是 Copy and Sync 使用了 Linux SMB 用戶端，並將所有權分配給用於驗證傳輸的使用者或服務帳戶。雖然可以保留存取控制列表，但所有權和稽核資訊可能與來源系統不同。這是預期行為。
+
+
 
 == [[s3]]Amazon S3 儲存桶需求
 

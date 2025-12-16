@@ -270,6 +270,9 @@ NOTE: 複製和同步不支援將 ACL 從物件儲存複製到 SMB 共用。
 link:task-copying-acls.html["了解如何在 SMB 共用之間複製 ACL"] 。
 
 
+NOTE: Copy Sync 會複製 SMB ACL（權限），但不會複製檔案或資料夾的擁有權。 SMB ACL 複製作業不包含所有權屬性。如果在 SMB 共用之間複製資料時需要保留所有權，請使用 `robocopy`手動複製安全資訊。例如， `/copyall`標記副本 ACL、所有者和審計資料。
+
+
 
 === NFS 資料權限是否同步到目標位置？
 
