@@ -4,7 +4,7 @@ permalink: task-support-registration.html
 keywords: support registration, register for support, support, nss account, add nss account, 
 summary: 在向NetApp技術支援提交支援案例之前，您需要將NetApp支援網站帳戶新增至NetApp Console，然後註冊以取得支援。 
 ---
-= 註冊以獲得支持
+= 註冊 NetApp Copy and Sync 支援
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
@@ -89,7 +89,7 @@ summary: 在向NetApp技術支援提交支援案例之前，您需要將NetApp�
 . 在控制台的右上角，選擇「幫助」圖標，然後選擇「*支援*」。
 . 從支援註冊頁面找到您的帳戶 ID 序號。
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-serial-number.png["幫助選單的螢幕截圖，其中支援是第一個選項"]
+image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/screenshot-serial-number.png["幫助選單的螢幕截圖，其中支援是第一個選項"]
 
 . 導航至 https://register.netapp.com["NetApp 的支援註冊網站"^]並選擇*我不是註冊的NetApp客戶*。
 . 填寫必填欄位（帶有紅色星號的欄位）。
@@ -143,7 +143,7 @@ NetApp應該在過程中與您聯繫。這是針對新用戶的一次性入職�
 .步驟
 . 在控制台的右上角，選擇「幫助」圖標，然後選擇「*支援*」。
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-help-support.png["幫助選單的螢幕截圖，其中支援是第一個選項"]
+image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/screenshot-help-support.png["幫助選單的螢幕截圖，其中支援是第一個選項"]
 
 . 選擇*NSS 管理 > 新增 NSS 帳號*。
 . 當出現提示時，選擇「*繼續*」以重新導向至 Microsoft 登入頁面。
@@ -168,9 +168,9 @@ NetApp使用 Microsoft Entra ID 作為特定於支援和授權的身份驗證服
 
 ** 成功登入後， NetApp將儲存 NSS 使用者名稱。
 +
-這是系統產生的映射到您的電子郵件的 ID。在*NSS 管理*頁面上，您可以顯示來自image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png["三個水平點的圖標"]菜單。
+這是系統產生的與您的電子郵件地址對應的 ID。您可以在 *NSS Management* 頁面的 image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-nss-menu.png["三個水平點的圖標"] 選單中找到您的電子郵件地址。
 
-** 如果您需要刷新登入憑證令牌，還有一個*更新憑證*選項image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png["三個水平點的圖標"]菜單。
+** 如果您需要刷新登入憑證令牌，image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-nss-menu.png["三個水平點的圖標"] 選單中還有一個「更新憑證」選項。
 +
 使用此選項會提示您再次登入。請注意，這些帳戶的令牌將在 90 天後過期。我們將發布通知來提醒您此事。
 

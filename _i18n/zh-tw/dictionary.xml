@@ -543,12 +543,6 @@
   <block id="98908472faefb0515731df5a3645b02b" category="list-text">僅透過使用複製和同步 API 支援與此來源/目標的同步關係。</block>
   <block id="7d847e6bda48d46c1766fec4c5a94bcb" category="list-text">[[storage-classes]]當 Amazon S3 是目標時，您可以選擇特定的 S3 儲存類別：</block>
   <block id="95e5c9b9a242ae01ebbab296e59e2a68" category="list-text">當 Google Cloud Storage 儲存桶是目標時，您可以選擇特定的儲存類別：</block>
-  <block id="b56253bf92505bda20b38657c778bccf" category="doc">此處顯示頁面標題</block>
-  <block id="5d9328ee3f628e51f1a4f871ccff7313" category="paragraph">將此模板用於文章、主題，無論您如何稱呼它們。index.adoc 檔案沒有文章頁面的正確關鍵字，將其用作範本可能會導致以後的發布問題。</block>
-  <block id="26739de98ff2a207a5c145caf27c2508" category="admonition">首次發布之前刪除此文件，因為即使該文件未連結到側邊欄，它也會發布。創建幾篇文章後，您可以將它們用作入門文章。</block>
-  <block id="38b255c5af258b1f086fb7c9aa4f252c" category="paragraph">如果您的文章位於內容子資料夾中，則需要對上面顯示的符號進行兩處調整：</block>
-  <block id="df25e29acec650a07b41041946158355" category="list-text"><block ref="abc9d0bfc8d5688ddd4babf6a5402ee4" prefix="" category="inline-code"></block></block>
-  <block id="97df5ffadc97296dc727ffddf2d2e1fe" category="list-text"><block ref="ff695bd1637208b4929c7ae2085cd551" prefix="" category="inline-code"></block></block>
   <block id="a1418030947f255c7b2608d1e7212acb" category="summary">NetApp Copy and Sync可以在 SMB 共用之間以及 SMB 共用和物件儲存之間複製存取控制清單 (ACL)（ ONTAP S3 除外）。如果需要，您也可以選擇使用 robocopy 手動保留 SMB 共用之間的 ACL。</block>
   <block id="fa0eef2f3ae1f1da004fe6a16b6b561e" category="doc">在NetApp Copy and Sync中從 SMB 共用複製 ACL</block>
   <block id="6ef697f11922be2e4de0971f7d70997f" category="list-title">選擇</block>
@@ -811,85 +805,10 @@
   <block id="b8786298cd3539afe2429695af111104" category="paragraph">POST 請求範例：</block>
   <block id="a99fab69b8aa9775fe1767ce605ae8bd" category="summary">NetApp以多種方式為NetApp Console提供支援。全天候提供廣泛的免費自助支援選項，例如知識庫 (KB) 文章和社群論壇。您的支援註冊包含透過網路工單取得的遠端技術支援。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">獲取協助</block>
-  <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">NetApp以多種方式為BlueXP及其雲端服務提供支援。我們提供全天候 (24/7) 的大量免費自助支援選項，例如知識庫 (KB) 文章和社群論壇。您的支援註冊包含透過網路工單取得的遠端技術支援。</block>
-  <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">獲取雲端提供者文件服務的支持</block>
-  <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">有關雲端提供者文件服務、其基礎設施或使用該服務的任何解決方案的技術支持，請參閱該產品的BlueXP文件中的「取得協助」。</block>
-  <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
-  <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
   <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
-  <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
-  <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">要獲得針對BlueXP及其儲存解決方案和服務的技術支持，請使用下面所述的支援選項。</block>
-  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">使用自助選項</block>
-  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">這些選項每週 7 天、每天 24 小時免費提供：</block>
-  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文件</block>
-  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您目前正在檢視的BlueXP文件。</block>
-  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知識庫</block>
-  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
-  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">搜尋BlueXP知識庫以尋找有助於解決問題的文章。</block>
-  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社群</block>
-  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
-  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">加入BlueXP社群以關注正在進行的討論或創建新的討論。</block>
-  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">向NetApp支援建立案例</block>
-  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述自助支援選項之外，您還可以在啟動支援後與NetApp支援專家合作解決任何問題。</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="list-title">開始之前</block>
-  <block id="920fe1428c19533eda6222fe7e58efbe" category="inline-link">了解如何管理與BlueXP登入相關的憑證</block>
-  <block id="e1d2e1a634647fd631081bc4f6f8e523" category="list-text">若要使用「建立案例」功能，您必須先將您的NetApp支援網站憑證與您的BlueXP登入名稱關聯。<block ref="2a0d8b66ca9e99d023b48cf25f40fb12" category="inline-link-rx"></block> 。</block>
-  <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">如果您要為具有序號的ONTAP系統開啟案例，那麼您的 NSS 帳戶必須與該系統的序號相關聯。</block>
-  <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">在BlueXP中，選擇 *幫助 &gt; 支持*。</block>
-  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">在「*資源*」頁面上，選擇「技術支援」下的可用選項之一：</block>
-  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">如果您想透過電話與某人交談，請選擇「致電我們」。您將被引導至 netapp.com 上的一個頁面，其中列出了您可以撥打的電話號碼。</block>
-  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">選擇「建立案例」向NetApp支援專家開立票據：</block>
-  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*服務*：選擇與問題相關的服務。例如， BlueXP專門針對服務中的工作流程或功能的技術支援問題。</block>
-  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作環境*：如果適用於存儲，請選擇* Cloud Volumes ONTAP* 或 *On-Prem*，然後選擇相關的工作環境。</block>
-  <block id="98d90e398fc56688ddc647e5f49075ec" category="paragraph">工作環境清單屬於您在服務頂部橫幅中所選的BlueXP組織（或帳戶）、專案（或工作區）和連接器的範圍內。</block>
-  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*個案優先級*：選擇個案的優先級，可以是低、中、高或嚴重。</block>
-  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">要了解有關這些優先事項的更多詳細信息，請將滑鼠懸停在欄位名稱旁邊的資訊圖示上。</block>
-  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*問題描述*：提供問題的詳細描述，包括任何適用的錯誤訊息或您執行的故障排除步驟。</block>
-  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*其他電子郵件地址*：如果您想讓其他人知道此問題，請輸入其他電子郵件地址。</block>
-  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*附件（選購）*：一次最多上傳五個附件。</block>
-  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">每個附件檔案大小限制為 25 MB。支援以下檔案副檔名：txt、log、pdf、jpg/jpeg、rtf、doc/docx、xls/xlsx 和 csv。</block>
-  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">建立案例表單的螢幕截圖，可讓您向NetApp支援建立案例。</block>
-  <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成後</block>
-  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">將會出現一個彈出窗口，其中顯示您的支援案例編號。NetApp支援專家將審查您的案例並儘快回覆您。</block>
-  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">若要查看支援案例的歷史記錄，您可以選擇*設定&gt;時間軸*並尋找名為「建立支援案例」的操作。最右邊的按鈕可讓您展開操作以查看詳細資訊。</block>
-  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">嘗試建立案例時，您可能會遇到以下錯誤訊息：</block>
-  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">“您無權針對所選服務建立案例”</block>
-  <block id="c7b7a5ae9f37fd7d24e4d641b9186fe9" category="paragraph">此錯誤可能表示 NSS 帳戶及其關聯的記錄公司與BlueXP帳戶序號的記錄公司不是同一家（即。960xxxx）或工作環境序號。您可以使用以下選項之一尋求協助：</block>
-  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">使用產品內聊天</block>
-  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">提交非技術案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
-  <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">管理您的支援案例（預覽）</block>
-  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">您可以直接從BlueXP查看和管理活動和已解決的支援案例。您可以管理與您的 NSS 帳戶和公司相關的案例。</block>
-  <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">案例管理目前可作為預覽版。我們計劃在即將發布的版本中完善這種體驗並增加增強功能。請使用產品內聊天向我們發送回饋。</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">請注意以下事項：</block>
-  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">頁面頂部的案例管理儀表板提供兩種視圖：</block>
-  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">左側視圖顯示了您提供的使用者 NSS 帳戶在過去 3 個月內開啟的案件總數。</block>
-  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">右側的視圖根據您的使用者 NSS 帳戶顯示了過去 3 個月內貴公司層級開設的案件總數。</block>
-  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">表中的結果反映了與您選擇的視圖相關的案例。</block>
-  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">您可以新增或刪除感興趣的列，並且可以過濾優先順序和狀態等列的內容。其他欄位僅提供排序功能。</block>
-  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">請查看以下步驟以了解更多詳細資訊。</block>
-  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">在每個案件級別，我們提供更新案件記錄或關閉尚未關閉或待關閉狀態的案件的功能。</block>
-  <block id="0a4050ac39772e9281a9aba225254bf8" category="list-text">選擇*案例管理*，如果出現提示，請將您的 NSS 帳戶新增至BlueXP。</block>
-  <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">*案例管理*頁面顯示與您的BlueXP使用者帳戶相關的 NSS 帳戶相關的未結案例。這與出現在 *NSS 管理* 頁面頂部的 NSS 帳戶相同。</block>
-  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">（可選）修改表中顯示的資訊：</block>
-  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">在「組織的案例」下，選擇「查看」以查看與您的公司相關的所有案例。</block>
-  <block id="059e856250b59be3069246887b74a23c" category="list-text">透過選擇精確的日期範圍或選擇不同的時間範圍來修改日期範圍。</block>
-  <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">案例管理頁面表格上方選項的螢幕截圖，可讓您選擇確切的日期範圍或過去 7 天、30 天或 3 個月。</block>
-  <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">過濾列的內容。</block>
-  <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">狀態列中的篩選選項的螢幕截圖，可讓您篩選出符合特定狀態（例如「活動」或「已關閉」）的案例。</block>
-  <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">表格中出現的加號圖標</block>
-  <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">透過選擇<block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block>然後選擇您想要顯示的列。</block>
-  <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">螢幕截圖顯示了您可以在表格中顯示的列。</block>
-  <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">表格最後一列出現的帶有三個點的圖標</block>
-  <block id="348552521b849746260fe8d296d34c15" category="list-text">透過選擇管理現有案例<block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block>並選擇其中一個可用選項：</block>
-  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*查看案例*：查看有關特定案例的完整詳細資訊。</block>
-  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*更新案例說明*：提供有關您的問題的更多詳細信息，或選擇*上傳文件*以附加最多五個文件。</block>
-  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*結案*：提供有關結案原因的詳細信息，然後選擇*結案*。</block>
-  <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">螢幕截圖顯示了選擇表格最後一列的選單後可以採取的動作。</block>
-  <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3e704a6aa0f03240221b087243f22cb3" category="summary">建立新的資料代理程式時，選擇 AWS Data Broker 選項在 VPC 中的新 EC2 執行個體上部署資料代理軟體。  NetApp Copy and Sync將引導您完成安裝過程，但此頁面上重複了要求和步驟，以協助您為安裝準備工作。</block>
   <block id="e6c2b88f0ee0535b5f88ad4412a3f3ee" category="doc">在 AWS 中為NetApp Copy and Sync建立新的資料代理</block>
   <block id="c7b65fcfa3679453d5c76931828436df" category="paragraph">為NetApp Copy and Sync建立新的資料代理程式群組時，請選擇 Amazon Web Services 在 VPC 中的新 EC2 執行個體上部署資料代理程式軟體。  NetApp Copy and Sync將引導您完成安裝過程，但此頁面上重複了要求和步驟，以協助您為安裝準備工作。</block>
@@ -1055,7 +974,6 @@
   <block id="2000ca1442de85fd150e153de708e9db" category="doc">在 Linux 主機上安裝用於NetApp Copy and Sync的資料代理</block>
   <block id="9d74fb9e62667ce8100ef05a3fab1aa6" category="paragraph">為NetApp Copy and Sync建立新的資料代理群組時，請選擇 On-Prem Data Broker 選項在本機 Linux 主機或雲端中的現有 Linux 主機上安裝資料代理軟體。  NetApp Copy and Sync將引導您完成安裝過程，但此頁面上重複了要求和步驟，以協助您為安裝準備工作。</block>
   <block id="ace028fe1c5dc8fb39091440d89fd9fd" category="section-title">Linux 主機需求</block>
-  <block id="3677e4449a81dc7f1c8db056eade76dd" category="list-text">Node.js 相容性：v21.2.0</block>
   <block id="17308c76959fcb971603b7274a57c128" category="list-text">*作業系統*:</block>
   <block id="deb96f2e04c20206372a663fc1e22a63" category="list-text">CentOS 8.0 和 8.5</block>
   <block id="735736a0904d4dd4641f1c0b6e93ac7a" category="paragraph">CentOS Stream 不受支援。</block>
@@ -1064,7 +982,6 @@
   <block id="62c1014736e4269f295e55cd59d3a0ec" category="list-text">Ubuntu Server 20.04 LTS、23.04 LTS 和 24.04 LTS</block>
   <block id="473733802c02f67f489689f787461e62" category="list-text">SUSE Linux Enterprise Server 15 SP1</block>
   <block id="a855786065eb842829e76727ee601d59" category="paragraph">命令<block ref="bcb2c9ba3070afceaf76b8ceb5e4a15b" prefix=" " category="inline-code"></block>在安裝資料代理之前必須在主機上執行。</block>
-  <block id="35ec85020897e56acfca830003a03e8c" category="paragraph">Red Hat Enterprise Linux 系統必須在 Red Hat 訂閱管理中註冊。如果未註冊，系統將無法存取儲存庫來在安裝期間更新所需的第三方軟體。</block>
   <block id="b4951d06315b1f9ffb6d04ceb4346101" category="list-text">記憶體：16 GB</block>
   <block id="53a3e84f8dd7775216fa9eaac8d2ba6d" category="list-text">*CPU*：4核心</block>
   <block id="1187c6e89712492c48d5d9a1e68f3b42" category="list-text">*可用磁碟空間*：10 GB</block>
@@ -1094,12 +1011,9 @@
   <block id="7af7eb8440af6bb7f9ffd64569367b5b" category="paragraph">透過在同步關係精靈中提供儲存帳戶和連接字串來定義每個關係對 Azure 的存取。</block>
   <block id="dc06ddbd32d43560edacfaa29183ccbc" category="section-title">安裝數據代理</block>
   <block id="1944006c73d02c718c69408861e1307c" category="paragraph">建立同步關係時，您可以在 Linux 主機上安裝資料代理程式。</block>
-  <block id="8f1cf53c93c91532c10f4779cc067c94" category="list-text">在*資料代理群組*頁面上，選擇*建立資料代理*，然後選擇*本機資料代理*。</block>
   <block id="df89dda1d1c7ea3cd71a127402ea04d7" category="paragraph"><block ref="df89dda1d1c7ea3cd71a127402ea04d7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8020038698547625e7abf1eda36c8877" category="admonition">儘管該選項標記為 *_On-Prem_ Data Broker*，但它適用於您所在地或雲端中的 Linux 主機。</block>
-  <block id="023c2e07bedf559d5fb81f1e623f1b6f" category="paragraph">說明頁面很快就會載入。您需要遵循這些說明 - 它們包含下載安裝程式的唯一連結。</block>
   <block id="85b186137a154778928917ee83dc3e5a" category="list-text">在說明頁面上：</block>
-  <block id="104cb193c6d09dc15eb76f25ec29609a" category="list-text">選擇是否啟用對 *AWS*、*Google Cloud* 或兩者的存取。</block>
   <block id="44eb9ba03c7d9855883bd4ca00384b79" category="list-text">選擇安裝選項：*無代理*、*使用代理伺服器*或*使用具有驗證的代理伺服器*。</block>
   <block id="b9a11b90960ff803269429887ab4cff3" category="admonition">該用戶必須是本機用戶。不支援網域用戶。</block>
   <block id="3ffb05d0d75933ee792a4e57196ceaa9" category="list-text">使用命令下載並安裝資料代理程式。</block>
@@ -1521,9 +1435,7 @@
   <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp全新產品</block>
   <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">如果您是NetApp新使用者且沒有 NSS 帳戶，請依照下列步驟操作。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">幫助選單的螢幕截圖，其中支援是第一個選項</block>
-  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">從支援註冊頁面找到您的帳戶 ID 序號。</block>
-  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp 的支援註冊網站</block>
   <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">導航至<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block>並選擇*我不是註冊的NetApp客戶*。</block>
   <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">填寫必填欄位（帶有紅色星號的欄位）。</block>
@@ -1551,8 +1463,6 @@
   <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">如果您已有客戶級 NSS 帳戶並嘗試新增合作夥伴級帳戶，情況也是如此。</block>
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">成功登入後， NetApp將儲存 NSS 使用者名稱。</block>
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">三個水平點的圖標</block>
-  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">這是系統產生的映射到您的電子郵件的 ID。在*NSS 管理*頁面上，您可以顯示來自<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>菜單。</block>
-  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">如果您需要刷新登入憑證令牌，還有一個*更新憑證*選項<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>菜單。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此選項會提示您再次登入。請注意，這些帳戶的令牌將在 90 天後過期。我們將發布通知來提醒您此事。</block>
   <block id="3d4a1e312061c2a0e1171d137dc166dd" category="summary">如果需要，請執行卸載腳本來刪除資料代理程式以及安裝資料代理程式時建立的套件和目錄。</block>
   <block id="0819e2daba9426ff8ef91364c1b94873" category="doc">卸載NetApp Copy and Sync的資料代理</block>
@@ -1996,4 +1906,19 @@
   <block id="3d2ca821daba65add026b662c8f28f8e" category="paragraph">複製和同步功能會保留 SMB ACL（權限），但不會複製檔案或資料夾的所有權。所有權不包含在中小企業存取控制清單 (ACL) 轉移作業中。</block>
   <block id="0bdd8934a5af74cc1118d4d760ec3c9f" category="paragraph">如果您除了需要保留存取控制清單 (ACL) 之外，還需要保留所有權（擁有者和群組），則可以使用下列方法：<block ref="56114254c3584cfde1445c406a4953ca" prefix=" " category="inline-code"></block>命令。使用<block ref="2c1e0967dfb1849f0af6b01e272eed79" prefix=" " category="inline-code"></block>標記副本 ACL、所有權和審計資訊。</block>
   <block id="35e87b798eb20e7292277632ad38f075" category="paragraph">Copy and Sync 僅支援來自 **AWS** 和 **Azure** 的 Marketplace 訂閱。Copy and Sync 不支援 Google Cloud Marketplace 訂閱。</block>
+  <block id="2ae091a3671766342a004e04ab997fa7" category="doc">NetApp Copy and Sync 的法律聲明</block>
+  <block id="73739eb6708b1f94f14a3235110634df" category="doc">取得 NetApp Copy and Sync 的協助</block>
+  <block id="6828272c02a6fcbd01d1f27906de2d7f" category="paragraph">&lt;stdin&gt; 中未解析的指令 - include::https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/_include/get-help.adoc[]</block>
+  <block id="6c99d7531563acf5f46e03db9f34385a" category="list-text">*Node.js 相容性*：v25.x</block>
+  <block id="b0655b2066e927b67447db8f80868c31" category="paragraph">Red Hat Enterprise Linux 系統必須在 Red Hat Subscription Management 中註冊。如果未註冊，系統將無法存取儲存庫，從而在安裝過程中無法更新所需的第三方軟體。</block>
+  <block id="246c5170634ef7f1ddda0232ad7d402e" category="list-text">在 *Define Sync Relationship* 頁面上，選擇來源和目標，然後選取 *Continue*。</block>
+  <block id="7957dd8e3b69c7f92d2bdd7da4a15960" category="list-text">在 *Data Broker Group* 頁面上，選取 *Create Data Broker*，然後選取 *On-Prem Data Broker*。</block>
+  <block id="411af02bdc9672ad2ee32883bb960a04" category="list-text">輸入資料代理程式的名稱，然後選取 *Continue* 。</block>
+  <block id="e75a211b2366ec05af877ea76987f1de" category="paragraph">說明頁面載入完畢後，請按照說明操作，其中包含一個用於下載安裝程式的唯一連結。</block>
+  <block id="97ee9add392d14ccabb3000701440c2d" category="list-text">選擇啟用對 *AWS*、*Google Cloud* 或兩者的存取。</block>
+  <block id="dd4b35c3c87be83b2116adbebed5333d" category="doc">註冊 NetApp Copy and Sync 支援</block>
+  <block id="38fc1b337c0ea26463916fc2913205c1" category="paragraph"><block ref="38fc1b337c0ea26463916fc2913205c1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7019a39846e9a2c7f7a80eaba91e4a41" category="paragraph"><block ref="7019a39846e9a2c7f7a80eaba91e4a41" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1d593c3f7480ada9580d93cd753c3f93" category="paragraph">這是系統產生的與您的電子郵件地址對應的 ID。您可以在 *NSS Management* 頁面的 <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 選單中找到您的電子郵件地址。</block>
+  <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">如果您需要刷新登入憑證令牌，<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 選單中還有一個「更新憑證」選項。</block>
 </blocks>

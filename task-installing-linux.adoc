@@ -20,7 +20,7 @@ summary: 建立新的資料代理程式時，請選擇 On-Prem Data Broker 選�
 
 == Linux 主機需求
 
-* Node.js 相容性：v21.2.0
+* *Node.js 相容性*：v25.x
 * *作業系統*:
 +
 ** CentOS 8.0 和 8.5
@@ -35,7 +35,7 @@ CentOS Stream 不受支援。
 命令 `yum update`在安裝資料代理之前必須在主機上執行。
 
 +
-Red Hat Enterprise Linux 系統必須在 Red Hat 訂閱管理中註冊。如果未註冊，系統將無法存取儲存庫來在安裝期間更新所需的第三方軟體。
+Red Hat Enterprise Linux 系統必須在 Red Hat Subscription Management 中註冊。如果未註冊，系統將無法存取儲存庫，從而在安裝過程中無法更新所需的第三方軟體。
 
 
 
@@ -121,11 +121,11 @@ NOTE: 當您建立金鑰時，檔案就會產生並下載到您的機器上。
 .步驟
 . link:task-login-copyandsync.html["登入以複製和同步"] 。
 . 選擇*建立新同步*。
-. 在*定義同步關係*頁面上，選擇來源和目標，然後選擇*繼續*。
+. 在 *Define Sync Relationship* 頁面上，選擇來源和目標，然後選取 *Continue*。
 +
 完成這些步驟，直到到達*資料經紀人群組*頁面。
 
-. 在*資料代理群組*頁面上，選擇*建立資料代理*，然後選擇*本機資料代理*。
+. 在 *Data Broker Group* 頁面上，選取 *Create Data Broker*，然後選取 *On-Prem Data Broker*。
 +
 image:screenshot-on-prem.png["資料代理頁面的螢幕截圖，可讓您在 AWS、Azure、Google Cloud 和 On-Prem 資料代理程式之間進行選擇。"]
 
@@ -133,13 +133,13 @@ image:screenshot-on-prem.png["資料代理頁面的螢幕截圖，可讓您在 A
 
 NOTE: 儘管該選項標記為 *_On-Prem_ Data Broker*，但它適用於您所在地或雲端中的 Linux 主機。
 
-. 輸入資料代理的名稱並選擇*繼續*。
+. 輸入資料代理程式的名稱，然後選取 *Continue* 。
 +
-說明頁面很快就會載入。您需要遵循這些說明 - 它們包含下載安裝程式的唯一連結。
+說明頁面載入完畢後，請按照說明操作，其中包含一個用於下載安裝程式的唯一連結。
 
 . 在說明頁面上：
 +
-.. 選擇是否啟用對 *AWS*、*Google Cloud* 或兩者的存取。
+.. 選擇啟用對 *AWS*、*Google Cloud* 或兩者的存取。
 .. 選擇安裝選項：*無代理*、*使用代理伺服器*或*使用具有驗證的代理伺服器*。
 +
 
