@@ -18,6 +18,7 @@ summary: 您可以隨時透過立即同步資料、變更計劃等來管理同�
 
 
 
+[[perform-an-immediate-data-sync]]
 == 立即執行資料同步
 
 您無需等待下一次預定的同步，而是可以立即在來源和目標之間同步資料。
@@ -33,6 +34,7 @@ summary: 您可以隨時透過立即同步資料、變更計劃等來管理同�
 
 
 
+[[accelerate-sync-performance]]
 == 加速同步效能
 
 透過為管理關係的群組添加額外的資料代理來加速同步關係的效能。附加資料代理必須是_新_資料代理。
@@ -61,6 +63,7 @@ summary: 您可以隨時透過立即同步資料、變更計劃等來管理同�
 
 
 
+[[update-credentials]]
 == 更新憑證
 
 您可以使用現有同步關係中的來源或目標的最新憑證更新資料代理程式。如果您的安全性原則要求您定期更新憑證，則更新憑證會有所幫助。
@@ -86,11 +89,10 @@ image:screenshot_sync_update_credentials.png["螢幕截圖顯示了同步關係�
 
 
 
+[[set-up-notifications]]
 == 設定通知
 
 每個同步關係的*通知*設定可讓您選擇是否在NetApp控制台的通知中心接收複製和同步通知。您可以啟用資料同步成功、資料同步失敗和資料同步取消的通知。
-
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-notification-center.png["顯示NetApp Console中的通知中心的螢幕截圖。"]
 
 此外，您也可以透過電子郵件接收通知。
 
@@ -117,6 +119,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/s
 
 
 
+[[change-the-settings-for-a-sync-relationship]]
 == 變更同步關係的設定
 
 修改定義如何在目標位置同步和維護來源檔案和資料夾的設定。
@@ -210,12 +213,14 @@ ACL——存取控制列表:: 透過在建立關係時或建立關係後啟用�
 
 
 
+[[delete-relationships]]
 == 刪除關係
 
 如果您不再需要在來源和目標之間同步數據，您可以刪除同步關係。此操作不會刪除資料代理組（或單一資料代理實例），也不會從目標中刪除資料。
 
 
 
+[[option-1-delete-a-single-sync-relationship]]
 === 選項 1：刪除單一同步關係
 
 .步驟
@@ -228,6 +233,7 @@ ACL——存取控制列表:: 透過在建立關係時或建立關係後啟用�
 
 
 
+[[option-2-delete-multiple-sync-relationships]]
 === 選項 2：刪除多個同步關係
 
 .步驟

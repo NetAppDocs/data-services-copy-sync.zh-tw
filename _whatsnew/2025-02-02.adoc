@@ -4,8 +4,9 @@
 
 
 
+[[new-os-support-for-data-broker]]
 === 新的作業系統支援數據代理
 
 資料代理現在支援執行 Red Hat Enterprise 9.4、Ubuntu 23.04 和 Ubuntu 24.04 的主機。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-host-requirements["查看 Linux 主機需求"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-installing-linux.html#linux-host-requirements["查看 Linux 主機需求"]。

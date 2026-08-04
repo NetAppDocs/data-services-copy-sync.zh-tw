@@ -18,12 +18,14 @@ NetApp Copy and Sync的網路包括資料代理群組與來源位置和目標位
 
 
 
+[[data-broker-location]]
 == 數據代理位置
 
 資料代理組由安裝在雲端或您的場所的一個或多個資料代理程式組成。
 
 
 
+[[data-broker-in-the-cloud]]
 === 雲端數據代理
 
 下圖顯示了在 AWS、Google Cloud 或 Azure 雲端中執行的資料代理程式。只要與資料代理有連接，來源和目標就可以位於任何位置。例如，您可能有一個從資料中心到雲端提供者的 VPN 連線。
@@ -35,6 +37,7 @@ image:diagram_networking_cloud2.png["此圖表顯示了複製和同步、在雲�
 
 
 
+[[data-broker-on-your-premises]]
 === 您所在地的數據代理
 
 下圖顯示了在資料中心內部運行的資料代理程式。同樣，只要與資料代理有連接，來源和目標就可以位於任何位置。
@@ -43,6 +46,7 @@ image:diagram_networking_onprem.png["該圖顯示了複製和同步、在本地�
 
 
 
+[[networking-requirements]]
 == 網路需求
 
 * 來源和目標必須與資料代理組有網路連線。
@@ -55,12 +59,14 @@ image:diagram_networking_onprem.png["該圖顯示了複製和同步、在本地�
 
 
 
+[[networking-endpoints]]
 == 網路端點
 
 NetApp資料代理程式需要透過連接埠 443 進行出站互聯網訪問，以便與 Copy 和 Sync 進行通信並聯繫其他一些服務和儲存庫。您的本機網頁瀏覽器也需要存取端點才能執行某些操作。如果您需要限制出站連接，請在為出站流量設定防火牆時參考下列端點清單。
 
 
 
+[[data-broker-endpoints]]
 === 數據代理端點
 
 資料代理聯絡以下端點：
@@ -116,6 +122,7 @@ NetApp資料代理程式需要透過連接埠 443 進行出站互聯網訪問，
 |===
 
 
+[[web-browser-endpoints]]
 === Web 瀏覽器端點
 
 您的 Web 瀏覽器需要存取以下端點來下載日誌以進行故障排除：

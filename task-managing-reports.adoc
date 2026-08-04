@@ -16,10 +16,11 @@ summary: 建立和查看報告以獲取信息，您可以在NetApp人員的幫�
 [role="lead"]
 在NetApp Copy and Sync中建立和查看報告以獲取信息，您可以在NetApp人員的幫助下使用這些資訊來調整資料代理的配置並提高效能。
 
-每份報告都提供有關同步關係中路徑的詳細資訊。它將包括有多少個目錄、檔案和符號連結、檔案大小的分佈、目錄的深度和寬度、修改時間和存取時間。這與同步靜態資料不同，後者可在 https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html["成功創建並完成同步"]。
+每份報告都提供有關同步關係中路徑的詳細資訊。它將包括目錄、檔案和符號連結的數量、檔案大小的經銷、目錄的深度和寬度、修改時間和存取時間。這與同步統計資料不同，後者可在link:task-creating-relationships.html["成功創建並完成同步"]之後從儀表板中查看。
 
 
 
+[[create-reports]]
 == 建立報告
 
 每次建立報告時，「複製和同步」都會掃描路徑，然後將詳細資訊編譯成報告。
@@ -48,6 +49,7 @@ image:screenshot_sync_report_object.gif["顯示路徑項目數量、物件大小
 
 
 
+[[download-reports]]
 == 下載報告
 
 您可以下載 PDF 格式的報告，以便離線檢視或分享。
@@ -64,6 +66,7 @@ image:screenshot-sync-download-report.png["在報告中選擇操作選單後出�
 
 
 
+[[view-report-errors]]
 == 查看報告錯誤
 
 路徑表標識最新報告中是否有任何錯誤。錯誤標識了複製和同步在掃描路徑時遇到的問題。
@@ -88,6 +91,7 @@ image:screenshot_sync_report_errors.gif["路徑表的螢幕截圖顯示了錯誤
 
 
 
+[[delete-reports]]
 == 刪除報告
 
 如果報告包含您已修復的錯誤，或報告與您已刪除的同步關係相關，您可以刪除該報告。

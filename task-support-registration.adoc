@@ -22,6 +22,7 @@ summary: 在向NetApp技術支援提交支援案例之前，您需要將NetApp�
 
 
 
+[[support-registration-overview]]
 == 支援註冊概述
 
 啟動支持權利的註冊方式有兩種：
@@ -40,12 +41,14 @@ summary: 在向NetApp技術支援提交支援案例之前，您需要將NetApp�
 
 
 
+[[register-netapp-console-for-netapp-support]]
 == 註冊NetApp Console以取得NetApp支持
 
 要註冊支援並啟動支援權利，您的NetApp Console帳戶中的一名使用者必須將NetApp支援網站帳戶與其控制台登入名稱關聯。如何註冊NetApp支援取決於您是否已經擁有NetApp支援網站 (NSS) 帳號。
 
 
 
+[[existing-customer-with-an-nss-account]]
 === 擁有 NSS 帳戶的現有客戶
 
 如果您是擁有 NSS 帳戶的NetApp客戶，只需透過控制台註冊即可獲得支援。
@@ -65,6 +68,7 @@ summary: 在向NetApp技術支援提交支援案例之前，您需要將NetApp�
 
 
 
+[[existing-customer-but-no-nss-account]]
 === 現有客戶但沒有 NSS 帳戶
 
 如果您是現有的NetApp客戶，擁有現有授權和序號但沒有 NSS 帳戶，則需要建立 NSS 帳戶並將其與您的控制台登入關聯。
@@ -81,6 +85,7 @@ summary: 在向NetApp技術支援提交支援案例之前，您需要將NetApp�
 
 
 
+[[brand-new-to-netapp]]
 === NetApp全新產品
 
 如果您是NetApp新使用者且沒有 NSS 帳戶，請依照下列步驟操作。
@@ -117,6 +122,7 @@ NetApp應該在過程中與您聯繫。這是針對新用戶的一次性入職�
 
 
 
+[[associate-nss-credentials-for-cloud-volumes-ontap-support]]
 == 關聯 NSS 憑證以獲得Cloud Volumes ONTAP支持
 
 需要將NetApp支援網站憑證與您的控制台帳戶關聯，才能為Cloud Volumes ONTAP啟用以下關鍵工作流程：

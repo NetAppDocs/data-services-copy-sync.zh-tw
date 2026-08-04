@@ -20,18 +20,21 @@ summary: 建立新的資料代理程式時，選擇 Google Cloud Data Broker 選
 
 
 
+[[supported-google-cloud-regions]]
 == 支援的 Google Cloud 區域
 
 支援所有地區。
 
 
 
+[[root-privileges]]
 == Root權限
 
 資料代理軟體在 Linux 主機上自動以 root 身分執行。以 root 身分運行是資料代理操作的必要條件。例如，掛載共享。
 
 
 
+[[networking-requirements]]
 == 網路需求
 
 * 資料代理需要出站互聯網連接，以便它可以透過連接埠 443 輪詢複製和同步任務。
@@ -46,6 +49,7 @@ summary: 建立新的資料代理程式時，選擇 Google Cloud Data Broker 選
 
 
 
+[[permissions-required-to-deploy-the-data-broker-in-google-cloud]]
 == 在 Google Cloud 中部署資料代理程式所需的權限
 
 確保部署資料代理程式的 Google Cloud 使用者俱有以下權限：
@@ -61,6 +65,7 @@ summary: 建立新的資料代理程式時，選擇 Google Cloud Data Broker 選
 ----
 
 
+[[permissions-required-for-the-service-account]]
 == 服務帳戶所需的權限
 
 部署資料代理程式時，您需要選擇具有下列權限的服務帳戶：
@@ -101,6 +106,7 @@ summary: 建立新的資料代理程式時，選擇 Google Cloud Data Broker 選
 
 
 
+[[create-the-data-broker]]
 == 建立資料代理
 
 有幾種方法可以建立新的資料代理。以下步驟描述了在建立同步關係時如何在 Google Cloud 中安裝資料代理程式。
@@ -144,6 +150,7 @@ image:screenshot_data_broker_gcp.png["顯示在 Google Cloud 中部署資料代�
 
 
 
+[[provide-permissions-to-use-buckets-in-other-google-cloud-projects]]
 == 提供在其他 Google Cloud 專案中使用儲存桶的權限
 
 當您建立同步關係並選擇 Google Cloud Storage 作為來源或目標時，複製和同步可讓您從資料代理程式的服務帳戶有權使用的儲存桶中進行選擇。預設情況下，這包括與資料代理服務帳戶位於相同專案中的儲存桶。但是如果您提供所需的權限，您可以從其他項目中選擇儲存桶。
@@ -163,6 +170,7 @@ image:screenshot_data_broker_gcp.png["顯示在 Google Cloud 中部署資料代�
 
 
 
+[[details-about-the-data-broker-vm-instance]]
 == 有關資料代理虛擬機器實例的詳細信息
 
 複製和同步使用以下配置在 Google Cloud 中建立資料代理程式。

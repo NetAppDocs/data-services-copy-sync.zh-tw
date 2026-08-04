@@ -18,12 +18,14 @@ NetApp Copy and Sync中的資料代理群組將資料從來源位置同步到目
 
 
 
+[[how-data-broker-groups-work]]
 == 數據經紀人團體如何運作
 
 資料代理組可以包括一個或多個資料代理程式。將資料代理分組在一起可以幫助提高同步關係的效能。
 
 
 
+[[groups-can-manage-several-relationships]]
 === 群組可以管理多個關係
 
 資料代理組可以同時管理一個或多個同步關係。
@@ -39,12 +41,14 @@ NetApp Copy and Sync中的資料代理群組將資料從來源位置同步到目
 
 
 
+[[number-of-data-brokers-in-a-group]]
 === 一個群組中的資料代理數量
 
 在許多情況下，單一資料代理程式可以滿足同步關係的效能要求。如果沒有，您可以透過向群組中新增額外的資料代理程式來加速同步效能。但您應該先檢查可能影響同步效能的其他因素。link:faq.html#how-many-data-brokers-are-required-in-a-group["詳細了解如何決定何時需要多個資料代理"] 。
 
 
 
+[[security-recommendations]]
 == 安全建議
 
 為了確保資料代理機器的安全， NetApp建議採取以下措施：
@@ -59,6 +63,7 @@ NetApp Copy and Sync中的資料代理群組將資料從來源位置同步到目
 
 
 
+[[add-a-new-data-broker-to-a-group]]
 == 將新的資料代理程式新增至群組
 
 建立新的資料代理有多種方法：
@@ -118,6 +123,7 @@ image:screenshot_sync_group_add.png["群組中每個單獨的資料代理程式�
 
 
 
+[[edit-a-groups-name]]
 == 編輯群組名稱
 
 隨時更改資料代理組的名稱。
@@ -137,6 +143,7 @@ image:screenshot_sync_group_edit.gif["群組中每個單獨的資料代理程式
 
 
 
+[[set-up-a-unified-configuration]]
 == 設定統一配置
 
 如果同步關係在同步過程中遇到錯誤，統一資料代理群組的同時可以幫助減少同步錯誤的數量。請注意，變更群組配置可能會減慢傳輸速度，從而影響效能。
@@ -166,6 +173,7 @@ image:screenshot_sync_group_settings.png["顯示資料經紀人群組的設定�
 
 
 
+[[move-data-brokers-between-groups]]
 == 在群組之間移動資料代理
 
 如果您需要加速目標資料代理組的效能，請將資料代理從一個組移至另一個組。
@@ -195,6 +203,7 @@ image:screenshot_sync_group_remove.png["每個單獨的資料代理群組可用�
 
 
 
+[[update-proxy-configuration]]
 == 更新代理程式配置
 
 透過新增有關新代理程式配置的詳細資訊或編輯現有代理程式配置來更新資料代理程式的代理程式配置。
@@ -213,6 +222,7 @@ image:screenshot_sync_group_remove.png["每個單獨的資料代理群組可用�
 
 
 
+[[view-a-data-brokers-configuration]]
 == 查看數據代理的配置
 
 您可能想要查看有關資料代理的詳細信息，以識別其主機名稱、IP 位址、可用 CPU 和 RAM 等資訊。
@@ -242,6 +252,7 @@ image:screenshot_sync_data_broker_details.gif["有關數據經紀人的資訊的
 
 
 
+[[address-issues-with-a-data-broker]]
 == 解決數據代理問題
 
 複製和同步顯示每個資料代理的狀態，可以幫助您解決問題。
@@ -261,6 +272,7 @@ image:screenshot_sync_broker_status.gif["複製和同步狀態顯示的螢幕截
 
 
 
+[[remove-a-data-broker-from-a-group]]
 == 從群組中刪除資料代理
 
 如果不再需要資料代理程式或初始部署失敗，您可以從群組中刪除該資料代理程式。此操作僅從複製和同步的記錄中刪除資料代理程式。您需要手動刪除資料代理和任何其他雲端資源。
@@ -286,6 +298,7 @@ image:screenshot_sync_group_remove.gif["每個單獨的資料代理群組可用�
 
 
 
+[[delete-a-data-broker-group]]
 == 刪除資料代理組
 
 如果資料代理組不再管理任何同步關係，您可以刪除該群組，這將從複製和同步中刪除所有資料代理程式。

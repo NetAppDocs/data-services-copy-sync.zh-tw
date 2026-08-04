@@ -28,6 +28,7 @@ link:concept-licensing.html["詳細了解許可證的運作方式"] 。
 
 
 
+[[awssubscribe-from-aws]]
 == [[aws]]從 AWS 訂閱
 
 AWS 可讓您按使用量付費或按年付費。
@@ -54,6 +55,7 @@ video::796ffd6d-cade-4750-8504-b24c010b225d[panopto]
 
 
 
+[[azuresubscribe-from-azure]]
 == [[azure]]從 Azure 訂閱
 
 Azure 可讓您按使用量付費或按年付費。
@@ -82,6 +84,7 @@ video::a6a39447-b7b1-42f6-9c89-b24c010b21b9[panopto]
 
 
 
+[[licensespurchase-licenses-from-netapp-and-add-them-to-copy-and-sync]]
 == [[licenses]]從NetApp購買許可證並將其添加到複製和同步
 
 要預先支付同步關係的費用，您必須購買一個或多個許可證並將其添加到複製和同步中。
@@ -109,6 +112,7 @@ video::a6a39447-b7b1-42f6-9c89-b24c010b21b9[panopto]
 
 
 
+[[update-a-license]]
 == 更新許可證
 
 如果您延長了從NetApp購買的複製和同步許可證，則新的到期日期將不會在複製和同步中自動更新。您需要重新新增許可證以刷新到期日期。許可證應透過複製和同步或適用的網站進行管理，而不是透過NetApp Console訂閱進行管理。

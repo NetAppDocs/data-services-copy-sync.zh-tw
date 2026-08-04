@@ -18,6 +18,7 @@ NetApp Copy and Sync提供了一種簡單、安全且自動化的方式，可將
 
 
 
+[[netapp-console]]
 == NetApp Console
 
 可透過NetApp Console存取NetApp Copy and Sync 。
@@ -26,10 +27,11 @@ NetApp Console提供企業級跨本機和雲端環境的NetApp儲存和資料服
 
 您不需要許可證或訂閱即可開始使用NetApp Console，並且只有當您需要在雲端部署控制台代理程式以確保與儲存系統或NetApp資料服務的連線時才需要付費。但是，一些可從控制台存取的NetApp資料服務是需要授權或基於訂閱的。
 
-詳細了解 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetApp Console"]。
+深入瞭解 https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html["NetApp Console"]。
 
 
 
+[[how-netapp-copy-and-sync-works]]
 == NetApp Copy and Sync的工作原理
 
 NetApp Copy and Sync是一個軟體即服務 (SaaS) 平台，由資料代理群組、可透過NetApp Console存取的基於雲端的介面以及來源和目標組成。
@@ -44,6 +46,7 @@ NetApp資料代理軟體將資料從來源同步到目標（這稱為_同步關�
 
 
 
+[[supported-storage-types]]
 == 支援的儲存類型
 
 複製和同步支援以下儲存類型：
@@ -71,6 +74,7 @@ link:reference-supported-relationships.html["查看支援的同步關係"] 。
 
 
 
+[[costs]]
 == 成本
 
 使用複製和同步涉及兩種類型的成本：資源費用和服務費用。

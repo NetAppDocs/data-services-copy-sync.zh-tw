@@ -20,6 +20,7 @@ summary: 當您建立同步關係時， NetApp Copy and Sync會將檔案從來�
 
 
 
+[[create-sync-relationships-for-specific-types-of-systems]]
 == 為特定類型的系統建立同步關係
 
 如果您想要為以下任何一項建立同步關係，那麼您首先需要建立或發現系統：
@@ -34,13 +35,13 @@ summary: 當您建立同步關係時， NetApp Copy and Sync會將檔案從來�
 . link:task-login-copyandsync.html["登入以複製和同步"] 。
 . 創建或發現系統。
 +
-** https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/task-getting-started-fsx.html["建立Amazon FSx for ONTAP系統"^]
-** https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-quick-start.html["設定和發現Azure NetApp Files"^]
-** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-aws.html["在 AWS 中啟動Cloud Volumes ONTAP"^]
-** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Azure 中啟動Cloud Volumes ONTAP"^]
-** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html["在 Google Cloud 啟動Cloud Volumes ONTAP"^]
-** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-adding-systems.html["新增現有的Cloud Volumes ONTAP系統"^]
-** https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["發現ONTAP集群"^]
+** https://docs.netapp.com/us-en/storage-management-fsx-ontap/start/task-getting-started-fsx.html["建立Amazon FSx for ONTAP系統"^]
+** https://docs.netapp.com/us-en/storage-management-azure-netapp-files/task-quick-start.html["設定和發現Azure NetApp Files"^]
+** https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-deploying-otc-aws.html["在 AWS 中啟動Cloud Volumes ONTAP"^]
+** https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Azure 中啟動Cloud Volumes ONTAP"^]
+** https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-deploying-gcp.html["在 Google Cloud 啟動Cloud Volumes ONTAP"^]
+** https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-adding-systems.html["新增現有的Cloud Volumes ONTAP系統"^]
+** https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-ontap.html["發現ONTAP集群"^]
 
 
 . 選擇*系統頁面*。
@@ -54,6 +55,7 @@ image:screenshot_sync_we.gif["螢幕截圖顯示了選擇系統後同步選單�
 
 
 
+[[create-other-types-of-sync-relationships]]
 == 建立其他類型的同步關係
 
 使用這些步驟將資料同步至或同步自除Amazon FSx for ONTAP、 Azure NetApp Files、 Cloud Volumes ONTAP或本機ONTAP叢集之外的支援的儲存類型。以下步驟提供了一個範例，展示如何設定從 NFS 伺服器到 S3 儲存桶的同步關係。
@@ -247,10 +249,11 @@ TIP: 將資料同步至StorageGRID和 IBM Cloud Object Storage 時，此功能�
 
 *結果*
 
-複製和同步開始在來源和目標之間同步資料。同步統計資料包括同步所花費的時間、是否停止以及複製、掃描或刪除的檔案數量。然後您可以管理您的 https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html["同步關係"]， https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-data-brokers.html["管理您的數據經紀人"] ， 或者 https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-reports.html#creating-reports["建立報告以優化您的效能和配置"]。
+複製和同步功能開始在來源和目標之間同步資料。您可以查看同步統計資料，例如同步耗時、是否暫停以及複製、掃描或刪除的檔案數量。之後，您可以管理您的link:task-managing-relationships.html["同步關係"]、link:task-managing-data-brokers.html["管理您的數據經紀人"]或link:task-managing-reports.html#creating-reports["建立報告以優化您的效能和配置"]。
 
 
 
+[[create-sync-relationships-from-netapp-data-classification]]
 == 從NetApp Data Classification建立同步關係
 
 複製和同步與NetApp Data Classification。在NetApp Data Classification中，您可以選擇要使用複製和同步同步到目標位置的來源檔案。
@@ -259,4 +262,4 @@ TIP: 將資料同步至StorageGRID和 IBM Cloud Object Storage 時，此功能�
 
 image:screenshot-sync-data-sense.png["螢幕截圖顯示了直接從NetApp Data ClassificationNetApp Data Classification分類整合頁面。"]
 
-https://docs.netapp.com/us-en/bluexp-classification/task-managing-highlights.html#copying-and-synchronizing-source-files-to-a-target-system["了解如何從NetApp Data Classification啟動同步關係"^] 。
+https://docs.netapp.com/us-en/data-services-data-classification/concept-classification.html["了解如何從NetApp Data Classification啟動同步關係"^]。

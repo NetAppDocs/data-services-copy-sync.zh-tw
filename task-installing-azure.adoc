@@ -20,18 +20,21 @@ summary: 建立新的資料代理程式時，選擇 Azure 資料代理程式選�
 
 
 
+[[supported-azure-regions]]
 == 支援的 Azure 區域
 
 除中國、美國政府和美國國防部地區外，所有地區均受支持。
 
 
 
+[[root-privileges]]
 == Root權限
 
 資料代理軟體在 Linux 主機上自動以 root 身分執行。以 root 身分運行是資料代理操作的必要條件。例如，掛載共享。
 
 
 
+[[networking-requirements]]
 == 網路需求
 
 * 資料代理需要出站互聯網連接，以便它可以透過連接埠 443 輪詢複製和同步服務的任務。
@@ -46,64 +49,15 @@ summary: 建立新的資料代理程式時，選擇 Azure 資料代理程式選�
 
 
 
+[[permissions-required-to-deploy-the-data-broker-in-azure]]
 == 在 Azure 中部署資料代理程式所需的權限
 
 確保用於部署資料代理程式的 Azure 使用者帳戶具有以下權限：
 
-[source, json]
-----
-{
-    "Name": "Azure Data Broker",
-    "Actions": [
-					"Microsoft.Resources/subscriptions/read",
-                    "Microsoft.Resources/deployments/operationstatuses/read",
-                    "Microsoft.Resources/subscriptions/locations/read",
-                    "Microsoft.Network/networkInterfaces/read",
-                    "Microsoft.Network/virtualNetworks/subnets/read",
-                    "Microsoft.Resources/subscriptions/resourceGroups/write",
-                    "Microsoft.Resources/subscriptions/resourceGroups/delete",
-                    "Microsoft.Resources/deployments/write",
-                    "Microsoft.Resources/deployments/validate/action",
-                    "Microsoft.Resources/deployments/operationStatuses/read",
-                    "Microsoft.Resources/deployments/cancel/action",
-                    "Microsoft.Compute/virtualMachines/read",
-                    "Microsoft.Compute/virtualMachines/delete",
-                    "Microsoft.Compute/disks/delete",
-                    "Microsoft.Network/networkInterfaces/delete",
-                    "Microsoft.Network/publicIPAddresses/delete",
-                    "Microsoft.Network/networkSecurityGroups/securityRules/delete",
-                    "Microsoft.Resources/subscriptions/resourceGroups/write",
-                    "Microsoft.Compute/virtualMachines/delete",
-                    "Microsoft.Network/networkSecurityGroups/write",
-                    "Microsoft.Network/networkSecurityGroups/join/action",
-                    "Microsoft.Compute/disks/write",
-                    "Microsoft.Network/networkInterfaces/write",
-                    "Microsoft.Network/virtualNetworks/read",
-                    "Microsoft.Network/publicIPAddresses/write",
-                    "Microsoft.Compute/virtualMachines/write",
-                    "Microsoft.Compute/virtualMachines/extensions/write",
-                    "Microsoft.Resources/deployments/read",
-                    "Microsoft.Network/networkSecurityGroups/read",
-                    "Microsoft.Network/publicIPAddresses/read",
-                    "Microsoft.Network/virtualNetworks/subnets/join/action",
-                    "Microsoft.Network/publicIPAddresses/join/action",
-                    "Microsoft.Network/networkInterfaces/join/action",
-                    "Microsoft.Storage/storageAccounts/read",
-                    "Microsoft.EventGrid/systemTopics/eventSubscriptions/write",
-                    "Microsoft.EventGrid/systemTopics/eventSubscriptions/read",
-                    "Microsoft.EventGrid/systemTopics/eventSubscriptions/delete",
-                    "Microsoft.EventGrid/systemTopics/eventSubscriptions/getFullUrl/action",
-                    "Microsoft.EventGrid/systemTopics/eventSubscriptions/getDeliveryAttributes/action",
-                    "Microsoft.EventGrid/systemTopics/read",
-                    "Microsoft.EventGrid/systemTopics/write",
-                    "Microsoft.EventGrid/systemTopics/delete",
-                    "Microsoft.EventGrid/eventSubscriptions/write",
-                    "Microsoft.Storage/storageAccounts/write"
-                    "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/read"
-                    "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/write"
-                    "Microsoft.Network/networkSecurityGroups/securityRules/read",
-        	        "Microsoft.Network/networkSecurityGroups/read",
-----
+[]
+====
+{ "Name": "Azure Data Broker", "Actions": [ "Microsoft.Resources/subscriptions/read", "Microsoft.Resources/deployments/operationstatuses/read", "Microsoft.Resources/subscriptions/locations/read", "Microsoft.Network/networkInterfaces/read", "Microsoft.Network/virtualNetworks/subnets/read", "Microsoft.Resources/subscriptions/resourceGroups/write", "Microsoft.Resources/subscriptions/resourceGroups/delete", "Microsoft.Resources/deployments/write", "Microsoft.Resources/deployments/validate/action", "Microsoft.Resources/deployments/operationStatuses/read", "Microsoft.Resources/deployments/cancel/action", "Microsoft.Compute/virtualMachines/read", "Microsoft.Compute/virtualMachines/delete", "Microsoft.Compute/disks/delete", "Microsoft.Network/networkInterfaces/delete", "Microsoft.Network/publicIPAddresses/delete", "Microsoft.Network/networkSecurityGroups/securityRules/delete", "Microsoft.Resources/subscriptions/resourceGroups/write", "Microsoft.Compute/virtualMachines/delete", "Microsoft.Network/networkSecurityGroups/write", "Microsoft.Network/networkSecurityGroups/join/action", "Microsoft.Compute/disks/write", "Microsoft.Network/networkInterfaces/write", "Microsoft.Network/virtualNetworks/read", "Microsoft.Network/publicIPAddresses/write", "Microsoft.Compute/virtualMachines/write", "Microsoft.Compute/virtualMachines/extensions/write", "Microsoft.Resources/deployments/read", "Microsoft.Network/networkSecurityGroups/read", "Microsoft.Network/publicIPAddresses/read", "Microsoft.Network/virtualNetworks/subnets/join/action", "Microsoft.Network/publicIPAddresses/join/action", "Microsoft.Network/networkInterfaces/join/action", "Microsoft.Storage/storageAccounts/read", "Microsoft.EventGrid/systemTopics/eventSubscriptions/write", "Microsoft.EventGrid/systemTopics/eventSubscriptions/read", "Microsoft.EventGrid/systemTopics/eventSubscriptions/delete", "Microsoft.EventGrid/systemTopics/eventSubscriptions/getFullUrl/action", "Microsoft.EventGrid/systemTopics/eventSubscriptions/getDeliveryAttributes/action", "Microsoft.EventGrid/systemTopics/read", "Microsoft.EventGrid/systemTopics/write", "Microsoft.EventGrid/systemTopics/delete", "Microsoft.EventGrid/eventSubscriptions/write", "Microsoft.Storage/storageAccounts/write" "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/read" "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/write" "Microsoft.Network/networkSecurityGroups/securityRules/read", "Microsoft.Network/networkSecurityGroups/read", ] }
+
 ....
     ],
     "NotActions": [],
@@ -112,44 +66,42 @@ summary: 建立新的資料代理程式時，選擇 Azure 資料代理程式選�
     "IsCustom": "true"
 }
 ....
-筆記：
+====
+如果您打算在從 Azure 到其他雲端儲存位置的同步關係上啟用 link:task-creating-relationships.html["連續同步設定"]，則僅需要下列權限：
 
-. 僅當您計劃啟用 https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["連續同步設定"]從 Azure 到另一個雲端儲存位置的同步關係：
-+
-** “Microsoft.Storage/storageAccounts/read”，
-** “Microsoft.EventGrid/systemTopics/eventSubscriptions/write”，
-** “Microsoft.EventGrid/systemTopics/eventSubscriptions/read”，
-** 'Microsoft.EventGrid/systemTopics/eventSubscriptions/delete'，
-** 'Microsoft.EventGrid/systemTopics/eventSubscriptions/getFullUrl/action'，
-** “Microsoft.EventGrid/systemTopics/eventSubscriptions/getDeliveryAttributes/action”，
-** “Microsoft.EventGrid/systemTopics/讀取”，
-** “Microsoft.EventGrid/systemTopics/write”，
-** “Microsoft.EventGrid/systemTopics/刪除”，
-** “Microsoft.EventGrid/eventSubscriptions/write”，
-** “Microsoft.Storage/storageAccounts/write”
+* “Microsoft.Storage/storageAccounts/read”，
+* “Microsoft.EventGrid/systemTopics/eventSubscriptions/write”，
+* “Microsoft.EventGrid/systemTopics/eventSubscriptions/read”，
+* 'Microsoft.EventGrid/systemTopics/eventSubscriptions/delete'，
+* 'Microsoft.EventGrid/systemTopics/eventSubscriptions/getFullUrl/action'，
+* “Microsoft.EventGrid/systemTopics/eventSubscriptions/getDeliveryAttributes/action”，
+* “Microsoft.EventGrid/systemTopics/讀取”，
+* “Microsoft.EventGrid/systemTopics/write”，
+* “Microsoft.EventGrid/systemTopics/刪除”，
+* “Microsoft.EventGrid/eventSubscriptions/write”，
+* “Microsoft.Storage/storageAccounts/write”
 
 
-+
-此外，如果您打算在 Azure 中實現連續同步，則必須將可指派範圍設定為訂閱範圍而不是資源組範圍。
+如果您打算在 Azure 中實作持續同步，則可指派範圍必須設定為訂閱範圍，*而不是*資源群組範圍。
 
-. 只有當您計劃為資料代理程式建立選擇自己的安全性時才需要以下權限：
-+
-** “Microsoft.Network/networkSecurityGroups/securityRules/讀取”
-** “Microsoft.Network/networkSecurityGroups/讀取”
+只有當您計劃為資料代理程式建立選擇自己的安全性時才需要以下權限：
+
+* 'Microsoft.Network/networkSecurityGroups/securityRules/read'
+* 'Microsoft.Network/networkSecurityGroups/read'
 
 
 
 
-
-
+[[authentication-method]]
 == 身份驗證方法
 
-部署資料代理程式時，您需要為虛擬機器選擇一種身份驗證方法：密碼或 SSH 公鑰-私鑰對。
+部署資料代理人時，需要為虛擬機器選擇一種身分驗證方法：密碼或 SSH 公開金鑰-私密金鑰對。
 
-有關建立金鑰對的協助，請參閱 https://docs.microsoft.com/en-us/azure/virtual-machines/linux/mac-create-ssh-keys["Azure 文件：在 Azure 中為 Linux VM 建立並使用 SSH 公鑰-私鑰對"^]。
+有關建立金鑰對的協助，請參閱link:https://docs.microsoft.com/en-us/azure/virtual-machines/linux/mac-create-ssh-keys["Azure 文件：在 Azure 中為 Linux VM 建立並使用 SSH 公鑰-私鑰對"^]。
 
 
 
+[[create-the-data-broker]]
 == 建立資料代理
 
 有幾種方法可以建立新的資料代理。這些步驟描述了在建立同步關係時如何在 Azure 中安裝資料代理程式。
@@ -211,6 +163,7 @@ NOTE: 如果您打算實現持續同步關係，則必須為資料代理程式�
 ****
 
 
+[[details-about-the-data-broker-vm]]
 == 有關數據代理虛擬機的詳細信息
 
 複製和同步使用以下配置在 Azure 中建立資料代理程式。

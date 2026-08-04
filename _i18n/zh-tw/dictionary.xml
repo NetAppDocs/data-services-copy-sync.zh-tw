@@ -8,7 +8,6 @@
   <block id="83f73c94bb5f748ce272fa98b9d62582" category="doc">新的作業系統支援數據代理</block>
   <block id="726c1f4efc6286c68c0e686bb97c19c5" category="paragraph">資料代理現在支援執行 Red Hat Enterprise 9.4、Ubuntu 23.04 和 Ubuntu 24.04 的主機。</block>
   <block id="403a870c3777a3434883cf3338197e1e" category="inline-link">查看 Linux 主機需求</block>
-  <block id="33437394afeba112bc78a89e1164345e" category="paragraph"><block ref="bddca2b75222059ea164cace70f493c0" category="inline-link-rx"></block> 。</block>
   <block id="80c6ec7a181e7260841769dbc15f1b0b" category="doc">BlueXP copy and sync現已更名NetApp Copy and Sync</block>
   <block id="978ab06bd4634b113d212f8311cddadc" category="paragraph">BlueXP copy and sync已重新命名為NetApp Copy and Sync。</block>
   <block id="bc2fe31b1e2682a9a79513d792e9c721" category="section-title">BlueXP現在是NetApp Console</block>
@@ -53,7 +52,6 @@
   <block id="d4a7b1251272f8e1d7c0d7e84dcd588b" category="paragraph">可透過NetApp Console存取NetApp Copy and Sync 。</block>
   <block id="0a0979a6d279475a420ea5c279943daa" category="paragraph">NetApp Console提供企業級跨本機和雲端環境的NetApp儲存和資料服務的集中管理。需要控制台才能存取和使用NetApp資料服務。作為管理介面，它使您能夠從一個介面管理許多儲存資源。控制台管理員可以控制企業內所有系統的儲存和服務的存取。</block>
   <block id="7118a6b22768dabe4720d84710ea1e43" category="paragraph">您不需要許可證或訂閱即可開始使用NetApp Console，並且只有當您需要在雲端部署控制台代理程式以確保與儲存系統或NetApp資料服務的連線時才需要付費。但是，一些可從控制台存取的NetApp資料服務是需要授權或基於訂閱的。</block>
-  <block id="4d0bb76e32bfe205406b10f5dfa9d47b" category="paragraph">詳細了解<block ref="e6368f2dd82be1e975475a1098863578" category="inline-link-rx"></block>。</block>
   <block id="9cda885d1d60ab02ba2538030d47e91a" category="section-title">NetApp Copy and Sync的工作原理</block>
   <block id="03fc8176c2eef7c122d66253056c096d" category="paragraph">NetApp Copy and Sync是一個軟體即服務 (SaaS) 平台，由資料代理群組、可透過NetApp Console存取的基於雲端的介面以及來源和目標組成。</block>
   <block id="11c9e51a929d01d48a9f2aa972f3cec4" category="paragraph">下圖顯示了 Copy 和 Sync 元件之間的關係：</block>
@@ -478,7 +476,6 @@
   <block id="5ea651ef425fc06946414f157ea0d12c" category="section-title">加密 Google Cloud 儲存桶</block>
   <block id="f1e18b3eb6f07ac95f361dfb4823b062" category="paragraph">您可以使用客戶管理的 KMS 金鑰或預設的 Google 管理金鑰加密目標 Google Cloud 儲存桶。如果儲存桶已新增了 KMS 加密，它將覆蓋預設的 Google 管理加密。</block>
   <block id="db1a392dfa5212eeb3e27c6081ac7f8d" category="inline-link">正確的權限</block>
-  <block id="1c50758d669eeda9eb73db1fcfa0337e" category="paragraph">若要新增客戶管理的 KMS 金鑰，您需要使用具有<block ref="d26dd36e82dda30790e792c4d360acdb" category="inline-link-rx"></block>，且 key 必須與 bucket 位於同一區域。</block>
   <block id="9a3043611af3eb84ce4c6ff8d4490206" category="paragraph">當您設定包含 Google Drive 的同步關係時，您需要提供以下資訊：</block>
   <block id="8a7baaab09d49454d57a6f75b25b5e47" category="list-text">有權存取您要同步資料的 Google Drive 位置的使用者的電子郵件地址</block>
   <block id="0206d020cf0f0159935199c9bcf51786" category="list-text">有權存取 Google Drive 的 Google Cloud 服務帳戶的電子郵件地址</block>
@@ -594,19 +591,12 @@
   <block id="d0f1687c68ee0f0d9bac765716d18923" category="list-text">本地ONTAP集群</block>
   <block id="dac0c3580381261fb255dcbf81dd4583" category="list-text">創建或發現系統。</block>
   <block id="5df55e7de34e04e3fbd5d9ffd4e44939" category="inline-link">建立Amazon FSx for ONTAP系統</block>
-  <block id="d34fada56fcc1f4d30c60c0ad44e815e" category="list-text"><block ref="d34fada56fcc1f4d30c60c0ad44e815e" category="inline-link-rx"></block></block>
   <block id="173d8ca39ff0874de6e21496394efa69" category="inline-link">設定和發現Azure NetApp Files</block>
-  <block id="e6e1607e58cd001b7c781a8f8bfa813a" category="list-text"><block ref="e6e1607e58cd001b7c781a8f8bfa813a" category="inline-link-rx"></block></block>
   <block id="6602afb860a6cca23c3b75bf601365eb" category="inline-link">在 AWS 中啟動Cloud Volumes ONTAP</block>
-  <block id="6cfeb8c907e4b67e454993b95d8b4c8b" category="list-text"><block ref="6cfeb8c907e4b67e454993b95d8b4c8b" category="inline-link-rx"></block></block>
   <block id="7ca1af679f0ba86814f2ad58a578cb7c" category="inline-link">在 Azure 中啟動Cloud Volumes ONTAP</block>
-  <block id="27a3e4e8b80492209761738784b770d5" category="list-text"><block ref="27a3e4e8b80492209761738784b770d5" category="inline-link-rx"></block></block>
   <block id="254d5c87d5ab437395f866390ea49cd0" category="inline-link">在 Google Cloud 啟動Cloud Volumes ONTAP</block>
-  <block id="f8c7ce78aaf937671ef25c9c931e368e" category="list-text"><block ref="f8c7ce78aaf937671ef25c9c931e368e" category="inline-link-rx"></block></block>
   <block id="366f7e58814bef5e88fbb6881239ff46" category="inline-link">新增現有的Cloud Volumes ONTAP系統</block>
-  <block id="5bef0b78e6ec321bf21d727ac503470d" category="list-text"><block ref="5bef0b78e6ec321bf21d727ac503470d" category="inline-link-rx"></block></block>
   <block id="e845620e391b62ad3163cdb0e100a862" category="inline-link">發現ONTAP集群</block>
-  <block id="85cd31980dc6fca292186015e6569783" category="list-text"><block ref="85cd31980dc6fca292186015e6569783" category="inline-link-rx"></block></block>
   <block id="ee5085a11fe500093ac4be15ad48761f" category="list-text">選擇*系統頁面*。</block>
   <block id="1b10e010ee21ae1ccc37c6145395b333" category="list-text">選擇與上面列出的任何類型相符的系統。</block>
   <block id="1cffa027f06c83c15096bfe069d63282" category="list-text">選擇同步旁邊的操作選單。</block>
@@ -719,14 +709,12 @@
   <block id="7051698c4825bdf5a52d58a440b9a6da" category="inline-link">同步關係</block>
   <block id="5c4c20a350a01bcba51403b5971c1e55" category="inline-link">管理您的數據經紀人</block>
   <block id="81671387dfc9496bbb584683131ed0ba" category="inline-link">建立報告以優化您的效能和配置</block>
-  <block id="59487ce4167750cedec1ed4b8b28b78b" category="paragraph">複製和同步開始在來源和目標之間同步資料。同步統計資料包括同步所花費的時間、是否停止以及複製、掃描或刪除的檔案數量。然後您可以管理您的<block ref="036850536ef01bc8377a10d87d2c60f6" category="inline-link-rx"></block>，<block ref="afaf0e8700f6eb5774590916b99650a2" category="inline-link-rx"></block> ， 或者<block ref="04f03004f9e0603b9348762faa7e67f2" category="inline-link-rx"></block>。</block>
   <block id="32e220bb1b3ebd971b35c103a07b91fe" category="section-title">從NetApp Data Classification建立同步關係</block>
   <block id="c8bcab54c26547cb248cb1ebc7aecf50" category="paragraph">複製和同步與NetApp Data Classification。在NetApp Data Classification中，您可以選擇要使用複製和同步同步到目標位置的來源檔案。</block>
   <block id="fa59c50fe438be2c6ae102623a6c11a6" category="paragraph">從NetApp Data Classification啟動資料同步後，所有來源資訊都包含在一個步驟中，只需要您輸入一些關鍵詳細資訊。然後，選擇新同步關係的目標位置。</block>
   <block id="693b5ef69fffa9a138de78d304fc234b" category="inline-image-macro">螢幕截圖顯示了直接從NetApp Data ClassificationNetApp Data Classification分類整合頁面。</block>
   <block id="cf17244df6ede19648e8ce26d30c4ba0" category="paragraph"><block ref="cf17244df6ede19648e8ce26d30c4ba0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="022833d135f7e7e0b284d5b6cbc1d6d3" category="inline-link">了解如何從NetApp Data Classification啟動同步關係</block>
-  <block id="bd9541958103efbb38748df59776d9c6" category="paragraph"><block ref="84a8051913f90b29a358cfe5370ea3b7" category="inline-link-rx"></block> 。</block>
   <block id="7b5f232088930bb6c4dd524b1ad8afc7" category="summary">當您建立需要 Amazon S3、Azure 或 Google Cloud 憑證的同步關係時，您需要透過NetApp Copy and Sync使用者介面或 API 指定這些憑證。另一種方法是設定資料代理程式以直接從外部 HashiCorp Vault 存取憑證。</block>
   <block id="c83f13bb91cc75ab9fba517d4f405555" category="doc">設定資料代理組以在NetApp Copy and Sync中使用外部 HashiCorp Vault</block>
   <block id="7373b58f3100ed43d9b97a7f9e21546c" category="paragraph">當您建立需要 Amazon S3、Azure 或 Google Cloud 憑證的同步關係時，您需要透過NetApp Copy and Sync使用者介面或 API 指定這些憑證。另一種方法是設定資料代理群組以直接從外部 HashiCorp Vault 存取憑證（或_秘密_）。</block>
@@ -876,9 +864,7 @@
   <block id="73c49e9e4ae8542605fd69625ccda143" category="paragraph">當 Copy and Sync 在 Azure 中部署資料代理程式時，它會建立一個安全性群組來啟用所需的出站通訊。</block>
   <block id="c658fd4f091c10877f154fbf84fbee89" category="section-title">在 Azure 中部署資料代理程式所需的權限</block>
   <block id="fd89e3644f08c7cff88f1db4361c5e60" category="paragraph">確保用於部署資料代理程式的 Azure 使用者帳戶具有以下權限：</block>
-  <block id="fc9d3df613063ee57906c461320744e2" category="paragraph">筆記：</block>
   <block id="840b9dee68db7a324a5a0492f3ec3063" category="inline-link">連續同步設定</block>
-  <block id="1c366467112a2f5e725cd0beef639204" category="list-text">僅當您計劃啟用<block ref="be291bc0a12dc8676089f7080ad738cb" category="inline-link-rx"></block>從 Azure 到另一個雲端儲存位置的同步關係：</block>
   <block id="040d8eaecb72efcfd5cfbf281e33f7f3" category="list-text">“Microsoft.Storage/storageAccounts/read”，</block>
   <block id="bb845a3086db2f3f9168d3ee193d482b" category="list-text">“Microsoft.EventGrid/systemTopics/eventSubscriptions/write”，</block>
   <block id="3a66417bd558ccb9a044b88d6ad406c3" category="list-text">“Microsoft.EventGrid/systemTopics/eventSubscriptions/read”，</block>
@@ -890,14 +876,11 @@
   <block id="4dc1658a75ffcbe0817abce680d981d6" category="list-text">“Microsoft.EventGrid/systemTopics/刪除”，</block>
   <block id="60dbb31ea1f88ac9e2a8917095391994" category="list-text">“Microsoft.EventGrid/eventSubscriptions/write”，</block>
   <block id="9bd6154bf12080a49ba17173b3687c8b" category="list-text">“Microsoft.Storage/storageAccounts/write”</block>
-  <block id="d82cf82578b9d3bf0fccf57fba5f00c6" category="paragraph">此外，如果您打算在 Azure 中實現連續同步，則必須將可指派範圍設定為訂閱範圍而不是資源組範圍。</block>
   <block id="0a00035cb030ae4c07809a2b29294403" category="list-text">只有當您計劃為資料代理程式建立選擇自己的安全性時才需要以下權限：</block>
   <block id="40ab692bf1bd50c2b8af00a0f842eae1" category="list-text">“Microsoft.Network/networkSecurityGroups/securityRules/讀取”</block>
   <block id="382fee949ad334bb4c7112f8925c1a73" category="list-text">“Microsoft.Network/networkSecurityGroups/讀取”</block>
   <block id="38354aeafcfd5993a9d65d97514a8e3d" category="section-title">身份驗證方法</block>
-  <block id="e507d0455db379d4826dabce8ecb97ed" category="paragraph">部署資料代理程式時，您需要為虛擬機器選擇一種身份驗證方法：密碼或 SSH 公鑰-私鑰對。</block>
   <block id="0be7700ba4689baa197ac3c2b94928a5" category="inline-link">Azure 文件：在 Azure 中為 Linux VM 建立並使用 SSH 公鑰-私鑰對</block>
-  <block id="4e2153a19cb9d86adf7b5ba332e78a45" category="paragraph">有關建立金鑰對的協助，請參閱<block ref="3bfff4aa3d3a3eae965cce9b3b615a4a" category="inline-link-rx"></block>。</block>
   <block id="896293b91a375c72889dc16e1c816e72" category="paragraph">有幾種方法可以建立新的資料代理。這些步驟描述了在建立同步關係時如何在 Azure 中安裝資料代理程式。</block>
   <block id="0479f6fe1008f761c6bd228300072a66" category="list-text">在“資料代理程式群組”頁面上，選擇“建立資料代理程式”，然後選擇“Microsoft Azure”。</block>
   <block id="ff7156dc72b8081c2a9c6e0150647ace" category="paragraph"><block ref="ff7156dc72b8081c2a9c6e0150647ace" category="inline-image-macro-rx" type="image"></block></block>
@@ -1091,10 +1074,8 @@
   <block id="e0bf9a24729cc5c0659ff1c82e168b3e" category="summary">使用NetApp Console登入NetApp Copy and Sync。</block>
   <block id="833500fdff6809d4f3eb7557c3c2b940" category="doc">登入NetApp Copy and Sync</block>
   <block id="8e917942a77709dfd28c155f42a97553" category="inline-link">了解有關登入的更多信息</block>
-  <block id="4c318b3352fefcf1bd1ce650cc94ca4e" category="paragraph">若要登入控制台，您可以使用您的NetApp支援網站憑證，也可以使用您的電子郵件和密碼註冊NetApp雲端登入。<block ref="192dac3a1352f6134fa7409c0b073570" category="inline-link-rx"></block> 。</block>
   <block id="acdaaac5a216cc0fc4115ed2c5e87db9" category="paragraph">NetApp Copy and Sync使用身分存取管理來控制每個使用者對特定操作的存取權限。</block>
   <block id="5ed613d5969e54b01e0691f040afb027" category="inline-link">了解NetApp Console存取角色</block>
-  <block id="e83a7a5296692a158b56844e0e82d216" category="paragraph">*必要的NetApp Console角色* 組織管理員角色。<block ref="c7e117416f842133f9e21470148673f9" category="inline-link-rx"></block> 。</block>
   <block id="6a65fb509b9c682f9df5eb122484e2f7" category="list-text">開啟 Web 瀏覽器並前往<block ref="d6205946f936217747639e85e1340e8f" category="inline-link-rx"></block>。</block>
   <block id="0daac1b9cd4c3a240bf2f6b44ba178a1" category="paragraph">出現NetApp Console登入頁面。</block>
   <block id="4a43cddfeeabba4570c14c252dec0bd1" category="list-text">登入控制台。</block>
@@ -1248,7 +1229,6 @@
   <block id="11d4a32f12cfcb43ae53ae70017809c1" category="section-title">設定通知</block>
   <block id="d46cab5a9464661f6aa6a4c31ada9c2e" category="paragraph">每個同步關係的*通知*設定可讓您選擇是否在NetApp控制台的通知中心接收複製和同步通知。您可以啟用資料同步成功、資料同步失敗和資料同步取消的通知。</block>
   <block id="4f497709a64427552f12cff18535a713" category="inline-image-macro">顯示NetApp Console中的通知中心的螢幕截圖。</block>
-  <block id="3299e561f8c5a7a29290d6c910376a82" category="paragraph"><block ref="3299e561f8c5a7a29290d6c910376a82" category="inline-image-macro-rx" type="image"></block></block>
   <block id="55d9f99a73d4f287de3573ba4a2c149b" category="paragraph">此外，您也可以透過電子郵件接收通知。</block>
   <block id="50685346648f799f564787da3aeaa3df" category="list-text">修改同步關係的設定：</block>
   <block id="e265f7dc29349c5c09e52af073ae2fdf" category="list-text">啟用*通知*。</block>
@@ -1280,7 +1260,6 @@
   <block id="6cf864181e16eb926d1c763b77b4a825" category="doc">建立和檢視報告以調整NetApp Copy and Sync中的配置</block>
   <block id="8db5cdc5f9dd2eb576dcaed8d44080cd" category="paragraph">在NetApp Copy and Sync中建立和查看報告以獲取信息，您可以在NetApp人員的幫助下使用這些資訊來調整資料代理的配置並提高效能。</block>
   <block id="b9f1a0da291ab3c6b115c407d28d1ab9" category="inline-link">成功創建並完成同步</block>
-  <block id="62ef189d2125efd4e054bda2fe60e56f" category="paragraph">每份報告都提供有關同步關係中路徑的詳細資訊。它將包括有多少個目錄、檔案和符號連結、檔案大小的分佈、目錄的深度和寬度、修改時間和存取時間。這與同步靜態資料不同，後者可在<block ref="633d339dd1720ad54a63284823a9045d" category="inline-link-rx"></block>。</block>
   <block id="ef7a7b1bec08bef324977926c1fc910c" category="section-title">建立報告</block>
   <block id="4f30a7453ea422b1521c89c59cd24c75" category="paragraph">每次建立報告時，「複製和同步」都會掃描路徑，然後將詳細資訊編譯成報告。</block>
   <block id="6ffcf259f9af8546dcdf4daad239e89b" category="list-text">選擇*同步 &gt; 報告*。</block>
@@ -1401,9 +1380,7 @@
   <block id="30698a66aaf897450636180cb9b3681a" category="paragraph">如果您想要為以下任何一項建立同步關係，那麼您首先需要建立或發現一個系統：</block>
   <block id="1a79da83370519eb88b189f53a579d56" category="paragraph">Cloud Volumes ONTAP、本機ONTAP叢集和Amazon FSx for ONTAP都需要控制台代理程式。</block>
   <block id="ca18e666a08432f48a611ac94397c51c" category="inline-link">了解如何開始使用NetApp Console</block>
-  <block id="bd4c52c49d0b44ace17249f77a6a1201" category="list-text"><block ref="bd4c52c49d0b44ace17249f77a6a1201" category="inline-link-rx"></block></block>
   <block id="919907c49b488683fa1ddd5c9088c12b" category="inline-link">了解有關控制台代理的更多信息</block>
-  <block id="c0efda756992218e61f14126facebb95" category="list-text"><block ref="c0efda756992218e61f14126facebb95" category="inline-link-rx"></block></block>
   <block id="3399faf94152378695e1c1e813c57856" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block>準備源和目標</block>
   <block id="64801dbe8238ec80e4b5c9666a5fd9fa" category="paragraph">驗證您的來源和目標是否受支援並已設定。最重要的要求是驗證資料代理組與來源位置和目標位置之間的連線。</block>
   <block id="36362f6308040767241de0a9acf9350a" category="inline-link-macro">查看支援的關係</block>
@@ -1489,80 +1466,63 @@
   <block id="66a743c4896414f00b485685ab377a19" category="section-title">透過正規表示式過濾目錄</block>
   <block id="df5c4f17d479f00c828a9edc617f2277" category="paragraph">使用者現在可以選擇使用正規表示式過濾目錄。</block>
   <block id="32d736bf69b032967c9ca2f284cd6218" category="inline-link">了解有關*排除目錄*功能的更多資訊。</block>
-  <block id="9afa1c757f9d9c1d7a951ff852629645" category="paragraph"><block ref="9afa1c757f9d9c1d7a951ff852629645" category="inline-link-rx"></block></block>
   <block id="a76b69f0eac891a6dad210c8c894f70c" category="section-title">2023年11月26日</block>
   <block id="5dbbe39e8d4eedbcb5aafdf7e0e66a80" category="section-title">Azure Blob 的冷儲存類別支援</block>
   <block id="2be7473e47d2102f9d51ff1a3cd36305" category="paragraph">建立同步關係時，冷儲存 Azure Blob 層現在可用。</block>
   <block id="6e90305f3ad22c32d20c662a0bb06726" category="inline-link">了解有關建立同步關係的更多資訊。</block>
-  <block id="2bfe6803528ed3d1b4758e7bc6eb4cb6" category="paragraph"><block ref="2bfe6803528ed3d1b4758e7bc6eb4cb6" category="inline-link-rx"></block></block>
   <block id="e35f035cdd0e53d6ac8e57e89c9a3994" category="section-title">AWS 資料代理支援特拉維夫地區</block>
   <block id="bc601240bd77a257f82ad29245da02ee" category="paragraph">在 AWS 中建立資料代理時，特拉維夫現在是受支援的區域。</block>
   <block id="f296e44bbf15ea94dfcce2d2a4649e6d" category="inline-link">了解有關在 AWS 中建立資料代理的更多信息</block>
-  <block id="48938ec2ae208dc89827f9e55c8f1c41" category="paragraph"><block ref="42f00e873b388cac01d84d3ba1605497" category="inline-link-rx"></block> 。</block>
   <block id="e24f754057dce2d0f9791240fec7d494" category="section-title">更新資料代理程式的節點版本</block>
   <block id="22a46de060e100674430faf5e167711e" category="paragraph">所有新的資料代理現在都將使用節點版本 21.2.0。與此更新不相容的資料代理程式（例如 CentOS 7.0 和 Ubuntu Server 18.0）將不再與NetApp Copy and Sync一起使用。</block>
   <block id="d687b97df8e082fb1a95e853c70aa1c2" category="section-title">2023年9月3日</block>
   <block id="84a4e9be01e1e0b2123f0992743bb3be" category="section-title">透過正規表示式排除文件</block>
   <block id="8a2aa0d6caae0bb9fe34491d59f66a36" category="paragraph">使用者現在可以選擇使用正規表示式排除檔案。</block>
   <block id="1f3154fef8201e2bc88bd5111528535c" category="inline-link">了解有關*排除檔案副檔名*功能的更多資訊。</block>
-  <block id="8ca7330f80b3c6b405f94cdadf97a80c" category="paragraph"><block ref="8ca7330f80b3c6b405f94cdadf97a80c" category="inline-link-rx"></block></block>
   <block id="f32e3be81b145c34740db00a44c46e93" category="section-title">建立 Azure 資料代理程式時新增 S3 金鑰</block>
   <block id="7631c04fd88511e09fd26f0ce9f65ce1" category="paragraph">使用者現在可以在建立 Azure 資料代理程式時新增 AWS S3 存取金鑰和金鑰。</block>
   <block id="223263a27baa6e1ed1653cabb17bae1a" category="inline-link">了解有關在 Azure 中建立資料代理程式的更多資訊。</block>
-  <block id="0aa08047034186671d34875b5617b057" category="paragraph"><block ref="0aa08047034186671d34875b5617b057" category="inline-link-rx"></block></block>
   <block id="a5335c3a31a73a161553394b5c618a1f" category="section-title">2023年8月6日</block>
   <block id="56a559acc9f9bd2fc9cf51154aef7ce5" category="section-title">建立資料代理程式時使用現有的 Azure 安全性群組</block>
   <block id="bf4bc301ccb8b2b21ef394a22e4afef6" category="paragraph">使用者現在可以選擇在建立資料代理時使用現有的 Azure 安全性群組。</block>
   <block id="fd514a292e754d2839b0e90da5ac3514" category="paragraph">建立資料代理程式時使用的服務帳戶必須具有以下權限：</block>
-  <block id="dd28ab2cc4abd312627d50ae74f70a47" category="paragraph"><block ref="dd28ab2cc4abd312627d50ae74f70a47" category="inline-link-rx"></block></block>
   <block id="523a4e14cf869e980cae59f341235b4d" category="section-title">同步到 Google 儲存空間時加密數據</block>
   <block id="f30fd3a2e1153daad9771810719ad64c" category="paragraph">使用者現在可以選擇在以 Google 儲存桶為目標建立同步關係時指定客戶管理的加密金鑰。您可以手動輸入密鑰或從單一區域的密鑰清單中選擇。</block>
   <block id="822dcaf9e20737313f761f80cc25031f" category="list-text">cloudkms.cryptoKeys.列表</block>
   <block id="67c2b48a02a1206b0cf882e5b8d15ad2" category="list-text">cloudkms.keyRings.列表</block>
   <block id="2f582d8c48ea99c7b932fa712f18e592" category="inline-link">了解有關 Google Cloud Storage 儲存桶要求的更多資訊。</block>
-  <block id="32a658d78cdd354c1492f2b54191e16d" category="paragraph"><block ref="32a658d78cdd354c1492f2b54191e16d" category="inline-link-rx"></block></block>
   <block id="7231916f6dfb7f5d73fa029a6ed50edf" category="section-title">2023年7月9日</block>
   <block id="0d31f76acc0f0585c0ce6603aae95bf9" category="section-title">一次刪除多個同步關係</block>
   <block id="86f4ab992201dfe7e7a91d9236676ea1" category="paragraph">用戶現在可以在 UI 中一次刪除多個同步關係。</block>
-  <block id="f56872f7cec9149a7ac802d7a22773f7" category="inline-link">了解有關刪除同步關係的更多資訊。</block>
-  <block id="8841a5cc4fff05bb6e2a277bb234a5e9" category="paragraph"><block ref="8841a5cc4fff05bb6e2a277bb234a5e9" category="inline-link-rx"></block></block>
   <block id="0bf8da16e84dc021192c3cce07860470" category="section-title">僅複製 ACL</block>
   <block id="dda93ca03de99accfa039adc8007a91c" category="paragraph">使用者現在擁有在 CIF 和 NFS 關係中複製 ACL 資訊的附加選項。建立或管理同步關係時，您可以僅複製文件、僅複製 ACL 資訊或複製文件和 ACL 資訊。</block>
   <block id="75188372815d8c81aa145bb6bd881697" category="inline-link">了解有關複製 ACL 的更多資訊。</block>
-  <block id="f14be32be1b0e46b478529e782afc130" category="paragraph"><block ref="f14be32be1b0e46b478529e782afc130" category="inline-link-rx"></block></block>
   <block id="c3605c10e6753f736b31bbe56975b312" category="section-title">已更新至 Node.js 20</block>
   <block id="f19de52facb188127c95ece2625a4272" category="paragraph">複製和同步已更新至 Node.js 20。所有可用的資料代理都將被更新。無法安裝與此更新不相容的作業系統，且不相容的現有系統可能會遇到效能問題。</block>
   <block id="9b7d935c674579c8c8e305e2dcadc1b9" category="section-title">2023年6月11日</block>
   <block id="b18ac5fa90a568a24f98c73b9192cb6d" category="section-title">支援按分鐘自動中止</block>
   <block id="33c110842a0fe3f7891980d750e48fa2" category="paragraph">現在可以使用「同步逾時」功能在十五分鐘後中止尚未完成的活動同步。</block>
   <block id="44856e8753e0c19c0341499a434c7c97" category="inline-link">了解有關同步超時設定的更多信息</block>
-  <block id="3266d16b8714caecb4f4231dca5dae65" category="paragraph"><block ref="bfd432c58dd0bb0c71b937c5a3336867" category="inline-link-rx"></block> 。</block>
   <block id="69540ae9a9da395711f1e900d88e4cc5" category="section-title">複製存取時間元數據</block>
   <block id="a706d4045e92e504f4aa9e79191d81f5" category="paragraph">在包含檔案系統的關係中，*物件複製*功能現在複製存取時間元資料。</block>
   <block id="bac04a3b125486e43e5adcb9275b0cb7" category="inline-link">了解有關“複製對象”設定的更多信息</block>
-  <block id="b9101f79b22863de2373d338b3f2fd49" category="paragraph"><block ref="61cd45fc857d1053eae8b58e970eda27" category="inline-link-rx"></block> 。</block>
   <block id="ce23ffae17a1a2fab9ee639f2dbd730d" category="section-title">2023年5月8日</block>
   <block id="2652537da62e22a06b22374119e6c40f" category="section-title">硬連結功能</block>
   <block id="74b59acd161d1704c8c78879dc8fba01" category="paragraph">使用者現在可以為涉及不安全的 NFS 到 NFS 關係的同步添加硬連結。</block>
   <block id="689dbd8363b6599ce07ff94a27510e99" category="inline-link">了解有關文件類型設定的詳細信息</block>
-  <block id="1a7214a3217999e62943b6eb9a186e66" category="paragraph"><block ref="9bf8313a7db211679a844402f240b32a" category="inline-link-rx"></block> 。</block>
   <block id="b37e1d04fbc8f3ac1aa4b71252cc4d4b" category="section-title">能夠在安全 NFS 關係中為資料代理程式新增使用者證書</block>
   <block id="fad605010f8f29a3a10f7062fe2cd4e9" category="paragraph">使用者現在可以在建立安全 NFS 關係時為目標資料代理程式設定自己的憑證。他們需要設定伺服器名稱並提供私鑰和憑證 ID。此功能適用於所有資料代理程式。</block>
   <block id="3bf0932004501be46156880cfe858e8f" category="section-title">延長最近修改文件的排除期限</block>
   <block id="72293cd7eff96e1e45510dc52f4ef25e" category="paragraph">用戶現在可以排除在計劃同步之前 365 天內修改的文件。</block>
   <block id="87ca8046e9c8a782bd5c06267e7f93f7" category="inline-link">了解有關“最近修改的文件”設定的更多信息</block>
-  <block id="5b1faa5c627185bd8774ba759dbbcf1d" category="paragraph"><block ref="528a28b28e8f5d9df665a229e7a7fa63" category="inline-link-rx"></block> 。</block>
   <block id="e03b4aafcead6edb397ccbf7e180255f" category="section-title">透過關係 ID 過濾 UI 中的關係</block>
   <block id="aca73b993cefdbe81afe166bf8692c50" category="paragraph">使用 RESTful API 的使用者現在可以使用關係 ID 來過濾關係。</block>
   <block id="9104df7433986c10228e579cf49fe05a" category="inline-link">了解有關使用 RESTful API 與NetApp Copy and Sync 的更多信息</block>
-  <block id="f62420ba09b58e17951c6a2934b73cdd" category="paragraph"><block ref="6919b8f4659b35c249fd5b026fdc8409" category="inline-link-rx"></block> 。</block>
   <block id="d1624b8f3b686e981a178c03616a370b" category="inline-link">了解有關排除目錄設定的更多信息</block>
-  <block id="791d072486b9f4524702996962f5cb1d" category="paragraph"><block ref="525fcee9e0cdf0ea236cb2377cb58f7b" category="inline-link-rx"></block> 。</block>
   <block id="88c49608e723add593f5becc8bd9a968" category="section-title">2023年4月2日</block>
   <block id="9c305cf5f9f8051acc945eda0fc8a1be" category="section-title">Azure Data Lake Storage Gen2 關係的額外支持</block>
   <block id="61babc330ca2ea0af752965dd3965d41" category="paragraph">現在，您可以使用下列內容建立與 Azure Data Lake Storage Gen2 作為來源和目標的同步關係：</block>
   <block id="c7360b05ac6a5646b2770ea0c162d4fb" category="inline-link">詳細了解支援的同步關係</block>
-  <block id="4e0e0be812e0732ff08c371803f4157c" category="paragraph"><block ref="aabef2d7a8f8ee536d1fe9fe0f22b561" category="inline-link-rx"></block> 。</block>
   <block id="ad5a82acd30f0d971a29fdb4632bd7d4" category="section-title">按下完整路徑過濾目錄</block>
   <block id="b7395f4da221ab7779cce11224436fb3" category="paragraph">除了按名稱過濾目錄之外，現在您還可以按完整路徑過濾目錄。</block>
   <block id="d673bedebce5131101d3c3583efe3e40" category="section-title">2023年3月7日</block>
@@ -1577,23 +1537,18 @@
   <block id="b3c6595e164d585a18699d6b36cab08a" category="section-title">升級至 Amazon Web Services 資料代理作業系統</block>
   <block id="56b81b60dec6a853cc4a71acf27e639b" category="paragraph">AWS 資料代理程式的作業系統已升級至 Amazon Linux 2022。</block>
   <block id="0dd728efd36ee3f96597b07096922b08" category="inline-link">了解有關 AWS 中資料代理執行個體的更多信息</block>
-  <block id="d786e3b5ab2a71e9b31bb3c75bcb0452" category="paragraph"><block ref="1376c929ae27c36845bc62cdb2b6b62a" category="inline-link-rx"></block> 。</block>
   <block id="fb62a834dca368d4e4d138442baa8384" category="section-title">2023年1月3日</block>
   <block id="2ce75b34222d130ea74078b75eb79cc0" category="section-title">在 UI 上顯示資料代理程式本機配置</block>
   <block id="88dcb8d0dd987f4f5606df5981050a8d" category="paragraph">現在有一個*顯示配置*選項，可讓使用者在 UI 上查看每個資料代理程式的本機設定。</block>
   <block id="44580ec91e2012543452f790258e1ccf" category="inline-link">了解有關管理資料代理組的更多信息</block>
-  <block id="d807456e8468d752fb5361947436e3bd" category="paragraph"><block ref="723b00e575aff83ac7e0778c753fed66" category="inline-link-rx"></block> 。</block>
   <block id="02840b44154535342dd4cf6739d2c77d" category="section-title">升級到 Azure 和 Google Cloud 資料代理作業系統</block>
   <block id="69e30db11dbff8b5efd6091166af232f" category="paragraph">Azure 和 Google Cloud 中的資料代理作業系統已升級至 Rocky Linux 9.0。</block>
   <block id="1c01c907ca0a713df58ba8f4b21fd39c" category="inline-link">了解有關 Azure 中的資料代理執行個體的更多信息</block>
-  <block id="4d84ad5ddcd264a388fd3480b2b4a17e" category="paragraph"><block ref="07d42fc5dd04c400562bade15003675b" category="inline-link-rx"></block> 。</block>
   <block id="648e059d69339d82d82738abf0bd4016" category="inline-link">詳細了解 Google Cloud 中的資料代理程式實例</block>
-  <block id="dfadf2e7b0d2a2847ef49e99054e0be5" category="paragraph"><block ref="d6f79fef3005c7a4f730cae0fe26b406" category="inline-link-rx"></block> 。</block>
   <block id="5912630061434e78e733b8d5e5e3dc88" category="section-title">2022年12月11日</block>
   <block id="9709c6ba9ff4b10cb5ec3f4f956d3226" category="section-title">按名稱過濾目錄</block>
   <block id="43b44f78e255d05aac846a6181095cd6" category="paragraph">現在可以使用新的「*排除目錄名稱*」設定來同步關係。使用者可以從同步中過濾掉最多 15 個目錄名稱。預設情況下，.copy-offload、.snapshot、~snapshot 目錄被排除。</block>
   <block id="84a8ea117dd9c6b8ddbbe8f47665f923" category="inline-link">了解有關排除目錄名稱設定的更多信息</block>
-  <block id="45b389095d33e2a92c84384a49acfdc1" category="paragraph"><block ref="93f91291d1ddc2977d3002c648b0d96f" category="inline-link-rx"></block> 。</block>
   <block id="211e17aac7e6f53a17024d84713e8c34" category="section-title">額外的 Amazon S3 和ONTAP S3 儲存支持</block>
   <block id="9c0b9eb5c4fc9353fd2021e992f68e22" category="paragraph">Cloud Sync現在支援 AWS S3 和ONTAP S3 儲存的附加同步關係：</block>
   <block id="9952f86a1aa7c6f33a76413df4560b41" category="list-text">AWS S3 到ONTAP S3 存儲</block>
@@ -1604,7 +1559,6 @@
   <block id="3cf98067a279c5afe27919c8acd25ea4" category="paragraph">初始資料同步後， Cloud Sync會監聽來源 Azure 儲存體桶上的更改，並在發生任何變更時持續將其同步至目標。從 Azure 儲存桶同步至 Azure Blob 儲存體、CIFS、Google Cloud Storage、IBM Cloud Object Storage、NFS 和StorageGRID時，此設定可用。</block>
   <block id="91cba4a0b0d46011e31e848c61739e1e" category="paragraph">Azure 資料代理程式需要自訂角色和下列權限才能使用此設定：</block>
   <block id="f23841b65ba519d2dd6a63a2a3e4de83" category="inline-link">了解有關“連續同步”設定的更多信息</block>
-  <block id="291432ab9bec0a4d90809cc1c0dc6ae8" category="paragraph"><block ref="e08f2c77270cb4c5f93a805de7e3f4f9" category="inline-link-rx"></block> 。</block>
   <block id="e39ec1e37f830da764e522f6ebd4aaa8" category="section-title">2022年9月4日</block>
   <block id="a9b4886a93e658bc8692b215ae9412a0" category="section-title">額外的 Google Drive 支持</block>
   <block id="38e24a385d32651afeede647ae09290f" category="list-text">Cloud Sync現在支援 Google Drive 的附加同步關係：</block>
@@ -1612,7 +1566,6 @@
   <block id="44191e60b1503eaf657847a1915cafeb" category="list-text">Google Drive 到 SMB 伺服器</block>
   <block id="1483ec65b58ea8f21aa486ac67f98497" category="list-text">您也可以產生包含 Google Drive 在內的同步關係的報告。</block>
   <block id="b8573b8d6cb0195fa946927c3aa36397" category="inline-link">了解有關報告的更多信息</block>
-  <block id="f1d7d04c211126ab6988362528a55683" category="paragraph"><block ref="eaec3ca4454704b4654f3f02ffb524a7" category="inline-link-rx"></block> 。</block>
   <block id="6a8d3c04a6ef359c72722da014b3e2a0" category="section-title">持續同步增強</block>
   <block id="700604b36a9bc9c763c84403ff4fc2a1" category="paragraph">現在您可以在以下類型的同步關係上啟用連續同步設定：</block>
   <block id="16a4f69cf5e478434d66f741eb65609e" category="list-text">S3 儲存桶到 NFS 伺服器</block>
@@ -1621,13 +1574,10 @@
   <block id="2a6aa0e8585b387718e871db90f1a32e" category="paragraph">現在您可以透過電子郵件接收Cloud Sync通知。</block>
   <block id="3fa63f8c8db34bd923b40e54ef9dcf47" category="paragraph">為了透過電子郵件接收通知，您需要在同步關係上啟用*通知*設置，然後在NetApp Console中配置警報和通知設定。</block>
   <block id="e6694f6134fb0186a17db662ced006d0" category="inline-link">了解如何設定通知</block>
-  <block id="a1acc74baa1e9877287951908082ffa4" category="paragraph"><block ref="bfc8c00ba2697817e49164164bcf6590" category="inline-link-rx"></block> 。</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022年7月31日</block>
   <block id="173bb19c121e8b179d4baa317b637722" category="paragraph">現在您可以將資料從 NFS 伺服器或 SMB 伺服器同步到 Google Drive。  「我的雲端硬碟」和「共享雲端硬碟」都支援作為目標。</block>
   <block id="edb5ab0783f7fd41d24fc8a5ae44aef6" category="inline-link">詳細了解 Google Drive 要求</block>
-  <block id="cb15cc9f58b868baf5d6fde1acf150c9" category="paragraph">在建立包含 Google Drive 的同步關係之前，您需要設定具有所需權限和私密金鑰的服務帳戶。<block ref="145332dcba67127d0037c659951fe4ed" category="inline-link-rx"></block> 。</block>
   <block id="557b7fbb966ab34b32484f8c806869ae" category="inline-link">查看支援的同步關係列表</block>
-  <block id="01523e5fc16052f503921585b0698ab3" category="paragraph"><block ref="ee9222b07587eb2c3ffe563d1a2c6106" category="inline-link-rx"></block> 。</block>
   <block id="d6a24c2feaa9a899592c4cd5cf4a5011" category="section-title">其他 Azure Data Lake 支持</block>
   <block id="ac7f6cb7e466c5bda81009406ce9c28c" category="paragraph">Cloud Sync現在支援 Azure Data Lake Storage Gen2 的其他同步關係：</block>
   <block id="291356d9de6df3e4cba63e5478b2bc01" category="list-text">Amazon S3 到 Azure Data Lake Storage Gen2</block>
@@ -1637,10 +1587,8 @@
   <block id="ce0bfc25cb050154c8a5029f8377e3d3" category="paragraph">我們新增了直接從NetApp控制台的系統頁面設定同步關係的其他方法。</block>
   <block id="1bc09668b27b6867ae7fc05d1c02faa8" category="section-title">拖放</block>
   <block id="7a800034f9f4f0c99968851ddd00757f" category="paragraph">現在您可以透過將一個系統拖曳到另一個系統上來從系統頁面設定同步關係。</block>
-  <block id="3c59bd629a6932c0173828b3db021894" category="paragraph"><block ref="3c59bd629a6932c0173828b3db021894" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bf283dfa54b095b3eda8812752b158f9" category="section-title">右側面板設定</block>
   <block id="6f8318a52f9d6a8efd95aca881ef5ed9" category="paragraph">現在，您可以透過從系統頁面選擇系統，然後從右側面板選擇同步選項來為 Azure Blob 儲存體或 Google Cloud Storage 設定同步關係。</block>
-  <block id="6d95d8d963965f95273750a314ff6927" category="paragraph"><block ref="6d95d8d963965f95273750a314ff6927" category="inline-image-macro-rx" type="image"></block></block>
   <block id="08941ffd1ccf6e7016492510582c7546" category="section-title">2022年7月3日</block>
   <block id="59db2d8d08645826b1c034be277c61d2" category="section-title">支援 Azure Data Lake Storage Gen2</block>
   <block id="c7b46a2bde58e21272436d4c94238e15" category="paragraph">現在您可以將資料從 NFS 伺服器或 SMB 伺服器同步到 Azure Data Lake Storage Gen2。</block>
@@ -1676,7 +1624,6 @@
   <block id="5cccebf55aa4da23124f776528630bf3" category="section-title">同步逾時</block>
   <block id="5e4a50a7111ce8bba22cd01d07f86a3b" category="paragraph">現在可以使用新的*同步逾時*設定來同步關係。此設定可讓您定義如果同步在指定的小時數或天數內未完成， Cloud Sync是否應取消資料同步。</block>
   <block id="21a5968447686d2d79ece94fc6ab0653" category="inline-link">了解有關更改同步關係設定的詳細信息</block>
-  <block id="5b34dda5c871fed8b9821e47e0d34ede" category="paragraph"><block ref="9ff383ddf2525d802b02fb0151232700" category="inline-link-rx"></block> 。</block>
   <block id="a977c54005d303d5de0a62a6b3295b22" category="paragraph">現在可以使用新的*通知*設定來同步關係。此設定可讓您選擇是否在NetApp控制台的通知中心接收Cloud Sync通知。您可以啟用資料同步成功、資料同步失敗和資料同步取消的通知。</block>
   <block id="ec9b8f6823bcd6e5f05df71983a3ea63" category="section-title">2022年4月3日</block>
   <block id="33c34b75ae4154295ed3cdeeccb3fd6a" category="section-title">資料代理組增強功能</block>
@@ -1685,29 +1632,23 @@
   <block id="1a89df8c409f135e6e7efd8c0600dba6" category="list-text">現在您可以更新資料代理的代理程式配置。</block>
   <block id="71dba184b83141e962cb89e88563baf3" category="list-text">最後，您也可以刪除資料代理組。</block>
   <block id="fe914f8d9b65e6214843cbd5f42cddc8" category="inline-link">了解如何管理資料經紀人群組</block>
-  <block id="858b6b26381ac0e28fd0ab2919dbe947" category="paragraph"><block ref="0e57eb14c04befe90ef141b40df96648" category="inline-link-rx"></block> 。</block>
   <block id="16f353b4ac76ea7e1a66509c3863e0f9" category="section-title">儀表板過濾器</block>
   <block id="c81f80b5e3a2c8dfe8c2f908cbbfc2fa" category="paragraph">現在您可以過濾同步儀表板的內容，以便更輕鬆地找到符合特定狀態的同步關係。例如，您可以篩選狀態為失敗的同步關係</block>
   <block id="ab31e38babe6f59fc89d1a7f8d3ea2c9" category="inline-image-macro">螢幕截圖顯示了儀表板頂部的按同步狀態過濾選項。</block>
-  <block id="607c524b181fcf51f1c3bf2bd8544f62" category="paragraph"><block ref="607c524b181fcf51f1c3bf2bd8544f62" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c94a7fd1550e4a8904300b181c98caaf" category="section-title">2022年3月3日</block>
   <block id="d8247e494d1e03bac9b29cc7ea4c0eca" category="section-title">在儀表板中排序</block>
   <block id="32ee2f2004d5d2f19f46a8909b1df5a6" category="paragraph">現在您可以按同步關係名稱對儀表板進行排序。</block>
   <block id="c964823b8160043978055759ce39dd87" category="inline-image-macro">螢幕截圖顯示了儀表板上可用的按名稱排序選項。</block>
-  <block id="b5ef56ad55e434fdc2e601398d2944d1" category="paragraph"><block ref="b5ef56ad55e434fdc2e601398d2944d1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="aabbe3d8eb6db922cc7867bbc1068867" category="section-title">增強數據感知集成</block>
   <block id="2931385a1afec19638d47ebab7744410" category="paragraph">在先前的版本中，我們引入了Cloud Sync與 Cloud Data Sense 的整合。在此更新中，我們透過更輕鬆地建立同步關係來增強整合。從 Cloud Data Sense 啟動資料同步後，所有來源資訊都包含在一個步驟中，只需要您輸入一些關鍵詳細資訊。</block>
   <block id="f3b62c43bc969f6b5b30d96b8171a06d" category="inline-image-macro">螢幕截圖顯示了直接從 Cloud Data Sense 啟動新同步後出現的 Data Sense Integration 頁面。</block>
-  <block id="a69f17c43aef6869d3c198c9e9ea2e32" category="paragraph"><block ref="a69f17c43aef6869d3c198c9e9ea2e32" category="inline-image-macro-rx" type="image"></block></block>
   <block id="32669a6fa42c5a557a45c4d6cbe299eb" category="section-title">2022年2月6日</block>
   <block id="b173d47e232436d0170127aec6c62d25" category="section-title">增強數據經紀人群體</block>
   <block id="2362e2192964b2a1132ee3c33127e6ec" category="paragraph">我們透過強調資料經紀人_群體_來改變您與資料經紀人互動的方式。</block>
   <block id="009030a7e855d0f36e42bdac812520b4" category="paragraph">例如，當您建立新的同步關係時，您可以選擇與該關係一起使用的資料代理程式_群組_，而不是特定的資料代理。</block>
   <block id="435847457b00dd1f91120adf3d0e24aa" category="inline-image-macro">同步關係精靈的螢幕截圖，顯示資料代理組選擇。</block>
-  <block id="448a2d91b78bc791fe1001a6af9e8290" category="paragraph"><block ref="448a2d91b78bc791fe1001a6af9e8290" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9eb0238485945ad5d6512b69445e72c6" category="paragraph">在*管理資料代理*標籤中，我們也顯示資料代理群組正在管理的同步關係的數量。</block>
   <block id="4f1d2e29d6b816360bccc567294cac53" category="inline-image-macro">管理資料代理頁面的螢幕截圖，顯示資料代理群組及其詳細信息，包括其管理的關係數量。</block>
-  <block id="43681663bc0450a9a5879dd236d40b3e" category="paragraph"><block ref="43681663bc0450a9a5879dd236d40b3e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="81a424c5c67f920d35d770215956f31f" category="section-title">下載 PDF 報告</block>
   <block id="983eab96e054cfaaef2e1cc070a5ac0d" category="paragraph">您現在可以下載報告的 PDF。</block>
   <block id="f8cd23c769793fc26c0573678e2a2d07" category="section-title">2022年1月2日</block>
@@ -1776,7 +1717,6 @@
   <block id="0c69dd608d3bb18f6d88caa7ab56df36" category="section-title">支援 FSx for ONTAP</block>
   <block id="548eba8d98d9c7383a12d30e135e8723" category="paragraph">現在您可以將資料同步到Amazon FSx for ONTAP 檔案系統或從 Amazon FSx for ONTAP檔案系統同步資料。</block>
   <block id="43ece0944414298a29b4d72bc56373f1" category="inline-link">了解Amazon FSx for ONTAP</block>
-  <block id="33f0129a1bbda48d580d8b7e1e727bd5" category="list-text"><block ref="33f0129a1bbda48d580d8b7e1e727bd5" category="inline-link-rx"></block></block>
   <block id="3d9c61bbb0656b8a470cbe7bd67859f7" category="inline-link-macro">查看支援的同步關係</block>
   <block id="6b816f21b0dbce67e44499fa4246a4b1" category="list-text"><block ref="6b816f21b0dbce67e44499fa4246a4b1" category="inline-link-macro-rx"></block></block>
   <block id="de0f377f70e8f82779d4f2819fe79524" category="inline-link-macro">了解如何為Amazon FSx for ONTAP建立同步關係</block>
@@ -1908,7 +1848,6 @@
   <block id="35e87b798eb20e7292277632ad38f075" category="paragraph">Copy and Sync 僅支援來自 **AWS** 和 **Azure** 的 Marketplace 訂閱。Copy and Sync 不支援 Google Cloud Marketplace 訂閱。</block>
   <block id="2ae091a3671766342a004e04ab997fa7" category="doc">NetApp Copy and Sync 的法律聲明</block>
   <block id="73739eb6708b1f94f14a3235110634df" category="doc">取得 NetApp Copy and Sync 的協助</block>
-  <block id="6828272c02a6fcbd01d1f27906de2d7f" category="paragraph">&lt;stdin&gt; 中未解析的指令 - include::https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/_include/get-help.adoc[]</block>
   <block id="6c99d7531563acf5f46e03db9f34385a" category="list-text">*Node.js 相容性*：v25.x</block>
   <block id="b0655b2066e927b67447db8f80868c31" category="paragraph">Red Hat Enterprise Linux 系統必須在 Red Hat Subscription Management 中註冊。如果未註冊，系統將無法存取儲存庫，從而在安裝過程中無法更新所需的第三方軟體。</block>
   <block id="246c5170634ef7f1ddda0232ad7d402e" category="list-text">在 *Define Sync Relationship* 頁面上，選擇來源和目標，然後選取 *Continue*。</block>
@@ -1921,4 +1860,129 @@
   <block id="7019a39846e9a2c7f7a80eaba91e4a41" category="paragraph"><block ref="7019a39846e9a2c7f7a80eaba91e4a41" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1d593c3f7480ada9580d93cd753c3f93" category="paragraph">這是系統產生的與您的電子郵件地址對應的 ID。您可以在 *NSS Management* 頁面的 <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 選單中找到您的電子郵件地址。</block>
   <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">如果您需要刷新登入憑證令牌，<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 選單中還有一個「更新憑證」選項。</block>
+  <block id="1f1742ab02e7e7062c1555542e36acba" category="paragraph"><block ref="2ef439a715e39363e973f7db937017ca" category="inline-link-rx"></block>。</block>
+  <block id="1a90436cad6b2c834a6f0bf4b63bb676" category="paragraph">深入瞭解<block ref="185be9890bef04443cd0fba90b4aff11" category="inline-link-rx"></block>。</block>
+  <block id="c84b66046eeb5b846fd10c3ad5bc3f84" category="paragraph">若要新增客戶管理的 KMS 金鑰，您需要使用具有 <block ref="ba201918902210c88f8430a2eea6c40d" category="inline-link-macro-rx"></block> 的資料代理人，且該金鑰必須與儲存桶位於同一區域。</block>
+  <block id="d1d3cf672c751a6c46ee6e87a4ba40ee" category="list-text"><block ref="d1d3cf672c751a6c46ee6e87a4ba40ee" category="inline-link-rx"></block></block>
+  <block id="cf8fdfac9f0e968ca5928eb1450d46a9" category="list-text"><block ref="cf8fdfac9f0e968ca5928eb1450d46a9" category="inline-link-rx"></block></block>
+  <block id="1e0f1983482329aaf670dac68ccfd14f" category="list-text"><block ref="1e0f1983482329aaf670dac68ccfd14f" category="inline-link-rx"></block></block>
+  <block id="fc09b9cb5ee20aeac09d8ff9ad68b475" category="list-text"><block ref="fc09b9cb5ee20aeac09d8ff9ad68b475" category="inline-link-rx"></block></block>
+  <block id="70e099984307d3cf98ed169b8bf816f6" category="list-text"><block ref="70e099984307d3cf98ed169b8bf816f6" category="inline-link-rx"></block></block>
+  <block id="8b2d5bf7fb63b2f00585b9328e372fd4" category="list-text"><block ref="8b2d5bf7fb63b2f00585b9328e372fd4" category="inline-link-rx"></block></block>
+  <block id="30521c23aae7241d4691b7b539da5c89" category="list-text"><block ref="30521c23aae7241d4691b7b539da5c89" category="inline-link-rx"></block></block>
+  <block id="94a5e655a0d3b3be0a87ba68d6d73230" category="paragraph">複製和同步功能開始在來源和目標之間同步資料。您可以查看同步統計資料，例如同步耗時、是否暫停以及複製、掃描或刪除的檔案數量。之後，您可以管理您的<block ref="6d7776ec96aeaba5af380a54aca37776" category="inline-link-macro-rx"></block>、<block ref="a032e3bf506f732a0e85caa4ad9deb9d" category="inline-link-macro-rx"></block>或<block ref="a462b78ca55ee8bf03d41b4511b6faa2" category="inline-link-macro-rx"></block>。</block>
+  <block id="7af5c80b1eac313925f1d8158eb5e3d0" category="paragraph"><block ref="da7cbf17cf768d4bae00a93fad9f4cf1" category="inline-link-rx"></block>。</block>
+  <block id="2feeca48692986e9cc471ec61f847fca" category="paragraph">NetApp 以多種方式為 NetApp Console 及其雲端服務提供支援。全天候 24/7 提供多種免費自助支援選項，例如知識庫（KB）文章及社群論壇。您的支援註冊包含透過線上工單系統提供的遠端技術支援。</block>
+  <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">取得雲端供應商檔案服務的支援</block>
+  <block id="317cbd2c4fdbfd06a6c66bcd3f57d7ad" category="paragraph">如需雲端供應商檔案服務、其基礎架構或使用該服務之任何解決方案的相關技術支援，請參閱該產品的說明文件。</block>
+  <block id="68e6fe8cde496154d24fd032b4262070" category="paragraph">若要獲得針對 NetApp 及其儲存解決方案和資料服務的特定技術支援，請使用下面描述的支援選項。</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">使用自助選項</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">這些選項全天候 24 小時、每週 7 天免費提供：</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文件</block>
+  <block id="5bb94d173380c00577f5e04b6f26bb94" category="paragraph">您目前正在檢視的 NetApp Console 文件。</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知識庫</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="0e20091afcea2d83d0033a933ba85092" category="paragraph">搜尋 NetApp 知識庫，尋找有助於疑難排解問題的文章。</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社群</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="777d75a90b107e4f18469f82c4f81fe2" category="paragraph">加入 NetApp Console 社群，參與現有討論或建立新討論。</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">建立 NetApp 支援案例</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述自助支援選項外，您可以在啟動支援後與 NetApp 支援專家合作解決任何問題。</block>
+  <block id="c406bf0ac8ac87bc5bb7132a7351b2ae" category="inline-link">了解如何管理與您的 Console 登入相關的認證資料</block>
+  <block id="377118f28487e70bd456993144b72fc7" category="list-text">若要使用「建立案例」功能，您必須先將 NetApp 支援網站憑證與 Console 登入資訊關聯<block ref="68c4321a756e3ffe955b62cff6fea46d" category="inline-link-rx"></block>。</block>
+  <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">如果您要為具有序號的 ONTAP 系統開立案例，則您的 NSS 帳戶必須與該系統的序號關聯。</block>
+  <block id="0ab80a63088581d58dcf067051f4c894" category="list-text">在 NetApp Console 中，選取 *說明 &gt; 支援*。</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">在「資源」頁面上，選擇「技術支援」下的可用選項之一：</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">如果您想透過電話與我們聯繫，請選擇「致電」。您將被引導至 netapp.com 上的頁面，該頁面列出您可以撥打的電話號碼。</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">選擇「建立案例」以向 NetApp 支援專家開啟工單：</block>
+  <block id="a1123cd59d7bd876c080c33906ae65ce" category="list-text">*服務*：選擇與問題相關的服務。例如，當問題具體涉及 Console 內的工作流程或功能的技術支援問題時，請選擇 *NetApp Console*。</block>
+  <block id="987df7518e2afb50a860647c832afd13" category="list-text">*系統*：如果適用於儲存設備，請選擇 *Cloud Volumes ONTAP* 或 *內部部署*，然後選擇相關的工作環境。</block>
+  <block id="8f8e8a86e5f52b6186a37bdf266c4320" category="paragraph">系統清單位於 Console 組織和您在頂部橫幅中選擇的 Console 代理程式的範圍內。</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*案例優先順序*：選擇案例的優先順序，可以是低、中、高或關鍵。</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">若要深入瞭解這些優先順序的詳細資訊，請將滑鼠懸停在欄位名稱旁邊的資訊圖示上。</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*問題執行摘要*：請詳細描述您的問題，包括任何適用的錯誤訊息或您執行的疑難排解步驟。</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*其他電子郵件地址*：如果您想讓其他人知悉此問題，請輸入其他電子郵件地址。</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*附件（選購）*：一次最多可上傳五個附件。</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">每個檔案的大小限制為 25 MB。支援的檔案副檔名有：txt、log、pdf、jpg/jpeg、rtf、doc/docx、xls/xlsx 和 csv。</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">這是「建立案例」表單的快照，您可以透過該表單向 NetApp 支援部門建立案例。</block>
+  <block id="77c89527ec8a9f89b24c5579d19b3b4b" category="paragraph"><block ref="77c89527ec8a9f89b24c5579d19b3b4b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">螢幕上會彈出一個窗口，顯示您的支援案例編號。NetApp 支援專員將審查您的案例，並儘快與您聯繫。</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">若要查看您的支援案例歷史記錄，您可以選擇 *Settings &gt; Timeline*，然後尋找名為「create support case」的行動。最右側的按鈕可讓您展開該行動以查看詳細資訊。</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">建立案例時，您可能會遇到以下錯誤訊息：</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">「您無權針對所選服務建立案例。」</block>
+  <block id="178fdaf97b1d1577437f11ee9d5e5229" category="paragraph">此錯誤可能表示 NSS 帳戶及其關聯的註冊公司與 NetApp Console 帳戶序號（例如960xxxx）或工作環境序號對應的註冊公司不一致。您可以透過以下方式尋求協助：</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">提交非技術性案例，請至<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="e1100b46295d42ed50ba7a4630710164" category="section-title">管理您的支援案例</block>
+  <block id="316508a3483178100806a9d44b49aba2" category="paragraph">您可以直接透過 Console 查看和管理正在進行和已解決的支援案例。您可以管理與您的 NSS 帳戶和公司關聯的案例。</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">頁面頂端的案例管理儀表板提供兩種檢視：</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">左側檢視顯示您提供的使用者 NSS 帳戶在過去 3 個月內開啟的案例總數。</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">右側檢視顯示過去 3 個月內，根據您的使用者 NSS 帳戶，您公司層級開立的案件總數。</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">表格中的結果反映了與您選擇的檢視相關的案例。</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">您可以新增或移除感興趣的欄，也可以篩選諸如「優先順序」和「狀態」等欄的內容。其他欄位僅提供排序功能。</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">請查看以下步驟以了解更多詳情。</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">在每個案件層級，我們提供更新案件備註或結案尚未處於「已結案」或「待結案」狀態的案件的功能。</block>
+  <block id="9163e8bca6fd93c080d35ab49e3efdfa" category="list-text">在 NetApp Console 中，選取 *說明 &gt; 支援*。</block>
+  <block id="2019fd19051c3ef493dbbb9ca65bab87" category="list-text">選擇 *Case Management* ，如果系統提示，請將您的 NSS 帳戶新增至 Console 。</block>
+  <block id="75e54e3a6fdbf43ed890669e079d7594" category="paragraph">* 案例管理 * 頁面顯示與您的 Console 使用者帳戶相關聯的 NSS 帳戶相關的未結案例。這與 *NSS 管理 * 頁面頂端顯示的 NSS 帳戶相同。</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">您可以選擇修改表格中顯示的資訊：</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">在「組織案例」下，選擇「檢視」以檢視與貴公司相關的所有案例。</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">您可以選擇確切的日期範圍或選擇不同的時間範圍來修改日期範圍。</block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">篩選各列的內容。</block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">表格中出現的加號圖示</block>
+  <block id="8ac6be88c1aa79062825a147fb263b0e" category="list-text">選取 <block ref="500a336e7ba1c54bcffba4e27bda4eb6" category="inline-image-macro-rx" type="image"></block>，然後選擇要顯示的欄，即可變更表格中顯示的欄。</block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">表格最後一列出現的一個有三個點的圖示</block>
+  <block id="049b7b9fab1242f5e715952973c9474d" category="list-text">透過選取 <block ref="7381d9baeaf62eb099ce84f1a21ed5ca" category="inline-image-macro-rx" type="image"></block> 並選取其中一個可用選項來管理現有案例：</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*檢視案例*：檢視特定案例的完整詳細資訊。</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*更新案例記錄*：提供有關您問題的更多詳細資料，或選擇 *Upload files* 以附加最多五個檔案。</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*結案*：提供有關您結案原因的詳細資訊，然後選擇 *結案*。</block>
+  <block id="6fe0792f4d89edbee86470731a6c4fd2" category="paragraph">{ "Name": "Azure Data Broker", "Actions": [ "Microsoft.Resources/subscriptions/read", "Microsoft.Resources/deployments/operationstatuses/read", "Microsoft.Resources/subscriptions/locations/read", "Microsoft.Network/networkInterfaces/read", "Microsoft.Network/virtualNetworks/subnets/read", "Microsoft.Resources/subscriptions/resourceGroups/write", "Microsoft.Resources/subscriptions/resourceGroups/delete", "Microsoft.Resources/deployments/write", "Microsoft.Resources/deployments/validate/action", "Microsoft.Resources/deployments/operationStatuses/read", "Microsoft.Resources/deployments/cancel/action", "Microsoft.Compute/virtualMachines/read", "Microsoft.Compute/virtualMachines/delete", "Microsoft.Compute/disks/delete", "Microsoft.Network/networkInterfaces/delete", "Microsoft.Network/publicIPAddresses/delete", "Microsoft.Network/networkSecurityGroups/securityRules/delete", "Microsoft.Resources/subscriptions/resourceGroups/write", "Microsoft.Compute/virtualMachines/delete", "Microsoft.Network/networkSecurityGroups/write", "Microsoft.Network/networkSecurityGroups/join/action", "Microsoft.Compute/disks/write", "Microsoft.Network/networkInterfaces/write", "Microsoft.Network/virtualNetworks/read", "Microsoft.Network/publicIPAddresses/write", "Microsoft.Compute/virtualMachines/write", "Microsoft.Compute/virtualMachines/extensions/write", "Microsoft.Resources/deployments/read", "Microsoft.Network/networkSecurityGroups/read", "Microsoft.Network/publicIPAddresses/read", "Microsoft.Network/virtualNetworks/subnets/join/action", "Microsoft.Network/publicIPAddresses/join/action", "Microsoft.Network/networkInterfaces/join/action", "Microsoft.Storage/storageAccounts/read", "Microsoft.EventGrid/systemTopics/eventSubscriptions/write", "Microsoft.EventGrid/systemTopics/eventSubscriptions/read", "Microsoft.EventGrid/systemTopics/eventSubscriptions/delete", "Microsoft.EventGrid/systemTopics/eventSubscriptions/getFullUrl/action", "Microsoft.EventGrid/systemTopics/eventSubscriptions/getDeliveryAttributes/action", "Microsoft.EventGrid/systemTopics/read", "Microsoft.EventGrid/systemTopics/write", "Microsoft.EventGrid/systemTopics/delete", "Microsoft.EventGrid/eventSubscriptions/write", "Microsoft.Storage/storageAccounts/write" "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/read" "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/write" "Microsoft.Network/networkSecurityGroups/securityRules/read", "Microsoft.Network/networkSecurityGroups/read", ] }</block>
+  <block id="6a9e4c1e22fb1de2ae2404fd1a78495c" category="paragraph">如果您打算在從 Azure 到其他雲端儲存位置的同步關係上啟用 <block ref="8cf22f0addb5c3ac7c081c51cb7454a7" category="inline-link-macro-rx"></block>，則僅需要下列權限：</block>
+  <block id="8e32050bf3a2454d57d1b2b7b568830c" category="paragraph">如果您打算在 Azure 中實作持續同步，則可指派範圍必須設定為訂閱範圍，*而不是*資源群組範圍。</block>
+  <block id="cab494d99216e29e544e3d3f46cb305e" category="list-text">'Microsoft.Network/networkSecurityGroups/securityRules/read'</block>
+  <block id="b5403da4b57866a49e5b9f0e77a8f418" category="list-text">'Microsoft.Network/networkSecurityGroups/read'</block>
+  <block id="c6db148646649a105c2eed96b7dd57c7" category="paragraph">部署資料代理人時，需要為虛擬機器選擇一種身分驗證方法：密碼或 SSH 公開金鑰-私密金鑰對。</block>
+  <block id="7ee659008211f7dd46cd425cec9f1ab0" category="paragraph">有關建立金鑰對的協助，請參閱<block ref="8008a15e617ddc791fd0c467ea5f6da0" category="inline-link-macro-rx"></block>。</block>
+  <block id="f17ab3d25fc42bd37c8ea7d6575db636" category="paragraph">若要登入 Console，您可以使用 NetApp 支援網站憑證，也可以使用您的電子郵件和密碼註冊 NetApp 雲端登入<block ref="3546779ff62edcb806e94b283f4a603a" category="inline-link-rx"></block>。</block>
+  <block id="db4dc6502dbacea78edd604c82969aa9" category="paragraph">*必要的 NetApp Console 角色* 組織管理員角色<block ref="439d8d9982f188288f59462af44aa0cc" category="inline-link-rx"></block>。</block>
+  <block id="533091162f90e70c912104bfe79dc13d" category="paragraph">每份報告都提供有關同步關係中路徑的詳細資訊。它將包括目錄、檔案和符號連結的數量、檔案大小的經銷、目錄的深度和寬度、修改時間和存取時間。這與同步統計資料不同，後者可在<block ref="c9fea873f9bffb502f8b08a3a58cf209" category="inline-link-macro-rx"></block>之後從儀表板中查看。</block>
+  <block id="ded47057f23a323a52f18222c855501c" category="list-text"><block ref="ded47057f23a323a52f18222c855501c" category="inline-link-rx"></block></block>
+  <block id="0e68fba9b33cfa51cf14cff5b14034d8" category="list-text"><block ref="0e68fba9b33cfa51cf14cff5b14034d8" category="inline-link-rx"></block></block>
+  <block id="9e49869e603a1e0bd3ddef48fe241ed5" category="paragraph"><block ref="9e49869e603a1e0bd3ddef48fe241ed5" category="inline-link-rx"></block></block>
+  <block id="1c949b66388935320c8b803ca7e78f8a" category="paragraph"><block ref="1c949b66388935320c8b803ca7e78f8a" category="inline-link-rx"></block></block>
+  <block id="bc95d05b2f962d65a105f2ea28d19d85" category="paragraph"><block ref="d181c9cb68a0ef628ed9adc08bce8f2d" category="inline-link-rx"></block>。</block>
+  <block id="5d6929ad4dcd520bfa3c44c10cf50587" category="paragraph"><block ref="5d6929ad4dcd520bfa3c44c10cf50587" category="inline-link-rx"></block></block>
+  <block id="6bb63bb2f0113b0cd17e29a320f85146" category="paragraph"><block ref="6bb63bb2f0113b0cd17e29a320f85146" category="inline-link-rx"></block></block>
+  <block id="262b36d0e53d36bbed021ad23329626e" category="paragraph"><block ref="262b36d0e53d36bbed021ad23329626e" category="inline-link-rx"></block></block>
+  <block id="bec3d1b621c3a9e2dfac7cb3a58d3eae" category="paragraph"><block ref="bec3d1b621c3a9e2dfac7cb3a58d3eae" category="inline-link-rx"></block></block>
+  <block id="eb03cda317f716198e80ea56c4a59b1e" category="inline-link">了解更多關於刪除同步關係的資訊。</block>
+  <block id="68b1dd0d14d6168055c7d2d83e475ec0" category="paragraph"><block ref="68b1dd0d14d6168055c7d2d83e475ec0" category="inline-link-rx"></block></block>
+  <block id="00cda4a0fb0837b9102666b376bc7205" category="paragraph"><block ref="00cda4a0fb0837b9102666b376bc7205" category="inline-link-rx"></block></block>
+  <block id="195afed60a85c050bb4a7d912bdc7046" category="paragraph"><block ref="0c924836a6e14a2b193fa379ff6ccbde" category="inline-link-rx"></block>。</block>
+  <block id="52971356d94ea6cc489898e585491ecf" category="paragraph"><block ref="c800b03838f4fe5a7939da7aa4bd1846" category="inline-link-rx"></block>。</block>
+  <block id="7e06a560366fb0bcf3de9cf5ddb8af79" category="paragraph"><block ref="67813bdcff7c5e0f618b55eefcac2b7f" category="inline-link-rx"></block>。</block>
+  <block id="274514fa797fe24473428a75e4f5c802" category="paragraph"><block ref="f7ed827b391113fa3e6d5b516014f1db" category="inline-link-rx"></block>。</block>
+  <block id="9772657b32dae7226f4030dc6e11cc5a" category="paragraph"><block ref="9edac2e21156448d8b1aa7d88541898d" category="inline-link-rx"></block>。</block>
+  <block id="0c896430e4a3faa092dfd2b5d9e37fc7" category="paragraph"><block ref="6a6ad7305f3baa106d5db0b460f9ab6f" category="inline-link-rx"></block>。</block>
+  <block id="ddca19516a6e57a7590e1039933cd524" category="paragraph"><block ref="13a2b4ae119be71c39c8c0e2bb211099" category="inline-link-rx"></block>。</block>
+  <block id="185ba563a01bf47289bcfef2322e5273" category="paragraph"><block ref="d1de71178193ddf67c04bba23267d56c" category="inline-link-rx"></block>。</block>
+  <block id="a12e9a41e9eec3169fb2c65505e1a55f" category="paragraph"><block ref="ba7cd7d004f97844c0c9453c1fe93ce4" category="inline-link-rx"></block>。</block>
+  <block id="1f26bf147cb9efbe947b0223be545a48" category="paragraph"><block ref="6902b3f97ff52194467798bcd05a9ffe" category="inline-link-rx"></block>。</block>
+  <block id="173d4ad677909c21d4f79098f5a21927" category="paragraph"><block ref="13029eefdb57a9744fa490db118d8c6c" category="inline-link-rx"></block>。</block>
+  <block id="468d393770e0bad7b3e189d12fb53655" category="paragraph"><block ref="f4fe362c1700c3c92b5dde6cc90a7868" category="inline-link-rx"></block>。</block>
+  <block id="aa9bb94a7895d08a381b3e0a062ab9ea" category="paragraph"><block ref="adc3db2fc3efdea1cb1b3684e1b6562b" category="inline-link-rx"></block>。</block>
+  <block id="09bd08aa185b8f2d2721f5696d05be5e" category="paragraph"><block ref="3eb71a5b3cbe52d16f9763fcdd7ac840" category="inline-link-rx"></block>。</block>
+  <block id="e2be7adcbbef482869f9951a2e371de1" category="paragraph"><block ref="a8b76d696c6ca8eb8a4ae86d89da41f8" category="inline-link-rx"></block>。</block>
+  <block id="23c10782c125c60cca42e039a105cba5" category="paragraph">在建立包含 Google 雲端硬碟的同步關係之前，您需要設定一個具有所需權限和私鑰的服務帳戶<block ref="177f64ae53d3dda9456dde17532b5a0a" category="inline-link-rx"></block>。</block>
+  <block id="cfbcf25689b602922d1acb812bba1e4e" category="paragraph"><block ref="68cfb8ba95cd656b41ffbd7915a586c8" category="inline-link-rx"></block>。</block>
+  <block id="84bf48967c4e7acf934559a16036b0e2" category="paragraph"><block ref="84bf48967c4e7acf934559a16036b0e2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="610362c657e6f518cf6b908fae6f133a" category="paragraph"><block ref="610362c657e6f518cf6b908fae6f133a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c1be8fe7145fda1c2892482c6f40c58" category="paragraph"><block ref="b0823f7496873fca69e9dc47a96132ae" category="inline-link-rx"></block>。</block>
+  <block id="c8901dbd7d7e0676777f7e58170441f8" category="paragraph"><block ref="c8901dbd7d7e0676777f7e58170441f8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3c4e3991e5af5b4cc64a22d3d7ea9c68" category="paragraph"><block ref="f7cd9657b6e8275da694cc52cf9d6fe5" category="inline-link-rx"></block>。</block>
+  <block id="893ae1d6accefd405109edc45da1d68d" category="paragraph"><block ref="893ae1d6accefd405109edc45da1d68d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a2b4da244eb549e37781250fbc235a5c" category="paragraph"><block ref="a2b4da244eb549e37781250fbc235a5c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c0564b9d8fe0b44caec939b98954c821" category="paragraph"><block ref="c0564b9d8fe0b44caec939b98954c821" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="23239688169f4a4cc657d5ef5443f34b" category="paragraph"><block ref="23239688169f4a4cc657d5ef5443f34b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7bed8c71bfbfa7b7847f7029d0d74ccc" category="paragraph"><block ref="7bed8c71bfbfa7b7847f7029d0d74ccc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6c786f9f2baf8236d6ee8e864e78e415" category="list-text"><block ref="6c786f9f2baf8236d6ee8e864e78e415" category="inline-link-rx"></block></block>
 </blocks>

@@ -18,6 +18,7 @@ summary: 建立新的資料代理程式時，請選擇 On-Prem Data Broker 選�
 
 
 
+[[linux-host-requirements]]
 == Linux 主機需求
 
 * *Node.js 相容性*：v25.x
@@ -50,12 +51,14 @@ SELinux 強制執行阻止資料代理軟體更新的策略，並且可以阻止
 
 
 
+[[root-privileges]]
 == Root權限
 
 資料代理軟體在 Linux 主機上自動以 root 身分執行。以 root 身分運行是資料代理操作的必要條件。例如，掛載共享。
 
 
 
+[[networking-requirements]]
 == 網路需求
 
 * Linux 主機必須與來源和目標建立連線。
@@ -66,6 +69,7 @@ SELinux 強制執行阻止資料代理軟體更新的策略，並且可以阻止
 
 
 
+[[enable-access-to-aws]]
 == 啟用對 AWS 的訪問
 
 如果您打算使用包含 S3 儲存桶的同步關係的資料代理，那麼您應該準備好 Linux 主機以供 AWS 存取。安裝資料代理程式時，您需要為具有程式存取權限和特定權限的 AWS 使用者提供 AWS 金鑰。
@@ -86,6 +90,7 @@ https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html["查看 AW
 
 
 
+[[enable-access-to-google-cloud]]
 == 啟用對 Google Cloud 的訪問
 
 如果您打算使用包含 Google Cloud Storage 儲存桶的同步關係的資料代理，那麼您應該準備 Linux 主機以供 Google Cloud 存取。安裝資料代理程式時，您需要為具有特定權限的服務帳戶提供金鑰。
@@ -108,12 +113,14 @@ NOTE: 當您建立金鑰時，檔案就會產生並下載到您的機器上。
 
 
 
+[[enable-access-to-microsoft-azure]]
 == 啟用對 Microsoft Azure 的訪問
 
 透過在同步關係精靈中提供儲存帳戶和連接字串來定義每個關係對 Azure 的存取。
 
 
 
+[[install-the-data-broker]]
 == 安裝數據代理
 
 建立同步關係時，您可以在 Linux 主機上安裝資料代理程式。

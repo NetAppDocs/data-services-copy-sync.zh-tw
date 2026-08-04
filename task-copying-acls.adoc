@@ -23,6 +23,7 @@ NetApp Copy and Sync可以在 SMB 共用之間以及 SMB 共用和物件儲存�
 
 
 
+[[set-up-copy-and-sync-to-copy-acls]]
 == 設定複製和同步以複製 ACL
 
 透過在建立關係時或建立關係後啟用設置，在 SMB 共用之間以及 SMB 共用和物件儲存之間複製 ACL。
@@ -73,6 +74,7 @@ image:screenshot-sync-tags-metadata.png["複製到物件儲存時同步關係精
 
 
 
+[[manually-copy-acls-between-smb-shares]]
 == 在 SMB 共用之間手動複製 ACL
 
 您可以使用 Windows robocopy 指令手動保留 SMB 共用之間的 ACL。

@@ -20,18 +20,21 @@ summary: 建立新的資料代理程式時，選擇 AWS Data Broker 選項在 VP
 
 
 
+[[supported-aws-regions]]
 == 支援的 AWS 區域
 
 除中國地區外，所有地區均受支援。
 
 
 
+[[root-privileges]]
 == Root權限
 
 資料代理軟體在 Linux 主機上自動以 root 身分執行。以 root 身分運行是資料代理操作的必要條件。例如，掛載共享。
 
 
 
+[[networking-requirements]]
 == 網路需求
 
 * 資料代理需要出站互聯網連接，以便它可以透過連接埠 443 輪詢複製和同步任務。
@@ -46,12 +49,14 @@ summary: 建立新的資料代理程式時，選擇 AWS Data Broker 選項在 VP
 
 
 
+[[permissions-required-to-deploy-the-data-broker-in-aws]]
 == 在 AWS 中部署資料代理程式所需的權限
 
 用於部署資料代理程式的 AWS 使用者帳戶必須具有下列權限： https://s3.amazonaws.com/metadata.datafabric.io/docs/aws_iam_policy.json["NetApp提供的政策"^] 。
 
 
 
+[[iamrequirements-to-use-your-own-iam-role-with-the-aws-data-broker]]
 == [[iam]]將您自己的 IAM 角色與 AWS 資料代理程式結合使用的要求
 
 當 Copy and Sync 部署資料代理程式時，它會為資料代理程式實例建立一個 IAM 角色。如果您願意，您可以使用自己的 IAM 角色部署資料代理程式。如果您的組織有嚴格的安全策略，您可以使用此選項。
@@ -66,6 +71,7 @@ IAM 角色必須符合以下要求：
 
 
 
+[[create-the-data-broker]]
 == 建立資料代理
 
 有幾種方法可以建立新的資料代理。這些步驟描述如何在建立同步關係時在 AWS 中安裝資料代理程式。
@@ -118,6 +124,7 @@ image:screenshot-data-broker-group-selected.png["此螢幕截圖顯示了已成�
 
 
 
+[[details-about-the-data-broker-instance]]
 == 有關資料代理實例的詳細信息
 
 複製和同步使用下列配置在 AWS 中建立資料代理程式。

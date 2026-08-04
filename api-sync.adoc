@@ -18,6 +18,7 @@ summary: 可透過 Web UI 使用的NetApp Copy and Sync功能也可透過 RESTfu
 
 
 
+[[get-started]]
 == 開始
 
 要開始使用複製和同步 API，您需要取得使用者令牌和NetApp Console帳戶 ID。進行 API 呼叫時，您需要將令牌和帳戶 ID 新增至授權標頭。
@@ -89,6 +90,7 @@ API 回應包含一個「expires_in」字段，用於說明令牌何時過期。
 
 
 
+[[use-list-apis]]
 == 使用列表 API
 
 List API 是非同步 API，因此結果不會立即傳回（例如： `GET /data-brokers/{id}/list-nfs-export-folders`和 `GET /data-brokers/{id}/list-s3-buckets`）。來自伺服器的唯一回應是 HTTP 狀態 202。要獲得實際結果，您必須使用 `GET /messages/client`API。
@@ -185,6 +187,7 @@ x-account-id: <accountId>
 ----
 
 
+[[api-reference]]
 == API 參考
 
 每個複製和同步 API 的文檔可從 https://api.cloudsync.netapp.com/docs[]。

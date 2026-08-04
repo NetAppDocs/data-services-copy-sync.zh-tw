@@ -18,16 +18,19 @@ summary: 了解NetApp Copy and Sync的新功能。
 
 
 
+[[06-october-2025]]
 == 2025年10月6日
 
 
 
+[[bluexp-copy-and-sync-is-now-netapp-copy-and-sync]]
 === BlueXP copy and sync現已更名NetApp Copy and Sync
 
 BlueXP copy and sync已重新命名為NetApp Copy and Sync。
 
 
 
+[[bluexp-is-now-netapp-console]]
 === BlueXP現在是NetApp Console
 
 NetApp Console建立在增強和重組的BlueXP基礎之上，可在企業級內部和雲端環境中集中管理NetApp儲存和NetApp Data Services，提供即時洞察、更快的工作流程和簡化的管理，並且高度安全且合規。
@@ -36,142 +39,167 @@ NetApp Console建立在增強和重組的BlueXP基礎之上，可在企業級內
 
 
 
+[[02-february-2025]]
 == 2025年2月2日
 
 
 
+[[new-os-support-for-data-broker]]
 === 新的作業系統支援數據代理
 
 資料代理現在支援執行 Red Hat Enterprise 9.4、Ubuntu 23.04 和 Ubuntu 24.04 的主機。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-host-requirements["查看 Linux 主機需求"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-installing-linux.html#linux-host-requirements["查看 Linux 主機需求"]。
 
 
 
+[[27-october-2024]]
 == 2024年10月27日
 
 
 
+[[bug-fixes]]
 === 錯誤修復
 
 我們更新了NetApp Copy and Sync和資料代理程式以修復一些錯誤。新的資料代理版本是 1.0.56。
 
 
 
+[[16-september-2024]]
 == 2024年9月16日
 
 
 
+[[bug-fixes]]
 === 錯誤修復
 
 我們更新了NetApp Copy and Sync和資料代理程式以修復一些錯誤。新的資料代理版本是 1.0.55。
 
 
 
+[[11-august-2024]]
 == 2024年8月11日
 
 
 
+[[bug-fixes]]
 === 錯誤修復
 
 我們更新了NetApp Copy and Sync和資料代理程式以修復一些錯誤。新的資料代理版本是 1.0.54。
 
 
 
+[[14-july-2024]]
 == 2024年7月14日
 
 
 
+[[bug-fixes]]
 === 錯誤修復
 
 我們更新了複製和同步以及資料代理程式以修復一些錯誤。新的資料代理版本是 1.0.53。
 
 
 
+[[02-june-2024]]
 == 2024年6月2日
 
 
 
+[[bug-fixes]]
 === 錯誤修復
 
 NetApp Copy and Sync已更新，修復了一些錯誤。資料代理也進行了更新以應用安全性更新。新的資料代理版本是 1.0.52。
 
 
 
+[[08-april-2024]]
 == 2024年4月8日
 
 
 
+[[support-for-rhel-8-9]]
 === 支援 RHEL 8.9
 
 運行 Red Hat Enterprise Linux 8.9 的主機現在支援資料代理程式。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-host-requirements["查看 Linux 主機需求"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-installing-linux.html#linux-host-requirements["查看 Linux 主機需求"]。
 
 
 
+[[11-february-2024]]
 == 2024年2月11日
 
 
 
+[[filter-directories-by-regex]]
 === 透過正規表示式過濾目錄
 
 使用者現在可以選擇使用正規表示式過濾目錄。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#create-other-types-of-sync-relationships["了解有關*排除目錄*功能的更多資訊。"]
+https://docs.netapp.com/us-en/data-services-copy-sync/task-creating-relationships.html#create-other-types-of-sync-relationships["了解有關*排除目錄*功能的更多資訊。"]
 
 
 
+[[26-november-2023]]
 == 2023年11月26日
 
 
 
+[[cold-storage-class-support-for-azure-blob]]
 === Azure Blob 的冷儲存類別支援
 
 建立同步關係時，冷儲存 Azure Blob 層現在可用。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html["了解有關建立同步關係的更多資訊。"]
+https://docs.netapp.com/us-en/data-services-copy-sync/task-creating-relationships.html["了解有關建立同步關係的更多資訊。"]
 
 
 
+[[support-for-tel-aviv-region-in-aws-data-brokers]]
 === AWS 資料代理支援特拉維夫地區
 
 在 AWS 中建立資料代理時，特拉維夫現在是受支援的區域。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#creating-the-data-broker["了解有關在 AWS 中建立資料代理的更多信息"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-installing-aws.html#creating-the-data-broker["了解有關在 AWS 中建立資料代理的更多信息"]。
 
 
 
+[[update-to-node-version-for-data-brokers]]
 === 更新資料代理程式的節點版本
 
 所有新的資料代理現在都將使用節點版本 21.2.0。與此更新不相容的資料代理程式（例如 CentOS 7.0 和 Ubuntu Server 18.0）將不再與NetApp Copy and Sync一起使用。
 
 
 
+[[03-september-2023]]
 == 2023年9月3日
 
 
 
+[[exclude-files-by-regex]]
 === 透過正規表示式排除文件
 
 使用者現在可以選擇使用正規表示式排除檔案。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#create-other-types-of-sync-relationships["了解有關*排除檔案副檔名*功能的更多資訊。"]
+https://docs.netapp.com/us-en/data-services-copy-sync/task-creating-relationships.html#create-other-types-of-sync-relationships["了解有關*排除檔案副檔名*功能的更多資訊。"]
 
 
 
+[[add-s3-keys-when-creating-azure-data-broker]]
 === 建立 Azure 資料代理程式時新增 S3 金鑰
 
 使用者現在可以在建立 Azure 資料代理程式時新增 AWS S3 存取金鑰和金鑰。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html#creating-the-data-broker["了解有關在 Azure 中建立資料代理程式的更多資訊。"]
+https://docs.netapp.com/us-en/data-services-copy-sync/task-installing-azure.html#creating-the-data-broker["了解有關在 Azure 中建立資料代理程式的更多資訊。"]
 
 
 
+[[06-august-2023]]
 == 2023年8月6日
 
 
 
+[[use-existing-azure-security-groups-when-creating-a-data-broker]]
 === 建立資料代理程式時使用現有的 Azure 安全性群組
 
 使用者現在可以選擇在建立資料代理時使用現有的 Azure 安全性群組。
@@ -182,10 +210,11 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html#creati
 * “Microsoft.Network/networkSecurityGroups/讀取”
 
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html["了解有關在 Azure 中建立資料代理程式的更多資訊。"]
+https://docs.netapp.com/us-en/data-services-copy-sync/task-installing-azure.html["了解有關在 Azure 中建立資料代理程式的更多資訊。"]
 
 
 
+[[encrypt-data-when-syncing-to-google-storage]]
 === 同步到 Google 儲存空間時加密數據
 
 使用者現在可以選擇在以 Google 儲存桶為目標建立同步關係時指定客戶管理的加密金鑰。您可以手動輸入密鑰或從單一區域的密鑰清單中選擇。
@@ -196,96 +225,110 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html["了�
 * cloudkms.keyRings.列表
 
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#google-cloud-storage-bucket-requirements["了解有關 Google Cloud Storage 儲存桶要求的更多資訊。"]
+https://docs.netapp.com/us-en/data-services-copy-sync/reference-requirements.html#google-cloud-storage-bucket-requirements["了解有關 Google Cloud Storage 儲存桶要求的更多資訊。"]
 
 
 
+[[09-july-2023]]
 == 2023年7月9日
 
 
 
+[[remove-multiple-sync-relationships-at-once]]
 === 一次刪除多個同步關係
 
 用戶現在可以在 UI 中一次刪除多個同步關係。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#deleting-relationships["了解有關刪除同步關係的更多資訊。"]
+https://docs.netapp.com/us-en/data-services-copy-sync/task-managing-relationships.html#deleting-relationships["了解更多關於刪除同步關係的資訊。"]
 
 
 
+[[copy-only-acl]]
 === 僅複製 ACL
 
 使用者現在擁有在 CIF 和 NFS 關係中複製 ACL 資訊的附加選項。建立或管理同步關係時，您可以僅複製文件、僅複製 ACL 資訊或複製文件和 ACL 資訊。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-copying-acls.html["了解有關複製 ACL 的更多資訊。"]
+https://docs.netapp.com/us-en/data-services-copy-sync/task-copying-acls.html["了解有關複製 ACL 的更多資訊。"]
 
 
 
+[[updated-to-node-js-20]]
 === 已更新至 Node.js 20
 
 複製和同步已更新至 Node.js 20。所有可用的資料代理都將被更新。無法安裝與此更新不相容的作業系統，且不相容的現有系統可能會遇到效能問題。
 
 
 
+[[11-june-2023]]
 == 2023年6月11日
 
 
 
+[[support-automatic-abort-by-minutes]]
 === 支援按分鐘自動中止
 
 現在可以使用「同步逾時」功能在十五分鐘後中止尚未完成的活動同步。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["了解有關同步超時設定的更多信息"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-creating-relationships.html#settings["了解有關同步超時設定的更多信息"]。
 
 
 
+[[copy-access-time-metadata]]
 === 複製存取時間元數據
 
 在包含檔案系統的關係中，*物件複製*功能現在複製存取時間元資料。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["了解有關“複製對象”設定的更多信息"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-creating-relationships.html#settings["了解有關“複製對象”設定的更多信息"]。
 
 
 
+[[08-may-2023]]
 == 2023年5月8日
 
 
 
+[[hard-link-capabilities]]
 === 硬連結功能
 
 使用者現在可以為涉及不安全的 NFS 到 NFS 關係的同步添加硬連結。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["了解有關文件類型設定的詳細信息"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-creating-relationships.html#settings["了解有關文件類型設定的詳細信息"]。
 
 
 
+[[ability-to-add-user-certificate-for-data-brokers-in-secure-nfs-relationships]]
 === 能夠在安全 NFS 關係中為資料代理程式新增使用者證書
 
 使用者現在可以在建立安全 NFS 關係時為目標資料代理程式設定自己的憑證。他們需要設定伺服器名稱並提供私鑰和憑證 ID。此功能適用於所有資料代理程式。
 
 
 
+[[extended-exclusion-period-for-recently-modified-files]]
 === 延長最近修改文件的排除期限
 
 用戶現在可以排除在計劃同步之前 365 天內修改的文件。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["了解有關“最近修改的文件”設定的更多信息"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-creating-relationships.html#settings["了解有關“最近修改的文件”設定的更多信息"]。
 
 
 
+[[filter-relationships-in-ui-by-relationship-id]]
 === 透過關係 ID 過濾 UI 中的關係
 
 使用 RESTful API 的使用者現在可以使用關係 ID 來過濾關係。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/api-sync.html["了解有關使用 RESTful API 與NetApp Copy and Sync 的更多信息"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/api-sync.html["了解有關使用 RESTful API 與NetApp Copy and Sync 的更多信息"]。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["了解有關排除目錄設定的更多信息"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-creating-relationships.html#settings["了解有關排除目錄設定的更多信息"]。
 
 
 
+[[02-april-2023]]
 == 2023年4月2日
 
 
 
+[[additional-support-for-azure-data-lake-storage-gen2-relationships]]
 === Azure Data Lake Storage Gen2 關係的額外支持
 
 現在，您可以使用下列內容建立與 Azure Data Lake Storage Gen2 作為來源和目標的同步關係：
@@ -296,34 +339,39 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 * 本地ONTAP
 
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["詳細了解支援的同步關係"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/reference-supported-relationships.html["詳細了解支援的同步關係"]。
 
 
 
+[[filter-directories-by-full-path]]
 === 按下完整路徑過濾目錄
 
 除了按名稱過濾目錄之外，現在您還可以按完整路徑過濾目錄。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["了解有關排除目錄設定的更多信息"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-creating-relationships.html#settings["了解有關排除目錄設定的更多信息"]。
 
 
 
+[[07-march-2023]]
 == 2023年3月7日
 
 
 
+[[ebs-encryption-for-aws-data-brokers]]
 === AWS 資料代理程式的 EBS 加密
 
 現在您可以使用您帳戶中的 KMS 金鑰加密 AWS 資料代理磁碟區。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#creating-the-data-broker["了解有關在 AWS 中建立資料代理的更多信息"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-installing-aws.html#creating-the-data-broker["了解有關在 AWS 中建立資料代理的更多信息"]。
 
 
 
+[[05-feb-2023]]
 == 2023年2月5日
 
 
 
+[[additional-support-for-azure-data-lake-storage-gen2-ontap-s3-storage-and-nfs]]
 === 對 Azure Data Lake Storage Gen2、 ONTAP S3 儲存和 NFS 的額外支持
 
 Cloud Sync現在支援ONTAP S3 儲存和 NFS 的附加同步關係：
@@ -341,52 +389,59 @@ Cloud Sync也額外支援 Azure Data Lake Storage Gen2 作為來源和目標：
 * IBM 雲端物件儲存
 
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["詳細了解支援的同步關係"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/reference-supported-relationships.html["詳細了解支援的同步關係"]。
 
 
 
+[[upgrade-to-amazon-web-services-data-broker-operating-system]]
 === 升級至 Amazon Web Services 資料代理作業系統
 
 AWS 資料代理程式的作業系統已升級至 Amazon Linux 2022。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#details-about-the-data-broker-instance["了解有關 AWS 中資料代理執行個體的更多信息"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-installing-aws.html#details-about-the-data-broker-instance["了解有關 AWS 中資料代理執行個體的更多信息"]。
 
 
 
+[[03-jan-2023]]
 == 2023年1月3日
 
 
 
+[[show-data-broker-local-configuration-on-ui]]
 === 在 UI 上顯示資料代理程式本機配置
 
 現在有一個*顯示配置*選項，可讓使用者在 UI 上查看每個資料代理程式的本機設定。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-data-brokers.html["了解有關管理資料代理組的更多信息"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-managing-data-brokers.html["了解有關管理資料代理組的更多信息"]。
 
 
 
+[[upgrade-to-azure-and-google-cloud-data-broker-operating-system]]
 === 升級到 Azure 和 Google Cloud 資料代理作業系統
 
 Azure 和 Google Cloud 中的資料代理作業系統已升級至 Rocky Linux 9.0。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html#details-about-the-data-broker-vm["了解有關 Azure 中的資料代理執行個體的更多信息"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-installing-azure.html#details-about-the-data-broker-vm["了解有關 Azure 中的資料代理執行個體的更多信息"]。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-gcp.html#details-about-the-data-broker-vm-instance["詳細了解 Google Cloud 中的資料代理程式實例"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-installing-gcp.html#details-about-the-data-broker-vm-instance["詳細了解 Google Cloud 中的資料代理程式實例"]。
 
 
 
+[[11-dec-2022]]
 == 2022年12月11日
 
 
 
+[[filter-directories-by-name]]
 === 按名稱過濾目錄
 
 現在可以使用新的「*排除目錄名稱*」設定來同步關係。使用者可以從同步中過濾掉最多 15 個目錄名稱。預設情況下，.copy-offload、.snapshot、~snapshot 目錄被排除。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["了解有關排除目錄名稱設定的更多信息"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-creating-relationships.html#settings["了解有關排除目錄名稱設定的更多信息"]。
 
 
 
+[[additional-amazon-s3-and-ontap-s3-storage-support]]
 === 額外的 Amazon S3 和ONTAP S3 儲存支持
 
 Cloud Sync現在支援 AWS S3 和ONTAP S3 儲存的附加同步關係：
@@ -395,14 +450,16 @@ Cloud Sync現在支援 AWS S3 和ONTAP S3 儲存的附加同步關係：
 * ONTAP S3 儲存到 AWS S3
 
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["詳細了解支援的同步關係"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/reference-supported-relationships.html["詳細了解支援的同步關係"]。
 
 
 
+[[30-oct-2022]]
 == 2022年10月30日
 
 
 
+[[continuous-sync-from-microsoft-azure]]
 === 從 Microsoft Azure 持續同步
 
 現在支援使用 Azure 資料代理程式從來源 Azure 儲存體桶到雲端儲存的連續同步設定。
@@ -425,14 +482,16 @@ Azure 資料代理程式需要自訂角色和下列權限才能使用此設定�
 'Microsoft.EventGrid/eventSubscriptions/write',
 'Microsoft.Storage/storageAccounts/write'
 ----
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["了解有關“連續同步”設定的更多信息"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-creating-relationships.html#settings["了解有關“連續同步”設定的更多信息"]。
 
 
 
+[[04-sept-2022]]
 == 2022年9月4日
 
 
 
+[[additional-google-drive-support]]
 === 額外的 Google Drive 支持
 
 * Cloud Sync現在支援 Google Drive 的附加同步關係：
@@ -443,12 +502,13 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 
 * 您也可以產生包含 Google Drive 在內的同步關係的報告。
 +
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-reports.html["了解有關報告的更多信息"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-managing-reports.html["了解有關報告的更多信息"]。
 
 
 
 
 
+[[continuous-sync-enhancement]]
 === 持續同步增強
 
 現在您可以在以下類型的同步關係上啟用連續同步設定：
@@ -457,34 +517,38 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-reports.html["了�
 * Google Cloud Storage 到 NFS 伺服器
 
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["了解有關“連續同步”設定的更多信息"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-creating-relationships.html#settings["了解有關“連續同步”設定的更多信息"]。
 
 
 
+[[email-notifications]]
 === 電子郵件通知
 
 現在您可以透過電子郵件接收Cloud Sync通知。
 
 為了透過電子郵件接收通知，您需要在同步關係上啟用*通知*設置，然後在NetApp Console中配置警報和通知設定。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#setting-up-notifications["了解如何設定通知"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-managing-relationships.html#setting-up-notifications["了解如何設定通知"]。
 
 
 
+[[31-july-2022]]
 == 2022年7月31日
 
 
 
+[[google-drive]]
 === Google 雲端硬碟
 
 現在您可以將資料從 NFS 伺服器或 SMB 伺服器同步到 Google Drive。  「我的雲端硬碟」和「共享雲端硬碟」都支援作為目標。
 
-在建立包含 Google Drive 的同步關係之前，您需要設定具有所需權限和私密金鑰的服務帳戶。 https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#google-drive["詳細了解 Google Drive 要求"] 。
+在建立包含 Google 雲端硬碟的同步關係之前，您需要設定一個具有所需權限和私鑰的服務帳戶 https://docs.netapp.com/us-en/data-services-copy-sync/reference-requirements.html#google-drive["詳細了解 Google Drive 要求"]。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["查看支援的同步關係列表"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/reference-supported-relationships.html["查看支援的同步關係列表"]。
 
 
 
+[[additional-azure-data-lake-support]]
 === 其他 Azure Data Lake 支持
 
 Cloud Sync現在支援 Azure Data Lake Storage Gen2 的其他同步關係：
@@ -494,10 +558,11 @@ Cloud Sync現在支援 Azure Data Lake Storage Gen2 的其他同步關係：
 * StorageGRID到 Azure Data Lake Storage Gen2
 
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["查看支援的同步關係列表"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/reference-supported-relationships.html["查看支援的同步關係列表"]。
 
 
 
+[[new-ways-to-set-up-sync-relationships]]
 === 建立同步關係的新方法
 
 我們新增了直接從NetApp控制台的系統頁面設定同步關係的其他方法。
@@ -508,7 +573,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships
 
 現在您可以透過將一個系統拖曳到另一個系統上來從系統頁面設定同步關係。
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-enable-drag-and-drop.png["顯示NetApp Console中的通知中心的螢幕截圖。"]
+image:https://raw.githubusercontent.com/NetAppDocs/data-services-copy-sync/main/media/screenshot-enable-drag-and-drop.png["顯示NetApp Console中的通知中心的螢幕截圖。"]
 
 
 
@@ -516,24 +581,27 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/s
 
 現在，您可以透過從系統頁面選擇系統，然後從右側面板選擇同步選項來為 Azure Blob 儲存體或 Google Cloud Storage 設定同步關係。
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-enable-panel.png["顯示NetApp Console中的通知中心的螢幕截圖。"]
+image:https://raw.githubusercontent.com/NetAppDocs/data-services-copy-sync/main/media/screenshot-enable-panel.png["顯示NetApp Console中的通知中心的螢幕截圖。"]
 
 
 
+[[03-july-2022]]
 == 2022年7月3日
 
 
 
+[[support-for-azure-data-lake-storage-gen2]]
 === 支援 Azure Data Lake Storage Gen2
 
 現在您可以將資料從 NFS 伺服器或 SMB 伺服器同步到 Azure Data Lake Storage Gen2。
 
 建立包含 Azure Data Lake 的同步關係時，您需要向Cloud Sync提供儲存帳戶連接字串。它必須是常規連接字串，而不是共用存取簽章（SAS）。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["查看支援的同步關係列表"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/reference-supported-relationships.html["查看支援的同步關係列表"]。
 
 
 
+[[continuous-sync-from-google-cloud-storage]]
 === 從 Google Cloud Storage 持續同步
 
 現在支援從來源 Google Cloud Storage 儲存桶到雲端儲存目標的連續同步設定。
@@ -555,10 +623,11 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships
 - pubsub.topics.setIamPolicy
 - storage.buckets.update
 ----
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["了解有關“連續同步”設定的更多信息"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-creating-relationships.html#settings["了解有關“連續同步”設定的更多信息"]。
 
 
 
+[[new-google-cloud-region-support]]
 === 新的 Google Cloud 區域支持
 
 以下 Google Cloud 區域現在支援Cloud Sync資料代理：
@@ -572,16 +641,19 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 
 
 
+[[new-google-cloud-machine-type]]
 === 新的 Google Cloud 機器類型
 
 Google Cloud 中資料代理程式的預設機器類型現在是 n2-standard-4。
 
 
 
+[[06-june-2022]]
 == 2022年6月6日
 
 
 
+[[continuous-sync]]
 === 持續同步
 
 新設定可讓您將變更從來源 S3 儲存桶持續同步到目標。
@@ -597,10 +669,11 @@ Google Cloud 中資料代理程式的預設機器類型現在是 n2-standard-4�
 ----
 這些權限會自動新增到您建立的任何新資料代理程式。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["了解有關“連續同步”設定的更多信息"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-creating-relationships.html#settings["了解有關“連續同步”設定的更多信息"]。
 
 
 
+[[show-all-ontap-volumes]]
 === 顯示所有ONTAP卷
 
 當您建立同步關係時， Cloud Sync現在會顯示來源Cloud Volumes ONTAP系統、本機ONTAP叢集或 FSx for ONTAP檔案系統上的所有磁碟區。
@@ -609,6 +682,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 
 
 
+[[copying-tags-to-azure-blob]]
 === 將標籤複製到 Azure Blob
 
 當您建立以 Azure Blob 為目標的同步關係時， Cloud Sync現在允許您將標籤複製到 Azure Blob 容器：
@@ -621,32 +695,37 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 
 
 
+[[01-may-2022]]
 == 2022年5月1日
 
 
 
+[[sync-timeout]]
 === 同步逾時
 
 現在可以使用新的*同步逾時*設定來同步關係。此設定可讓您定義如果同步在指定的小時數或天數內未完成， Cloud Sync是否應取消資料同步。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#change-the-settings-for-a-sync-relationship["了解有關更改同步關係設定的詳細信息"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-managing-relationships.html#change-the-settings-for-a-sync-relationship["了解有關更改同步關係設定的詳細信息"]。
 
 
 
+[[notifications]]
 === 通知
 
 現在可以使用新的*通知*設定來同步關係。此設定可讓您選擇是否在NetApp控制台的通知中心接收Cloud Sync通知。您可以啟用資料同步成功、資料同步失敗和資料同步取消的通知。
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-notification-center.png["顯示NetApp Console中的通知中心的螢幕截圖。"]
+image:https://raw.githubusercontent.com/NetAppDocs/data-services-copy-sync/main/media/screenshot-notification-center.png["顯示NetApp Console中的通知中心的螢幕截圖。"]
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#change-the-settings-for-a-sync-relationship["了解有關更改同步關係設定的詳細信息"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-managing-relationships.html#change-the-settings-for-a-sync-relationship["了解有關更改同步關係設定的詳細信息"]。
 
 
 
+[[03-april-2022]]
 == 2022年4月3日
 
 
 
+[[data-broker-group-enhancements]]
 === 資料代理組增強功能
 
 我們對資料代理組進行了幾項增強：
@@ -656,68 +735,77 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#
 * 最後，您也可以刪除資料代理組。
 
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-data-brokers.html["了解如何管理資料經紀人群組"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-managing-data-brokers.html["了解如何管理資料經紀人群組"]。
 
 
 
+[[dashboard-filter]]
 === 儀表板過濾器
 
 現在您可以過濾同步儀表板的內容，以便更輕鬆地找到符合特定狀態的同步關係。例如，您可以篩選狀態為失敗的同步關係
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-filter.png["螢幕截圖顯示了儀表板頂部的按同步狀態過濾選項。"]
+image:https://raw.githubusercontent.com/NetAppDocs/data-services-copy-sync/main/media/screenshot-sync-filter.png["螢幕截圖顯示了儀表板頂部的按同步狀態過濾選項。"]
 
 
 
+[[03-march-2022]]
 == 2022年3月3日
 
 
 
+[[sorting-in-the-dashboard]]
 === 在儀表板中排序
 
 現在您可以按同步關係名稱對儀表板進行排序。
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-sort.png["螢幕截圖顯示了儀表板上可用的按名稱排序選項。"]
+image:https://raw.githubusercontent.com/NetAppDocs/data-services-copy-sync/main/media/screenshot-sync-sort.png["螢幕截圖顯示了儀表板上可用的按名稱排序選項。"]
 
 
 
+[[enhancement-to-data-sense-integration]]
 === 增強數據感知集成
 
 在先前的版本中，我們引入了Cloud Sync與 Cloud Data Sense 的整合。在此更新中，我們透過更輕鬆地建立同步關係來增強整合。從 Cloud Data Sense 啟動資料同步後，所有來源資訊都包含在一個步驟中，只需要您輸入一些關鍵詳細資訊。
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-data-sense.png["螢幕截圖顯示了直接從 Cloud Data Sense 啟動新同步後出現的 Data Sense Integration 頁面。"]
+image:https://raw.githubusercontent.com/NetAppDocs/data-services-copy-sync/main/media/screenshot-sync-data-sense.png["螢幕截圖顯示了直接從 Cloud Data Sense 啟動新同步後出現的 Data Sense Integration 頁面。"]
 
 
 
+[[06-february-2022]]
 == 2022年2月6日
 
 
 
+[[enhancement-to-data-broker-groups]]
 === 增強數據經紀人群體
 
 我們透過強調資料經紀人_群體_來改變您與資料經紀人互動的方式。
 
 例如，當您建立新的同步關係時，您可以選擇與該關係一起使用的資料代理程式_群組_，而不是特定的資料代理。
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-select-data-broker-group.png["同步關係精靈的螢幕截圖，顯示資料代理組選擇。"]
+image:https://raw.githubusercontent.com/NetAppDocs/data-services-copy-sync/main/media/screenshot-sync-select-data-broker-group.png["同步關係精靈的螢幕截圖，顯示資料代理組選擇。"]
 
 在*管理資料代理*標籤中，我們也顯示資料代理群組正在管理的同步關係的數量。
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-copy-sync/main/media/screenshot-sync-group-relationships.png["管理資料代理頁面的螢幕截圖，顯示資料代理群組及其詳細信息，包括其管理的關係數量。"]
+image:https://raw.githubusercontent.com/NetAppDocs/data-services-copy-sync/main/media/screenshot-sync-group-relationships.png["管理資料代理頁面的螢幕截圖，顯示資料代理群組及其詳細信息，包括其管理的關係數量。"]
 
 
 
+[[download-pdf-reports]]
 === 下載 PDF 報告
 
 您現在可以下載報告的 PDF。
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-reports.html["了解有關報告的更多信息"] 。
+https://docs.netapp.com/us-en/data-services-copy-sync/task-managing-reports.html["了解有關報告的更多信息"]。
 
 
 
+[[02-january-2022]]
 == 2022年1月2日
 
 
 
+[[new-box-sync-relationships]]
 === 新的 Box 同步關係
 
 支援兩種新的同步關係：
@@ -730,6 +818,7 @@ link:reference-supported-relationships.html["查看支援的同步關係列表"]
 
 
 
+[[relationship-names]]
 === 關係名稱
 
 現在您可以為每個同步關係提供一個有意義的名稱，以便更輕鬆地識別每個關係的目的。您可以在建立關係時以及之後的任何時間新增名稱。
@@ -738,6 +827,7 @@ image:screenshot-sync-relationship-edit-name.png["同步關係的螢幕截圖，
 
 
 
+[[s3-private-links]]
 === S3 私有連結
 
 當您與 Amazon S3 同步資料時，您可以選擇是否使用 S3 私有連結。當資料代理將資料從來源複製到目標時，它會透過私有連結。
@@ -752,24 +842,28 @@ image:screenshot-sync-relationship-edit-name.png["同步關係的螢幕截圖，
 
 
 
+[[glacier-instant-retrieval]]
 === 冰川即時檢索
 
 當 Amazon S3 是同步關係中的目標時，您現在可以選擇 _Glacier Instant Retrieval_ 儲存類別。
 
 
 
+[[acls-from-object-storage-to-smb-shares]]
 === 從物件儲存到 SMB 共享的 ACL
 
 Cloud Sync現在支援將 ACL 從物件儲存複製到 SMB 共用。以前，我們僅支援將 ACL 從 SMB 共用複製到物件儲存。
 
 
 
+[[sftp-to-s3]]
 === SFTP 到 S3
 
 使用者介面現在支援創建從 SFTP 到 Amazon S3 的同步關係。此同步關係以前僅由 API 支援。
 
 
 
+[[table-view-enhancement]]
 === 表格視圖增強
 
 我們重新設計了儀表板上的表格視圖，以便於使用。如果您選擇*更多資訊*， Cloud Sync會過濾儀表板以向您顯示有關該特定關係的更多資訊。
@@ -778,16 +872,19 @@ image:screenshot-sync-table.png["儀表板中表格視圖的螢幕截圖。"]
 
 
 
+[[support-for-jarkarta-region]]
 === 支持雅加達地區
 
 Cloud Sync現在支援在 AWS 亞太地區（雅加達）區域部署資料代理程式。
 
 
 
+[[28-november-2021]]
 == 2021年11月28日
 
 
 
+[[acls-from-smb-to-object-storage]]
 === 從 SMB 到物件儲存的 ACL
 
 現在，在設定從來源 SMB 共用到物件儲存（ ONTAP S3 除外）的同步關係時， Cloud Sync可以複製存取控制清單 (ACL)。
@@ -798,6 +895,7 @@ link:task-copying-acls.html["了解如何從 SMB 共用複製 ACL"] 。
 
 
 
+[[update-licenses]]
 === 更新許可證
 
 現在您可以更新已延長的Cloud Sync許可證。
@@ -808,6 +906,7 @@ link:task-licensing.html["了解如何更新許可證"] 。
 
 
 
+[[update-box-credentials]]
 === 更新 Box 憑證
 
 現在您可以更新現有同步關係的 Box 憑證。
@@ -816,10 +915,12 @@ link:task-managing-relationships.html["了解如何更新憑證"] 。
 
 
 
+[[31-october-2021]]
 == 2021年10月31日
 
 
 
+[[box-support]]
 === 箱體支撐
 
 Box 支援現已在Cloud Sync使用者介面中作為預覽提供。
@@ -828,6 +929,7 @@ Box 可以是幾種同步關係中的來源或目標。link:reference-supported-
 
 
 
+[[date-created-setting]]
 === 建立日期設定
 
 當 SMB 伺服器作為來源時，名為「建立日期」的新同步關係設定可讓您同步在特定日期之後、特定日期之前或特定時間範圍之間建立的檔案。
@@ -836,10 +938,12 @@ link:task-managing-relationships.html["詳細了解Cloud Sync設定"] 。
 
 
 
+[[04-october-2021]]
 == 2021年10月4日
 
 
 
+[[additional-box-support]]
 === 附加 Box 支援
 
 Cloud Sync現在支援以下同步關係 https://www.box.com/home["盒子"^]使用Cloud Sync API 時：
@@ -855,31 +959,36 @@ link:api-sync.html["了解如何使用 API 設定同步關係"] 。
 
 
 
+[[reports-for-sftp-paths]]
 === SFTP 路徑報告
 
 您現在可以link:task-managing-reports.html["建立報告"]用於 SFTP 路徑。
 
 
 
+[[02-september-2021]]
 == 2021年9月2日
 
 
 
+[[support-for-fsx-for-ontap]]
 === 支援 FSx for ONTAP
 
 現在您可以將資料同步到Amazon FSx for ONTAP 檔案系統或從 Amazon FSx for ONTAP檔案系統同步資料。
 
-* https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/concept-fsx-aws.html["了解Amazon FSx for ONTAP"^]
+* https://docs.netapp.com/us-en/storage-management-fsx-ontap/start/concept-fsx-aws.html["了解Amazon FSx for ONTAP"^]
 * link:reference-requirements.html["查看支援的同步關係"]
 * link:task-creating-relationships.html["了解如何為Amazon FSx for ONTAP建立同步關係"]
 
 
 
 
+[[01-august-2021]]
 == 2021年8月1日
 
 
 
+[[update-credentials]]
 === 更新憑證
 
 現在， Cloud Sync可讓您使用現有同步關係中的來源或目標的最新憑證來更新資料代理程式。
@@ -890,6 +999,7 @@ image:screenshot_sync_update_credentials.png["螢幕截圖顯示了同步關係�
 
 
 
+[[tags-for-object-storage-targets]]
 === 物件儲存目標的標籤
 
 建立同步關係時，現在可以為同步關係中的物件儲存目標新增標籤。
@@ -900,6 +1010,7 @@ image:screenshot_sync_tags.png["螢幕截圖顯示了系統精靈中的頁面，
 
 
 
+[[support-for-box]]
 === 支援 Box
 
 Cloud Sync現在支持 https://www.box.com/home["盒子"^]作為使用Cloud Sync API 時與 Amazon S3、 StorageGRID和 IBM Cloud Object Storage 同步關係中的來源。
@@ -908,6 +1019,7 @@ link:api-sync.html["了解如何使用 API 設定同步關係"] 。
 
 
 
+[[public-ip-for-data-broker-in-google-cloud]]
 === Google Cloud 中資料代理程式的公用 IP
 
 在 Google Cloud 中部署資料代理程式時，現在可以選擇為虛擬機器執行個體啟用或停用公用 IP 位址。
@@ -916,16 +1028,19 @@ link:task-installing-gcp.html["了解如何在 Google Cloud 中部署資料代�
 
 
 
+[[dual-protocol-volume-for-azure-netapp-files]]
 === Azure NetApp Files的雙協定磁碟區
 
 當您為Azure NetApp Files選擇來源磁碟區或目標磁碟區時，無論您為同步關係選擇哪種協議， Cloud Sync現在都會顯示雙協定磁碟區。
 
 
 
+[[07-july-2021]]
 == 2021年7月7日
 
 
 
+[[ontap-s3-storage-and-google-cloud-storage]]
 === ONTAP S3 儲存與 Google Cloud Storage
 
 Cloud Sync現在支援從使用者介面同步ONTAP S3 儲存和 Google Cloud Storage 儲存桶之間的關係。
@@ -934,6 +1049,7 @@ link:reference-supported-relationships.html["查看支援的同步關係列表"]
 
 
 
+[[object-metadata-tags]]
 === 對像元資料標籤
 
 當您建立同步關係並啟用設定時， Cloud Sync現在可以基於物件的儲存之間複製物件元資料和標籤。
@@ -942,6 +1058,7 @@ link:task-creating-relationships.html#settings["了解有關“複製對象”�
 
 
 
+[[support-for-hashicorp-vaults]]
 === 支持 HashiCorp Vault
 
 現在您可以設定資料代理，透過使用 Google Cloud 服務帳戶進行身份驗證來存取來自外部 HashiCorp Vault 的憑證。
@@ -950,6 +1067,7 @@ link:task-external-vault.html["了解有關使用 HashiCorp Vault 和數據代�
 
 
 
+[[define-tags-or-metadata-for-s3-bucket]]
 === 定義 S3 儲存桶的標籤或元數據
 
 在設定與 Amazon S3 儲存桶的同步關係時，同步關係精靈現在可讓您定義要在目標 S3 儲存體桶中的物件上儲存的標籤或元資料。
@@ -958,10 +1076,12 @@ link:task-external-vault.html["了解有關使用 HashiCorp Vault 和數據代�
 
 
 
+[[07-june-2021]]
 == 2021年6月7日
 
 
 
+[[storage-classes-in-google-cloud]]
 === Google Cloud 中的儲存類別
 
 當 Google Cloud Storage 儲存桶成為同步關係中的目標時，您現在可以選擇要使用的儲存類別。  Cloud Sync支援以下儲存類別：
@@ -974,10 +1094,12 @@ link:task-external-vault.html["了解有關使用 HashiCorp Vault 和數據代�
 
 
 
+[[02-may-2021]]
 == 2021年5月2日
 
 
 
+[[errors-in-reports]]
 === 報告中的錯誤
 
 現在您可以查看報告中發現的錯誤，並且可以刪除最後一份報告或所有報告。
@@ -986,6 +1108,7 @@ link:task-managing-reports.html["了解有關建立和查看報告以調整配�
 
 
 
+[[compare-attributes]]
 === 比較屬性
 
 現在每個同步關係都可以使用新的*比較*設定。
@@ -996,10 +1119,12 @@ link:task-managing-relationships.html#change-the-settings-for-a-sync-relationshi
 
 
 
+[[11-apr-2021]]
 == 2021年4月11日
 
 
 
+[[standalone-cloud-sync-service-is-retired]]
 === 獨立Cloud Sync服務已停用
 
 獨立的Cloud Sync服務已退役。現在您可以直接從NetApp Console存取Cloud Sync，其中所有相同的功能和功能均可使用。
@@ -1008,6 +1133,7 @@ link:task-managing-relationships.html#change-the-settings-for-a-sync-relationshi
 
 
 
+[[google-cloud-buckets-in-different-projects]]
 === 不同項目中的 Google Cloud 儲存桶
 
 設定同步關係時，如果您向資料代理程式的服務帳戶提供所需的權限，則可以從不同項目中的 Google Cloud 儲存桶中進行選擇。
@@ -1016,12 +1142,14 @@ link:task-installing-gcp.html["了解如何設定服務帳戶"] 。
 
 
 
+[[metadata-between-google-cloud-storage-and-s3]]
 === Google Cloud Storage 與 S3 之間的元數據
 
 Cloud Sync現在可以在 Google Cloud Storage 和 S3 供應商（AWS S3、 StorageGRID和 IBM Cloud Object Storage）之間複製元資料。
 
 
 
+[[restart-data-brokers]]
 === 重啟數據代理
 
 現在您可以從Cloud Sync重新啟動資料代理程式。
@@ -1030,6 +1158,7 @@ image:screenshot_sync_restart_data_broker.gif["螢幕截圖顯示了「管理資
 
 
 
+[[message-when-not-running-the-latest-release]]
 === 未運行最新版本時的消息
 
 Cloud Sync現在可以識別資料代理何時未執行最新軟體版本。此訊息可協助確保您獲得最新的功能和功能。
