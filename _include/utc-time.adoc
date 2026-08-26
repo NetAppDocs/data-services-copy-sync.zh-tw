@@ -1,0 +1,6 @@
+= 
+:allow-uri-read: 
+
+
+
+IMPORTANT: 設定同步計畫時，必須輸入「下次自動同步開始時間」。Copy and Sync 使用 UTC 時間，而非本地時間。設定規劃時間時，請據此做好規劃。

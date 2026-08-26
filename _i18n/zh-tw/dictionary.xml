@@ -639,7 +639,6 @@
   <block id="881cb6b58f9fdb2bde0b3c90f7cbfce8" category="paragraph"><block ref="881cb6b58f9fdb2bde0b3c90f7cbfce8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6a7470fea96bed8b75bf17e5f07e01a4" category="list-text">[[settings]]在「*設定*」頁面上，定義如何在目標位置同步和維護來源檔案和資料夾：</block>
   <block id="25f7347236b51a5eae4ba01a7862cb55" category="list-text">行程</block>
-  <block id="3e8e8a2afdd515355f098433677b9baa" category="list-text">選擇未來同步的重複計畫或關閉同步計畫。您可以安排每 1 分鐘同步一次資料。</block>
   <block id="64b10e9eb890594a5a1756353aca634b" category="list-text">同步逾時</block>
   <block id="3231a933fa5fac58c16e6d443f352009" category="list-text">定義如果同步在指定的分鐘數、小時數或天數內未完成，複製和同步是否應取消資料同步。</block>
   <block id="a274f4d4670213a9045ce258c6c56b80" category="list-text">通知</block>
@@ -1985,4 +1984,6 @@
   <block id="23239688169f4a4cc657d5ef5443f34b" category="paragraph"><block ref="23239688169f4a4cc657d5ef5443f34b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7bed8c71bfbfa7b7847f7029d0d74ccc" category="paragraph"><block ref="7bed8c71bfbfa7b7847f7029d0d74ccc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6c786f9f2baf8236d6ee8e864e78e415" category="list-text"><block ref="6c786f9f2baf8236d6ee8e864e78e415" category="inline-link-rx"></block></block>
+  <block id="46a9d70b85a901c8a4c1eaf05d1a35db" category="admonition">設定同步計畫時，必須輸入「下次自動同步開始時間」。Copy and Sync 使用 UTC 時間，而非本地時間。設定規劃時間時，請據此做好規劃。</block>
+  <block id="240f236bfdc0495169ba6aec758c6dd2" category="list-text">選擇未來同步的週期性排程，或關閉同步排程。您可以排程關係以同步資料，最快可設定為每 1 分鐘同步一次。排程也可設定為每小時或每天的頻率。</block>
 </blocks>
