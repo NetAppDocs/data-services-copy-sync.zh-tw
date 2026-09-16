@@ -90,7 +90,6 @@
   <block id="6b130e03ee8c8d322a6174a591d2b774" category="inline-link-macro">了解許可的工作原理</block>
   <block id="3b1417e2cc8a651004ff0099ad870a73" category="paragraph"><block ref="e8ff8b95d6e71d0badc3862de8130ad6" category="inline-link-macro-rx"></block> 。</block>
   <block id="97ff8a17f533b6d33b6dd9059ff062e9" category="summary">14 天免費試用期結束後，有兩種方式可以支付同步關係的費用。第一個選項是從 AWS 或 Azure 訂閱按使用量付費或按年付費。第二種選擇是直接從NetApp購買許可證。</block>
-  <block id="92e6ea479d1d6dcd56315c41463d9c80" category="doc">NetApp Copy and Sync許可概述</block>
   <block id="8fb37e6d377a8a9b95cc0a3d7442751a" category="paragraph">14 天免費試用期結束後，您可以透過兩種方式支付NetApp Copy and Sync關係的費用。第一個選項是從 AWS 或 Azure 訂閱按使用量付費或按年付費。第二種選擇是直接從NetApp購買許可證。</block>
   <block id="5007e6fc0051f0461fcf883a08ac43be" category="paragraph">授權應透過NetApp Copy and Sync或適用網站進行管理，而非透過NetApp Console進行管理。</block>
   <block id="f856f3b97c80815883c23bfe0ce6d8c2" category="section-title">市場訂閱</block>
@@ -123,7 +122,6 @@
   <block id="ca4c3bf9d403da9e2d60487daa5822a4" category="paragraph">這些憑證始終直接保存到資料代理本身。資料代理程式駐留在您網路中的一台機器上，無論它是在本機還是在您的雲端帳戶中。這些憑證永遠不會提供給NetApp。</block>
   <block id="91d94bcb5137ebeaee0b1824fb283f72" category="paragraph">憑證使用 HashiCorp Vault 在資料代理機器上進行本機加密。</block>
   <block id="1e7c04d680d075da65bdb418593cbd71" category="summary">您可以透過各種資源（包括論壇、聊天服務和影片）取得有關NetApp Copy and Sync的協助並尋找更多資訊。</block>
-  <block id="b5ff8c21b9626811ebbac10d4557b5fc" category="doc">NetApp Copy and Sync技術常見問題解答</block>
   <block id="a0d932b5085e493a71dbcdcc11a705b4" category="paragraph">如果您只是想快速找到問題的答案，此常見問題解答可以為您提供協助。</block>
   <block id="cb59b87e00d11222bfd9159d0d23836f" category="section-title">入門</block>
   <block id="b63a0d346daefdd92757cc99e69565e3" category="paragraph">以下問題與開始使用NetApp Copy and Sync有關。</block>
@@ -328,7 +326,6 @@
   <block id="580e905670d084cfe8e8e4ce2cd2899b" category="list-text">Azure 政府區域</block>
   <block id="ae54a5c026f31ada088992587d92cb3a" category="list-text">中國</block>
   <block id="f27a844031a45699c4da562fbbdaa243" category="summary">NetApp Copy and Sync的網路包括資料代理群組與來源位置和目標位置之間的連接，以及透過連接埠 443 來自資料代理程式的出站網路連接。</block>
-  <block id="f85f123b9db97e81827ef0ea7abdf217" category="doc">NetApp Copy and Sync的網路概述</block>
   <block id="1ccbb3a00a8670ff34e71787c69058b9" category="section-title">數據代理位置</block>
   <block id="42c5f165329383a0397894e0d024ef6c" category="paragraph">資料代理組由安裝在雲端或您的場所的一個或多個資料代理程式組成。</block>
   <block id="f3e76ce6c2086bf4e3334c3b429897f4" category="section-title">雲端數據代理</block>
@@ -386,7 +383,6 @@
   <block id="fd0cb271f0ac093ecb033a2bfea34fbd" category="paragraph">您的 Web 瀏覽器需要存取以下端點來下載日誌以進行故障排除：</block>
   <block id="c964e3aec545a38db906e6bb0b6a705f" category="paragraph">logs.cloudsync.netapp.com:443</block>
   <block id="f549fa5a7b8a70265d3f6f6fc5ae1943" category="summary">驗證您的來源和目標是否符合以下要求。</block>
-  <block id="bbb01ce9ba95b7a97c2f263c4272225c" category="doc">在NetApp Copy and Sync中準備來源和目標</block>
   <block id="f7890760d0c96fe50a092d3ac5715549" category="paragraph">驗證您的來源和目標是否符合NetApp Copy and Sync中的以下要求。</block>
   <block id="41413218d6e0e0f3841260f7834a57b2" category="list-text">NetApp建議設定來源、目標和資料代理程式以使用網路時間協定 (NTP) 服務。三個組件之間的時間差不應超過5分鐘。</block>
   <block id="48803a619ce06c74ae2204113ce8b389" category="section-title">目標目錄</block>
@@ -715,7 +711,6 @@
   <block id="cf17244df6ede19648e8ce26d30c4ba0" category="paragraph"><block ref="cf17244df6ede19648e8ce26d30c4ba0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="022833d135f7e7e0b284d5b6cbc1d6d3" category="inline-link">了解如何從NetApp Data Classification啟動同步關係</block>
   <block id="7b5f232088930bb6c4dd524b1ad8afc7" category="summary">當您建立需要 Amazon S3、Azure 或 Google Cloud 憑證的同步關係時，您需要透過NetApp Copy and Sync使用者介面或 API 指定這些憑證。另一種方法是設定資料代理程式以直接從外部 HashiCorp Vault 存取憑證。</block>
-  <block id="c83f13bb91cc75ab9fba517d4f405555" category="doc">設定資料代理組以在NetApp Copy and Sync中使用外部 HashiCorp Vault</block>
   <block id="7373b58f3100ed43d9b97a7f9e21546c" category="paragraph">當您建立需要 Amazon S3、Azure 或 Google Cloud 憑證的同步關係時，您需要透過NetApp Copy and Sync使用者介面或 API 指定這些憑證。另一種方法是設定資料代理群組以直接從外部 HashiCorp Vault 存取憑證（或_秘密_）。</block>
   <block id="e3889cfbde291df60959080b6d5b1432" category="paragraph">此功能透過複製和同步 API 支持，同步關係需要 Amazon S3、Azure 或 Google Cloud 憑證。</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">一</block>
@@ -1024,7 +1019,6 @@
   <block id="a6c9e3a7671c1fd9d7328c3be5d107b5" category="list-text">JSON 文件</block>
   <block id="da71e727ce602ce0df332bf7acd04f2b" category="list-text">這是包含您應該準備好的服務帳戶金鑰的 JSON 文件<block ref="8e7eb0db1ee4fd6a97230ce733e6c0b1" category="inline-xref-macro-rx"></block>。</block>
   <block id="febdb5376a041b31f655e631de8dd5d8" category="summary">14 天免費試用期結束後，有兩種方式可以支付同步關係的費用。第一個選擇是現收現付。第二種選擇是直接從NetApp購買許可證。</block>
-  <block id="141c29d3014c9bfaa5f6ffd800376869" category="doc">NetApp Copy and Sync免費試用期結束後，支付同步關係費用</block>
   <block id="7e70bb47069a219e0719dc79d80e13d5" category="paragraph">NetApp Copy and Sync 的14 天免費試用期結束後，有兩種方式可以支付同步關係的費用。第一個選項是從 AWS 或 Azure 訂閱，按使用量付費或按年付費。第二種選擇是直接從NetApp購買許可證。</block>
   <block id="97a214da03586723b3eda5c2057276c9" category="paragraph">您可以從 AWS Marketplace 或 Azure Marketplace 訂閱。您不能同時訂閱兩者。</block>
   <block id="ecc0dfd6f3ae02a7910e95f1905624ce" category="paragraph">您可以選擇透過市場訂閱使用NetApp的授權。例如，如果您有 25 個同步關係，則可以使用授權支付前 20 個同步關係的費用，然後使用剩餘的 5 個同步關係從 AWS 或 Azure 按使用量付費。</block>
@@ -1199,7 +1193,6 @@
   <block id="826f8292d9dd1df0d5e3440a37c5015b" category="list-text">為了確認，請輸入群組名稱並選擇*刪除群組*。</block>
   <block id="0aaf5c6768c60c69298adc3572562a26" category="paragraph">複製和同步會刪除資料代理並刪除該群組。</block>
   <block id="b7313c752ca12081edfba2212c0cc2e4" category="summary">您可以隨時透過立即同步資料、變更計劃等來管理同步關係。</block>
-  <block id="e251a48c15e2586d786a259c5b6bd567" category="doc">在NetApp Copy and Sync中管理同步關係</block>
   <block id="5098dff32603bde98da154f57d0f7e2d" category="paragraph">您可以隨時透過立即同步資料、變更計劃等來管理NetApp Copy and Sync中的同步關係。</block>
   <block id="3751024f8814dd0f9cc7022c63dd219d" category="section-title">立即執行資料同步</block>
   <block id="10b4a486c3639ec1166b66b77215e8c6" category="paragraph">您無需等待下一次預定的同步，而是可以立即在來源和目標之間同步資料。</block>
@@ -1256,7 +1249,6 @@
   <block id="a06cbdd471532709a20804cd9a60cf7b" category="list-text">選擇要刪除的同步關係，選擇*刪除*，然後再次選擇*刪除*進行確認。</block>
   <block id="8c25365da18b18c4181ac53c1681129b" category="paragraph">複製並同步會刪除同步關係。</block>
   <block id="f68b92ee815675ae3018eca060b553b7" category="summary">建立和查看報告以獲取信息，您可以在NetApp人員的幫助下使用這些資訊來調整資料代理的配置並提高效能。</block>
-  <block id="6cf864181e16eb926d1c763b77b4a825" category="doc">建立和檢視報告以調整NetApp Copy and Sync中的配置</block>
   <block id="8db5cdc5f9dd2eb576dcaed8d44080cd" category="paragraph">在NetApp Copy and Sync中建立和查看報告以獲取信息，您可以在NetApp人員的幫助下使用這些資訊來調整資料代理的配置並提高效能。</block>
   <block id="b9f1a0da291ab3c6b115c407d28d1ab9" category="inline-link">成功創建並完成同步</block>
   <block id="ef7a7b1bec08bef324977926c1fc910c" category="section-title">建立報告</block>
@@ -1292,7 +1284,6 @@
   <block id="8f678ca452a56dc17c7c9fc13e2e5f36" category="list-text">在*報告操作*列中，選擇路徑的操作選單，然後選擇*刪除最後一份報告*或*刪除所有報告*。</block>
   <block id="4051a60e091a5882a67c28985f8c22c7" category="list-text">確認您要刪除該報告或這些報告。</block>
   <block id="71904eaffc2ec470e49ce1a710f5e878" category="summary">如果您的企業有嚴格的安全策略，請使用動態資料加密在不同網路中的 NFS 伺服器之間同步資料。</block>
-  <block id="5f1ab66c45896f6843b43ee46d7ae89c" category="doc">使用NetApp Copy and Sync中的資料傳輸加密同步 NFS 數據</block>
   <block id="8f58b27b3c5fa8fe0f9512452224e9da" category="paragraph">如果您的企業有嚴格的安全策略，您可以使用NetApp Copy and Sync中的資料傳輸加密來同步 NFS 資料。此功能支援從一個 NFS 伺服器到另一個 NFS 伺服器以及從Azure NetApp Files到Azure NetApp Files。</block>
   <block id="81c917d52736001d7efd43b0f0ddc92c" category="paragraph">例如，您可能希望在位於不同網路中的兩個 NFS 伺服器之間同步資料。或者您可能需要跨子網路或區域安全地傳輸Azure NetApp Files上的資料。</block>
   <block id="d6dc650d0d220e29e9345f6a653d7ec3" category="section-title">資料傳輸加密的工作原理</block>
@@ -1358,7 +1349,6 @@
   <block id="39cd9e3fa50eeb2b66a750a04c154460" category="paragraph"><block ref="39cd9e3fa50eeb2b66a750a04c154460" category="inline-image-macro-rx" type="image"></block></block>
   <block id="433ce1d0435ebad28cd42f8734e96bad" category="paragraph">複製和同步開始建立新的同步關係。完成後，選擇*在儀表板中查看*以查看有關新關係的詳細資訊。</block>
   <block id="199c7ab26dac1d8df30cb6cd16e57658" category="summary">如果您打算使用NetApp Copy and Sync將資料從物件儲存同步到物件儲存（例如，從 Amazon S3 同步到 Azure Blob），則需要在建立同步關係之前準備資料代理程式群組。</block>
-  <block id="1eef824263d82ff0f8415403e0b2e89f" category="doc">準備資料代理以在NetApp Copy and Sync中的物件儲存之間同步數據</block>
   <block id="a0be1e9cf521352c38fac7843ecd8424" category="paragraph">如果您打算在NetApp Copy and Sync中將資料從物件儲存同步到物件儲存（例如，從 Amazon S3 同步到 Azure Blob），則需要在建立同步關係之前準備資料代理程式群組。</block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">關於此任務</block>
   <block id="8b29cf1534de96e7d8703b38dbc8b848" category="paragraph">為了準備資料代理組，您需要修改掃描器的配置。如果不修改配置，您可能會注意到此同步關係的效能問題。</block>
@@ -1854,7 +1844,6 @@
   <block id="411af02bdc9672ad2ee32883bb960a04" category="list-text">輸入資料代理程式的名稱，然後選取 *Continue* 。</block>
   <block id="e75a211b2366ec05af877ea76987f1de" category="paragraph">說明頁面載入完畢後，請按照說明操作，其中包含一個用於下載安裝程式的唯一連結。</block>
   <block id="97ee9add392d14ccabb3000701440c2d" category="list-text">選擇啟用對 *AWS*、*Google Cloud* 或兩者的存取。</block>
-  <block id="dd4b35c3c87be83b2116adbebed5333d" category="doc">註冊 NetApp Copy and Sync 支援</block>
   <block id="38fc1b337c0ea26463916fc2913205c1" category="paragraph"><block ref="38fc1b337c0ea26463916fc2913205c1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7019a39846e9a2c7f7a80eaba91e4a41" category="paragraph"><block ref="7019a39846e9a2c7f7a80eaba91e4a41" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1d593c3f7480ada9580d93cd753c3f93" category="paragraph">這是系統產生的與您的電子郵件地址對應的 ID。您可以在 *NSS Management* 頁面的 <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 選單中找到您的電子郵件地址。</block>
@@ -1986,4 +1975,15 @@
   <block id="6c786f9f2baf8236d6ee8e864e78e415" category="list-text"><block ref="6c786f9f2baf8236d6ee8e864e78e415" category="inline-link-rx"></block></block>
   <block id="46a9d70b85a901c8a4c1eaf05d1a35db" category="admonition">設定同步計畫時，必須輸入「下次自動同步開始時間」。Copy and Sync 使用 UTC 時間，而非本地時間。設定規劃時間時，請據此做好規劃。</block>
   <block id="240f236bfdc0495169ba6aec758c6dd2" category="list-text">選擇未來同步的週期性排程，或關閉同步排程。您可以排程關係以同步資料，最快可設定為每 1 分鐘同步一次。排程也可設定為每小時或每天的頻率。</block>
+  <block id="40d8a3c56d215e830feb9897421666aa" category="doc">了解 NetApp Copy and Sync 的授權</block>
+  <block id="ae93ff3e8a6fd875fb9dfdd2fbbbf45f" category="doc">NetApp Copy and Sync 的技術常見問題解答</block>
+  <block id="6809b01eb3405addc3e0512ed7f6cf9e" category="doc">NetApp Copy and Sync 的網路需求</block>
+  <block id="db37b7240360f352ce5e2bdb05b9f077" category="doc">NetApp Copy and Sync 的來源與目標需求</block>
+  <block id="904c0337845f4afa18ed887f99553600" category="doc">為 NetApp Copy and Sync 資料代理人群組設定 HashiCorp Vault</block>
+  <block id="14a4ad343f91944d4a37cf5e5ab5c7b0" category="doc">為 NetApp Copy and Sync 中的同步關係付費</block>
+  <block id="13ab8acd2a2c62b3e9993669a5c9bc75" category="doc">在 NetApp Copy and Sync 中管理同步關係</block>
+  <block id="675cb87abb3564c2962cfc9ccacff637" category="doc">在 NetApp Copy and Sync 中建立並檢視報告</block>
+  <block id="65382a5d17ea8050edfbcd3859161b26" category="doc">使用 NetApp Copy and Sync 建立加密的 NFS 同步關係</block>
+  <block id="03e3965a711708f0b091171972631db2" category="doc">在 NetApp Copy and Sync 中為物件儲存同步準備資料代理人</block>
+  <block id="14aea1634adf0b6ca9116bee54cc7c9b" category="doc">註冊 NetApp Copy and Sync 以取得支援</block>
 </blocks>

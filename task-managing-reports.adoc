@@ -4,7 +4,7 @@ permalink: task-managing-reports.html
 keywords: reports, sync reports, NetApp Copy and Sync reports, report errors, path reports 
 summary: 建立和查看報告以獲取信息，您可以在NetApp人員的幫助下使用這些資訊來調整資料代理的配置並提高效能。 
 ---
-= 建立和檢視報告以調整NetApp Copy and Sync中的配置
+= 在 NetApp Copy and Sync 中建立並檢視報告
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -4,7 +4,7 @@ permalink: faq.html
 keywords: community, forums, help, support, videos, faq, getting help, permissions, access control lists, acls, preserve, preserving, troubleshooting, support, encryption, smb 
 summary: 您可以透過各種資源（包括論壇、聊天服務和影片）取得有關NetApp Copy and Sync的協助並尋找更多資訊。 
 ---
-= NetApp Copy and Sync技術常見問題解答
+= NetApp Copy and Sync 的技術常見問題解答
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

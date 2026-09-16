@@ -4,7 +4,7 @@ permalink: task-nfs-encryption.html
 keywords: encryption, in flight, data in flight, in-flight, data-in-flight, nfs, initiator, listener, port 
 summary: 如果您的企業有嚴格的安全策略，請使用動態資料加密在不同網路中的 NFS 伺服器之間同步資料。 
 ---
-= 使用NetApp Copy and Sync中的資料傳輸加密同步 NFS 數據
+= 使用 NetApp Copy and Sync 建立加密的 NFS 同步關係
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -4,7 +4,7 @@ permalink: reference-networking.html
 keywords: networking, 443, port, ports, port 443, connections, connectivity, path, paths, vpn, copy and sync, netapp, bluexp, cloud sync,connectivity,data broker 
 summary: NetApp Copy and Sync的網路包括資料代理群組與來源位置和目標位置之間的連接，以及透過連接埠 443 來自資料代理程式的出站網路連接。 
 ---
-= NetApp Copy and Sync的網路概述
+= NetApp Copy and Sync 的網路需求
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

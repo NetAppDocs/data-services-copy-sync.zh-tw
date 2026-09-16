@@ -4,7 +4,7 @@ permalink: concept-licensing.html
 keywords: licenses, licensing, subscriptions, annual subscription, paygo, hourly subscription, bluexp 
 summary: 14 天免費試用期結束後，有兩種方式可以支付同步關係的費用。第一個選項是從 AWS 或 Azure 訂閱按使用量付費或按年付費。第二種選擇是直接從NetApp購買許可證。 
 ---
-= NetApp Copy and Sync許可概述
+= 了解 NetApp Copy and Sync 的授權
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
