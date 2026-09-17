@@ -98,7 +98,6 @@
   <block id="d40e22e44527f36f21104bcda56dff9b" category="section-title">按小時訂閱</block>
   <block id="5bfcbf39a4da86c538d49a75ca94b869" category="paragraph">透過按小時付費訂閱，您將根據創建的同步關係數量按小時付費。</block>
   <block id="e53772633222585cf7f7f86f263b2b8d" category="inline-link">查看 Azure 中的定價</block>
-  <block id="2bf96dc1e3fe5b0a112ce7a25c14af74" category="list-text"><block ref="2bf96dc1e3fe5b0a112ce7a25c14af74" category="inline-link-rx"></block></block>
   <block id="73189487251f675abefc873d66be56c8" category="inline-link">查看 AWS 中的按使用量付費定價</block>
   <block id="3182c76edbfaccbb226fb7edbbed2a6c" category="list-text"><block ref="3182c76edbfaccbb226fb7edbbed2a6c" category="inline-link-rx"></block></block>
   <block id="9595062433880226b71cec95a1cc654e" category="section-title">年度訂閱</block>
@@ -890,12 +889,10 @@
   <block id="d053334dcf5dac4968bf6d994e4ed7ec" category="paragraph">該過程可能需要長達 7 分鐘。</block>
   <block id="4787ef0363dea707067b5a3aa23b5ebd" category="list-text">在複製和同步中，一旦資料代理可用，請選擇*繼續*。</block>
   <block id="affdd8fc6be1e86de36efaee713f54e2" category="paragraph">您已在 Azure 中部署了資料代理程式並建立了新的同步關係。您可以將此資料代理與其他同步關係一起使用。</block>
-  <block id="3ce174ce4b84d9bb24dbad7ede08fc56" category="sidebar-title">收到需要管理員同意的訊息嗎？</block>
   <block id="ad9cbbe3951908336e54ee272602d760" category="paragraph">如果 Microsoft 通知您需要管理員批准，因為複製和同步需要代表您存取組織中的資源的權限，那麼您有兩個選擇：</block>
   <block id="d87fd12530d28842f66f10a1d633d859" category="list-text">請您的 AD 管理員為您提供以下權限：</block>
   <block id="6e38950952f2f90ced9024c57341d29c" category="paragraph">在 Azure 中，前往 *管理中心 &gt; Azure AD &gt; 使用者和群組 &gt; 使用者設定* 並啟用 *使用者可以同意應用程式代表他們存取公司資料*。</block>
   <block id="214b839a1e92308862eda35cf3962c8e" category="list-text">請求您的 AD 管理員代表您同意使用下列 URL（這是管理員同意端點）*CloudSync-AzureDataBrokerCreator*：</block>
-  <block id="a18bd9074e862da51cb736fe7399f462" category="paragraph">\ https://login.microsoftonline.com/ {在此填寫您的租戶 ID}/v2.0/adminconsent?client_id=8ee4ca3a-bafa-4831-97cc-5a38923cab85&amp;redirect_uri= https://cloudsync.netapp.com&amp;scope=https://management.azure.com/user_impersonationhttps://graph.microsoft.com/User.Read</block>
   <block id="e00fd8a69d0aa8766ae786df172832dd" category="paragraph">如URL所示，我們的應用程式URL是\ https://cloudsync.netapp.com ，應用程式用戶端ID是8ee4ca3a-bafa-4831-97cc-5a38923cab85。</block>
   <block id="636f46a5f178491edd241fa5106ea7b5" category="section-title">有關數據代理虛擬機的詳細信息</block>
   <block id="4118dadae565f55e109d04b098b8ddc1" category="paragraph">複製和同步使用以下配置在 Azure 中建立資料代理程式。</block>
@@ -1858,7 +1855,6 @@
   <block id="70e099984307d3cf98ed169b8bf816f6" category="list-text"><block ref="70e099984307d3cf98ed169b8bf816f6" category="inline-link-rx"></block></block>
   <block id="8b2d5bf7fb63b2f00585b9328e372fd4" category="list-text"><block ref="8b2d5bf7fb63b2f00585b9328e372fd4" category="inline-link-rx"></block></block>
   <block id="30521c23aae7241d4691b7b539da5c89" category="list-text"><block ref="30521c23aae7241d4691b7b539da5c89" category="inline-link-rx"></block></block>
-  <block id="94a5e655a0d3b3be0a87ba68d6d73230" category="paragraph">複製和同步功能開始在來源和目標之間同步資料。您可以查看同步統計資料，例如同步耗時、是否暫停以及複製、掃描或刪除的檔案數量。之後，您可以管理您的<block ref="6d7776ec96aeaba5af380a54aca37776" category="inline-link-macro-rx"></block>、<block ref="a032e3bf506f732a0e85caa4ad9deb9d" category="inline-link-macro-rx"></block>或<block ref="a462b78ca55ee8bf03d41b4511b6faa2" category="inline-link-macro-rx"></block>。</block>
   <block id="7af5c80b1eac313925f1d8158eb5e3d0" category="paragraph"><block ref="da7cbf17cf768d4bae00a93fad9f4cf1" category="inline-link-rx"></block>。</block>
   <block id="2feeca48692986e9cc471ec61f847fca" category="paragraph">NetApp 以多種方式為 NetApp Console 及其雲端服務提供支援。全天候 24/7 提供多種免費自助支援選項，例如知識庫（KB）文章及社群論壇。您的支援註冊包含透過線上工單系統提供的遠端技術支援。</block>
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">取得雲端供應商檔案服務的支援</block>
@@ -1923,7 +1919,6 @@
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*檢視案例*：檢視特定案例的完整詳細資訊。</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*更新案例記錄*：提供有關您問題的更多詳細資料，或選擇 *Upload files* 以附加最多五個檔案。</block>
   <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*結案*：提供有關您結案原因的詳細資訊，然後選擇 *結案*。</block>
-  <block id="6fe0792f4d89edbee86470731a6c4fd2" category="paragraph">{ "Name": "Azure Data Broker", "Actions": [ "Microsoft.Resources/subscriptions/read", "Microsoft.Resources/deployments/operationstatuses/read", "Microsoft.Resources/subscriptions/locations/read", "Microsoft.Network/networkInterfaces/read", "Microsoft.Network/virtualNetworks/subnets/read", "Microsoft.Resources/subscriptions/resourceGroups/write", "Microsoft.Resources/subscriptions/resourceGroups/delete", "Microsoft.Resources/deployments/write", "Microsoft.Resources/deployments/validate/action", "Microsoft.Resources/deployments/operationStatuses/read", "Microsoft.Resources/deployments/cancel/action", "Microsoft.Compute/virtualMachines/read", "Microsoft.Compute/virtualMachines/delete", "Microsoft.Compute/disks/delete", "Microsoft.Network/networkInterfaces/delete", "Microsoft.Network/publicIPAddresses/delete", "Microsoft.Network/networkSecurityGroups/securityRules/delete", "Microsoft.Resources/subscriptions/resourceGroups/write", "Microsoft.Compute/virtualMachines/delete", "Microsoft.Network/networkSecurityGroups/write", "Microsoft.Network/networkSecurityGroups/join/action", "Microsoft.Compute/disks/write", "Microsoft.Network/networkInterfaces/write", "Microsoft.Network/virtualNetworks/read", "Microsoft.Network/publicIPAddresses/write", "Microsoft.Compute/virtualMachines/write", "Microsoft.Compute/virtualMachines/extensions/write", "Microsoft.Resources/deployments/read", "Microsoft.Network/networkSecurityGroups/read", "Microsoft.Network/publicIPAddresses/read", "Microsoft.Network/virtualNetworks/subnets/join/action", "Microsoft.Network/publicIPAddresses/join/action", "Microsoft.Network/networkInterfaces/join/action", "Microsoft.Storage/storageAccounts/read", "Microsoft.EventGrid/systemTopics/eventSubscriptions/write", "Microsoft.EventGrid/systemTopics/eventSubscriptions/read", "Microsoft.EventGrid/systemTopics/eventSubscriptions/delete", "Microsoft.EventGrid/systemTopics/eventSubscriptions/getFullUrl/action", "Microsoft.EventGrid/systemTopics/eventSubscriptions/getDeliveryAttributes/action", "Microsoft.EventGrid/systemTopics/read", "Microsoft.EventGrid/systemTopics/write", "Microsoft.EventGrid/systemTopics/delete", "Microsoft.EventGrid/eventSubscriptions/write", "Microsoft.Storage/storageAccounts/write" "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/read" "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/write" "Microsoft.Network/networkSecurityGroups/securityRules/read", "Microsoft.Network/networkSecurityGroups/read", ] }</block>
   <block id="6a9e4c1e22fb1de2ae2404fd1a78495c" category="paragraph">如果您打算在從 Azure 到其他雲端儲存位置的同步關係上啟用 <block ref="8cf22f0addb5c3ac7c081c51cb7454a7" category="inline-link-macro-rx"></block>，則僅需要下列權限：</block>
   <block id="8e32050bf3a2454d57d1b2b7b568830c" category="paragraph">如果您打算在 Azure 中實作持續同步，則可指派範圍必須設定為訂閱範圍，*而不是*資源群組範圍。</block>
   <block id="cab494d99216e29e544e3d3f46cb305e" category="list-text">'Microsoft.Network/networkSecurityGroups/securityRules/read'</block>
@@ -1986,4 +1981,7 @@
   <block id="65382a5d17ea8050edfbcd3859161b26" category="doc">使用 NetApp Copy and Sync 建立加密的 NFS 同步關係</block>
   <block id="03e3965a711708f0b091171972631db2" category="doc">在 NetApp Copy and Sync 中為物件儲存同步準備資料代理人</block>
   <block id="14aea1634adf0b6ca9116bee54cc7c9b" category="doc">註冊 NetApp Copy and Sync 以取得支援</block>
+  <block id="f872b6fc1ee78b996195a40e069beff7" category="list-text"><block ref="f872b6fc1ee78b996195a40e069beff7" category="inline-link-rx"></block></block>
+  <block id="c067d1adda8060b12c3ecf15c1e29766" category="paragraph">複製和同步功能開始在來源和目標之間同步資料。您可以查看同步統計資料，例如同步耗時、是否暫停以及複製、掃描或刪除的檔案數量。之後，您可以管理您的<block ref="6d7776ec96aeaba5af380a54aca37776" category="inline-link-macro-rx"></block>、<block ref="a032e3bf506f732a0e85caa4ad9deb9d" category="inline-link-macro-rx"></block>或<block ref="ac5b6b02729c5e0b93891b823e28e426" category="inline-link-macro-rx"></block>。</block>
+  <block id="8956bebbad93fd0bc94eb7cb7a6eedea" category="paragraph"><block ref="b19ea243cd5e3ea52015c74405abe62c" prefix="" category="inline-code"></block></block>
 </blocks>

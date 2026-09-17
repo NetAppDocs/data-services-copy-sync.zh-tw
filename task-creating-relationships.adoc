@@ -262,7 +262,7 @@ TIP: 將資料同步至StorageGRID和 IBM Cloud Object Storage 時，此功能�
 
 *結果*
 
-複製和同步功能開始在來源和目標之間同步資料。您可以查看同步統計資料，例如同步耗時、是否暫停以及複製、掃描或刪除的檔案數量。之後，您可以管理您的link:task-managing-relationships.html["同步關係"]、link:task-managing-data-brokers.html["管理您的數據經紀人"]或link:task-managing-reports.html#creating-reports["建立報告以優化您的效能和配置"]。
+複製和同步功能開始在來源和目標之間同步資料。您可以查看同步統計資料，例如同步耗時、是否暫停以及複製、掃描或刪除的檔案數量。之後，您可以管理您的link:task-managing-relationships.html["同步關係"]、link:task-managing-data-brokers.html["管理您的數據經紀人"]或link:task-managing-reports.html["建立報告以優化您的效能和配置"]。
 
 
 

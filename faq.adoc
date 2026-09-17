@@ -54,7 +54,7 @@ summary: 您可以透過各種資源（包括論壇、聊天服務和影片）�
 
 * https://aws.amazon.com/marketplace/pp/B01LZV5DUJ["查看 AWS 中的按使用量付費定價"^]
 * https://aws.amazon.com/marketplace/pp/B06XX5V3M2["查看 AWS 中的年度定價"^]
-* https://azuremarketplace.microsoft.com/en-us/marketplace/apps/netapp.cloud-sync-service?tab=PlansAndPrice["查看 Azure 中的定價"^]
+* https://marketplace.microsoft.com/en-us/product/netapp.cloud-sync-service?tab=PlansAndPrice["查看 Azure 中的定價"^]
 
 
 您也可以透過NetApp代表取得複製和同步授權。每個許可證可支援 12 個月的 20 個同步關係。
