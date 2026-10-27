@@ -4,7 +4,7 @@ permalink: api-sync.html
 keywords: api, apis, rest, restful, authorization, getting started, body, header, token, reference, expired token, expires, expired, token expired, list apis, 202, https status code 202, status code 202, id, id field, box 
 summary: 可透過 Web UI 使用的NetApp Copy and Sync功能也可透過 RESTful API 使用。 
 ---
-= NetApp Copy and SyncAPI
+= 連線至 NetApp Copy and Sync API
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 可透過 Web UI 使用的NetApp Copy and Sync功能也可透過 RESTfu
 
 
 [role="lead"]
-可透過 Web UI 使用的NetApp Copy and Sync功能也可透過 RESTful API 使用。
+Web UI 中提供的 NetApp Copy and Sync 功能也可透過 REST API 使用。
 
 
 
