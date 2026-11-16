@@ -28,7 +28,7 @@ summary: 建立新的資料代理程式時，請選擇 On-Prem Data Broker 選�
 +
 CentOS Stream 不受支援。
 
-** Red Hat Enterprise Linux 8.5、8.8、8.9 與 9.4
+** Red Hat Enterprise Linux 8.5、8.8、8.9、9.4 與 9.8
 ** Rocky Linux 9
 ** Ubuntu Server 20.04 LTS、23.04 LTS 和 24.04 LTS
 ** SUSE Linux Enterprise Server 15 SP1
